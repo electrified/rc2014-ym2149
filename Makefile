@@ -1,12 +1,19 @@
-all:	test.bin
+all:	hexload.txt
+
+hexload.txt: hexload.bin
+	./bin2bas1.py > hexload.txt
+
+hexload.bin: hexload.asm
+	z80asm -l -b hexload.asm
+	mv hexload_INIT.bin hexload.bin
 
 test.bin: test.asm
 	z80asm -l -b test.asm
-	./bin2bas.py test_INIT.bin F800
+	appmake +rom -b test_INIT.bin --org 49152 --ihex
 
-test2.bin: test2.asm
-	z80asm -l -b test2.asm
-	./bin2bas.py test2_INIT.bin C000
+pt:
+	-sjasm PTxPlay.asm
+	appmake +rom -b PTxPlay.out --org 49152 --ihex
 
 .PHONY clean:
-	rm -f *.bin *.err *.hex *.lis *.obj *.o
+	rm -f *.bin *.err *.hex *.lis *.obj *.o *.out *.rom *.lst *.ihx

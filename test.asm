@@ -1,8 +1,8 @@
 SECTION INIT
-ORG     $F800 ; 0xFFFF - 2048
+ORG     $C000 ; 0xFFFF - 2048
 
-DEFC ayctrl = 65533
-DEFC aydata = 49149
+DEFC ayctrl = 65533 ; FFFD
+DEFC aydata = 49149 ; BFFD
 
 start:  ld hl, startupstr
         call print
