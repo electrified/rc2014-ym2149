@@ -8,16 +8,20 @@ start:  ld hl, startupstr
         call print
         ld      d,7             ; select the mixer register
         ld      e,62            ; enable channel A only
-        call    outer           ; send it to PSG
-        ld      d,1             ; channel A course pitch
-        ld      e,50            ; pitch value
-        call    outer           ; send it to PSG
+        call    output           ; send it to PSG
         ld      d,8             ; channel A volume
         ld      e,15            ; maximumd
-        call    outer           ; send it to PSG
-        ret
+        call    output           ; send it to PSG
+        ld      e,50            ; pitch value
+        ld      d,1             ; channel A course pitch
+note:   call    output           ; send it to PSG
+        ld hl, downstr
+        call print
+        call pause
+        dec e
+        jp note
 
-outer:  ld      bc,ayctrl       ; select control port
+output:  ld      bc,ayctrl       ; select control port
         out     (c),d           ; send specified value
         ld      bc,aydata       ; select data port
         out     (c),e           ; send specified value
@@ -39,4 +43,27 @@ print:
             inc hl
             jp print
 
+pause:
+  push bc
+  push de
+  push af
+
+  LD BC, $2000            ;Loads BC with hex 1000
+  ; outer: LD DE, $1000            ;Loads DE with hex 1000
+  ; inner: DEC DE                  ;Decrements DE
+  ; LD A, D                 ;Copies D into A
+  ; OR E                    ;Bitwise OR of E with A (now, A = D | E)
+  ; JP NZ, inner            ;Jumps back to Inner: label if A is not zero
+  outer: DEC BC                  ;Decrements BC
+  LD A, B                 ;Copies B into A
+  OR C                    ;Bitwise OR of C with A (now, A = B | C)
+  JP NZ, outer            ;Jumps back to Outer: label if A is not zero
+
+  pop af
+  pop de
+  pop bc
+  RET                     ;Return from call to this subroutine
+
+
 startupstr:            DEFM "Megabanghra 3000.",10,13,0
+downstr:  DEFM "Down "

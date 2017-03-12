@@ -47,20 +47,27 @@ Id=1
 ;playing
 
 	ORG #C000
-
+	; ld hl, startupstr
+  ; call print
 ;Test codes (commented)
 	;LD A,2 ;PT2,ABC,Looped
 	LD A, 0
 	LD (START+10),A
 	CALL START
+	; ld hl, startupstr
+	; call print
 ;	EI
 ;_LP	HALT
 _LP	CALL START+5
-	XOR A
-	IN A,(#FE)
-	CPL
-	AND 15
-	JR Z,_LP
+	call pause
+
+	; XOR A
+	; IN A,(#FE)
+	; CPL
+	; AND 15
+	JR _LP
+	ld hl, endstr
+	call print
 	JR START+8
 
 TonA	EQU 0
@@ -1508,9 +1515,53 @@ VAR0END	EQU VT_+16 ;INIT zeroes from VARS to VAR0END-1
 
 VARSEND EQU $
 
-MDLADDR EQU $
-	incbin through_yeovil.pt3
 
+TX push af
+txbusy     in a,($80)          ; read serial status
+            bit 1,a             ; check status bit 1
+            jr z, txbusy        ; loop if zero (serial is busy)
+            pop af
+            out ($81), a        ; transmit the character
+            ret
+print
+            ld a, (hl)
+            or a
+            ret z
+            call TX
+            inc hl
+            jp print
+
+startupstr            DB "Megabanghra 3000.",10,13,0
+loopstr DB "*",10,13,0
+endstr DB "the end.",10,13,0
+
+pause
+  push bc
+  push de
+  push af
+
+  LD BC, $1500            ;Loads BC with hex 1000
+  ; outer: LD DE, $1000            ;Loads DE with hex 1000
+  ; inner: DEC DE                  ;Decrements DE
+  ; LD A, D                 ;Copies D into A
+  ; OR E                    ;Bitwise OR of E with A (now, A = D | E)
+  ; JP NZ, inner            ;Jumps back to Inner: label if A is not zero
+outer DEC BC                  ;Decrements BC
+  LD A, B                 ;Copies B into A
+  OR C                    ;Bitwise OR of C with A (now, A = B | C)
+  JP NZ, outer            ;Jumps back to Outer: label if A is not zero
+
+  pop af
+  pop de
+  pop bc
+  RET                     ;Return from call to this subroutine
+
+MDLADDR EQU $
+	;incbin through_yeovil.pt3
+	;incbin nq_-_synchronization_(2015).pt3
+	;incbin nq_-_louboutin_(2016).pt3
+	;incbin MmcM_-_Recollection_(2015).pt3
+	incbin luchibobra_-_three_bad_mice.pt3
 ;Release 0 steps:
 ;02/27/2005
 ;Merging PT2 and PT3 players; debug
