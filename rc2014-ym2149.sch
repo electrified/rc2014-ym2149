@@ -52,7 +52,7 @@ F 1 "CONN_01X40" V 1650 3750 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x40_Pitch2.54mm" H 1550 3750 50  0001 C CNN
 F 3 "" H 1550 3750 50  0000 C CNN
 	1    1550 3750
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L DIL40 P3
@@ -1083,4 +1083,6 @@ Text Label 2300 2450 0    60   ~ 0
 A1
 Text Label 2300 2350 0    60   ~ 0
 A15
+Wire Wire Line
+	1750 1800 2000 1800
 $EndSCHEMATC

@@ -406,14 +406,12 @@ L Jumper JP3
 U 1 1 58BC56E2
 P 8650 3550
 F 0 "JP3" H 8650 3700 50  0000 C CNN
-F 1 "Jumper" H 8650 3470 50  0000 C CNN
+F 1 "YM 1/2 CLK" H 8650 3470 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8650 3550 50  0001 C CNN
 F 3 "" H 8650 3550 50  0000 C CNN
 	1    8650 3550
 	1    0    0    -1  
 $EndComp
-Text Notes 8400 3300 0    60   ~ 0
-Close to halve input clock
 $Comp
 L 74LS74 U4
 U 2 1 58BC6265
@@ -1061,21 +1059,21 @@ Wire Wire Line
 	6950 3050 7150 3050
 Wire Wire Line
 	6950 3150 7150 3150
-Text Label 6900 2450 0    60   ~ 0
+Text Label 7000 2450 0    60   ~ 0
 D0
-Text Label 6900 2550 0    60   ~ 0
+Text Label 7000 2550 0    60   ~ 0
 D1
-Text Label 6900 2650 0    60   ~ 0
+Text Label 7000 2650 0    60   ~ 0
 D2
-Text Label 6900 2750 0    60   ~ 0
+Text Label 7000 2750 0    60   ~ 0
 D3
-Text Label 6900 2850 0    60   ~ 0
+Text Label 7000 2850 0    60   ~ 0
 D4
-Text Label 6900 2950 0    60   ~ 0
+Text Label 7000 2950 0    60   ~ 0
 D5
-Text Label 6900 3050 0    60   ~ 0
+Text Label 7000 3050 0    60   ~ 0
 D6
-Text Label 6900 3150 0    60   ~ 0
+Text Label 7000 3150 0    60   ~ 0
 D7
 Wire Wire Line
 	2500 2350 2300 2350
