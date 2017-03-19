@@ -141,13 +141,13 @@ Text Label 1150 3500 0    60   ~ 0
 5V
 Text Label 1150 3600 0    60   ~ 0
 M1
-Text Label 1100 3700 0    60   ~ 0
-RESET
+Text Label 1150 3700 0    60   ~ 0
+/RESET
 Text Label 1150 3800 0    60   ~ 0
 CLK
 Text Label 1150 3900 0    60   ~ 0
 INT
-Text Label 1100 4000 0    60   ~ 0
+Text Label 1150 4000 0    60   ~ 0
 MREQ
 Text Label 1150 4100 0    60   ~ 0
 /WR
@@ -223,17 +223,17 @@ Text Label 7000 3350 0    60   ~ 0
 BC2
 Text Label 7000 3450 0    60   ~ 0
 BDIR
-Text Label 6900 3550 0    60   ~ 0
+Text Label 7000 3550 0    60   ~ 0
 /SEL
 Text Label 7000 3650 0    60   ~ 0
-A8
-Text Label 6950 3750 0    60   ~ 0
-/A9
-Text Label 6900 3850 0    60   ~ 0
+YM_A8
+Text Label 7000 3750 0    60   ~ 0
+/YM_A9
+Text Label 7000 3850 0    60   ~ 0
 /RESET
-Text Label 6900 3950 0    60   ~ 0
+Text Label 7000 3950 0    60   ~ 0
 CLOCK
-Text Label 6900 4050 0    60   ~ 0
+Text Label 7000 4050 0    60   ~ 0
 IOA0
 $Comp
 L VCC #PWR03
@@ -257,10 +257,6 @@ F 3 "" H 6100 2150 50  0000 C CNN
 	1    6100 2150
 	1    0    0    -1  
 $EndComp
-Text GLabel 1350 3700 2    60   Input ~ 0
-RESET
-Text GLabel 7100 3850 2    60   Input ~ 0
-RESET
 $Comp
 L JACK_TRS_6PINS J1
 U 1 1 5898EEE9
@@ -994,7 +990,6 @@ Wire Wire Line
 	7900 1600 7900 1450
 Wire Wire Line
 	7200 1600 7950 1600
-Connection ~ 7750 1600
 $Comp
 L GND #PWR016
 U 1 1 58BE0619
@@ -1009,7 +1004,6 @@ $EndComp
 Connection ~ 7600 1600
 Wire Wire Line
 	7200 1850 7200 1600
-Connection ~ 7450 1600
 Wire Wire Line
 	8750 600  8750 1200
 Wire Wire Line
@@ -1168,8 +1162,6 @@ F 3 "" H 3300 6250 50  0001 C CNN
 	1    3300 6250
 	1    0    0    -1  
 $EndComp
-Text Notes 4450 1800 0    60   ~ 0
-NAND
 Wire Wire Line
 	5200 2650 5400 2650
 Text Label 5250 2100 0    60   ~ 0
@@ -1180,4 +1172,8 @@ Wire Wire Line
 	6950 3250 7150 3250
 Wire Wire Line
 	6950 3450 7150 3450
+Wire Wire Line
+	1100 3200 1350 3200
+Wire Wire Line
+	1100 3600 1350 3600
 $EndSCHEMATC
