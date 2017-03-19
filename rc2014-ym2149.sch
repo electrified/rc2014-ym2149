@@ -44,14 +44,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X39 P1
+L CONN_01X34 P1
 U 1 1 58978FEA
-P 900 3700
-F 0 "P1" H 900 5750 50  0000 C CNN
-F 1 "CONN_01X39" V 1000 3700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x39_Pitch2.54mm" H 900 3700 50  0001 C CNN
-F 3 "" H 900 3700 50  0000 C CNN
-	1    900  3700
+P 900 3450
+F 0 "P1" H 900 5500 50  0000 C CNN
+F 1 "CONN_01X34" V 1000 3450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x34_Pitch2.54mm" H 900 3450 50  0001 C CNN
+F 3 "" H 900 3450 50  0000 C CNN
+	1    900  3450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -263,7 +263,7 @@ U 1 1 5898EEE9
 P 10150 1000
 F 0 "J1" H 10150 1400 50  0000 C CNN
 F 1 "JACK_TRS_6PINS" H 10100 700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 10250 850 50  0001 C CNN
+F 2 "rc2014:cliff_fcr1295_socket" H 10250 850 50  0001 C CNN
 F 3 "" H 10250 850 50  0000 C CNN
 	1    10150 1000
 	-1   0    0    1   
@@ -558,16 +558,6 @@ Wire Wire Line
 	1100 5000 1350 5000
 Wire Wire Line
 	1100 5100 1350 5100
-Wire Wire Line
-	1100 5200 1350 5200
-Wire Wire Line
-	1100 5300 1350 5300
-Wire Wire Line
-	1100 5400 1350 5400
-Wire Wire Line
-	1100 5500 1350 5500
-Wire Wire Line
-	1100 5600 1350 5600
 Wire Wire Line
 	6250 2150 6100 2150
 Wire Wire Line
