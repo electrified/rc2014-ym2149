@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:jumper_dual
 LIBS:rc2014-ym2149-cache
 EELAYER 25 0
 EELAYER END
@@ -44,14 +45,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X34 P1
+L CONN_01X35 P1
 U 1 1 58978FEA
-P 900 3450
-F 0 "P1" H 900 5500 50  0000 C CNN
-F 1 "CONN_01X34" V 1000 3450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x34_Pitch2.54mm" H 900 3450 50  0001 C CNN
-F 3 "" H 900 3450 50  0000 C CNN
-	1    900  3450
+P 900 3500
+F 0 "P1" H 900 5550 50  0000 C CNN
+F 1 "CONN_01X35" V 1000 3500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x34_Pitch2.54mm" H 900 3500 50  0001 C CNN
+F 3 "" H 900 3500 50  0000 C CNN
+	1    900  3500
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -263,7 +264,7 @@ U 1 1 5898EEE9
 P 10150 1000
 F 0 "J1" H 10150 1400 50  0000 C CNN
 F 1 "JACK_TRS_6PINS" H 10100 700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 10250 850 50  0001 C CNN
+F 2 "rc2014:cliff_fcr1295_socket" H 10250 850 50  0001 C CNN
 F 3 "" H 10250 850 50  0000 C CNN
 	1    10150 1000
 	-1   0    0    1   
@@ -441,28 +442,6 @@ F 3 "" H 5700 6300 50  0000 C CNN
 	1    5700 6300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper_NC_Small JP1
-U 1 1 58BC6A81
-P 7500 5100
-F 0 "JP1" H 7500 5180 50  0000 C CNN
-F 1 "1/2 CLK" H 7510 5040 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7500 5100 50  0001 C CNN
-F 3 "" H 7500 5100 50  0000 C CNN
-	1    7500 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper_NO_Small JP2
-U 1 1 58BC6ADE
-P 7500 5350
-F 0 "JP2" H 7500 5430 50  0000 C CNN
-F 1 "1/4 CLK" H 7510 5290 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7500 5350 50  0001 C CNN
-F 3 "" H 7500 5350 50  0000 C CNN
-	1    7500 5350
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	6000 2750 6100 2650
 Entry Wire Line
@@ -617,7 +596,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 5100 5100 5100
 Wire Wire Line
-	8050 3950 8050 5350
+	8050 3950 8050 5650
 Wire Wire Line
 	4600 5300 5100 5300
 Wire Wire Line
@@ -687,17 +666,10 @@ Wire Wire Line
 Connection ~ 6350 5100
 Wire Wire Line
 	6300 6650 6900 6650
-Connection ~ 8050 5100
 Wire Wire Line
-	6300 5100 7400 5100
-Wire Wire Line
-	7600 5100 8050 5100
-Wire Wire Line
-	8050 5350 7600 5350
+	6300 5100 7700 5100
 Wire Wire Line
 	6900 6650 6900 5350
-Wire Wire Line
-	6900 5350 7400 5350
 Wire Bus Line
 	6000 2750 6000 4200
 Wire Bus Line
@@ -831,11 +803,11 @@ Entry Wire Line
 Wire Wire Line
 	7350 4050 7350 4100
 Wire Wire Line
-	9750 1000 9150 1000
+	9150 1000 9750 1000
 Wire Wire Line
-	9750 800  9150 800 
+	9150 800  9750 800 
 Wire Wire Line
-	9750 1200 9150 1200
+	9150 1200 9750 1200
 Wire Wire Line
 	9150 1200 9150 1300
 $Comp
@@ -1166,4 +1138,38 @@ Wire Wire Line
 	1100 3200 1350 3200
 Wire Wire Line
 	1100 3600 1350 3600
+Wire Wire Line
+	9750 1100 9600 1100
+Wire Wire Line
+	9600 1100 9600 1000
+Connection ~ 9600 1000
+Wire Wire Line
+	9750 1300 9600 1300
+Wire Wire Line
+	9600 1300 9600 1200
+Connection ~ 9600 1200
+Wire Wire Line
+	9750 900  9600 900 
+Wire Wire Line
+	9600 900  9600 800 
+Connection ~ 9600 800 
+Wire Wire Line
+	8050 5650 7450 5650
+Wire Wire Line
+	7450 5650 7450 5450
+Wire Wire Line
+	6900 5350 7200 5350
+Wire Wire Line
+	7700 5100 7700 5350
+$Comp
+L Jumper_Dual JP1
+U 1 1 58D043AC
+P 7450 5350
+F 0 "JP1" H 7500 5250 50  0000 L CNN
+F 1 "Jumper_Dual" H 7450 5450 50  0000 C BNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 7450 5350 50  0001 C CNN
+F 3 "" H 7450 5350 50  0001 C CNN
+	1    7450 5350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
