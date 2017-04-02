@@ -50,10 +50,10 @@ U 1 1 58978FEA
 P 900 3700
 F 0 "P1" H 900 5750 50  0000 C CNN
 F 1 "RC2014 BUS" V 1000 3700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x39_Pitch2.54mm" H 900 3700 50  0001 C CNN
+F 2 "rc2014:Pin_Header_Straight_1x39_Pitch2.54mm_NoSilk" H 900 3700 50  0001 C CNN
 F 3 "" H 900 3700 50  0000 C CNN
 	1    900  3700
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L DIL40 U5
@@ -913,8 +913,6 @@ Wire Wire Line
 Wire Wire Line
 	4850 5100 5100 5100
 Wire Wire Line
-	8050 3950 8050 5650
-Wire Wire Line
 	4600 5300 5100 5300
 Wire Wire Line
 	2700 3800 2700 4550
@@ -977,10 +975,6 @@ Wire Wire Line
 Connection ~ 6350 5100
 Wire Wire Line
 	6300 6650 6900 6650
-Wire Wire Line
-	6300 5100 7700 5100
-Wire Wire Line
-	6900 6650 6900 5350
 Wire Bus Line
 	6000 2750 6000 4200
 Wire Bus Line
@@ -1138,13 +1132,7 @@ Wire Wire Line
 	9600 900  9600 800 
 Connection ~ 9600 800 
 Wire Wire Line
-	8050 5650 7450 5650
-Wire Wire Line
 	7450 5650 7450 5450
-Wire Wire Line
-	6900 5350 7200 5350
-Wire Wire Line
-	7700 5100 7700 5350
 Wire Wire Line
 	2250 3350 2850 3350
 Wire Wire Line
@@ -1155,7 +1143,7 @@ Wire Wire Line
 	1100 2600 1350 2600
 Wire Wire Line
 	2600 2850 2850 2850
-Text Label 1800 3200 0    60   ~ 0
+Text Label 2600 3200 0    60   ~ 0
 A15
 $Comp
 L CONN_02X03 JP3
@@ -1275,7 +1263,7 @@ U 1 1 58DB01E6
 P 1100 1100
 F 0 "JP1" H 1100 1250 50  0000 C CNN
 F 1 "USE A4 FOR ENABLE" H 1150 800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 1100 -100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1100 -100 50  0001 C CNN
 F 3 "" H 1100 -100 50  0001 C CNN
 	1    1100 1100
 	1    0    0    -1  
@@ -1315,12 +1303,12 @@ U 1 1 58DB0BB0
 P 2250 3200
 F 0 "JP2" H 2250 3350 50  0000 C CNN
 F 1 "ENABLE SELECTOR" H 2250 2850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 2250 2000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2250 2000 50  0001 C CNN
 F 3 "" H 2250 2000 50  0001 C CNN
 	1    2250 3200
 	1    0    0    -1  
 $EndComp
-Text Label 2550 3200 0    60   ~ 0
+Text Label 1800 3200 0    60   ~ 0
 CS
 $Comp
 L 74HCT00 U3
@@ -1466,4 +1454,20 @@ NoConn ~ 4050 3450
 NoConn ~ 4050 3550
 NoConn ~ 5650 1150
 NoConn ~ 5650 1850
+Wire Wire Line
+	8050 5650 7450 5650
+Wire Wire Line
+	8050 3950 8050 5650
+Wire Wire Line
+	6900 6650 6900 5850
+Wire Wire Line
+	6900 5850 7700 5850
+Wire Wire Line
+	7700 5850 7700 5350
+Wire Wire Line
+	6300 5100 6850 5100
+Wire Wire Line
+	6850 5100 6850 5350
+Wire Wire Line
+	6850 5350 7200 5350
 $EndSCHEMATC
