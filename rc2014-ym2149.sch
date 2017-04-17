@@ -74,6 +74,9 @@ F 0 "U2" H 3550 3700 50  0000 C CNN
 F 1 "74HCT138" H 3600 2651 50  0000 C CNN
 F 2 "Housings_DIP:DIP-16_W7.62mm_Socket" H 3450 3200 50  0001 C CNN
 F 3 "" H 3450 3200 50  0000 C CNN
+F 4 "CD74HCT138E" H 3450 3200 60  0001 C CNN "MPN"
+F 5 "74HCT138" H 3450 3200 60  0001 C CNN "Base number"
+F 6 "http://uk.farnell.com/texas-instruments/cd74hct138e/74hct-cmos-74hct138-dip16-5-5v/dp/1105976" H 3450 3200 60  0001 C CNN "Supplier URL"
 	1    3450 3200
 	1    0    0    -1  
 $EndComp
@@ -288,6 +291,9 @@ F 0 "U4" H 5850 5600 50  0000 C CNN
 F 1 "74HCT74" H 6000 5005 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5700 5300 50  0001 C CNN
 F 3 "" H 5700 5300 50  0000 C CNN
+F 4 "SN74HCT74N" H 5700 5300 60  0001 C CNN "MPN"
+F 5 "74HCT74" H 5700 5300 60  0001 C CNN "Base number"
+F 6 "http://uk.farnell.com/texas-instruments/sn74hct74n/ic-flip-flop-2-circuits/dp/1470823" H 5700 5300 60  0001 C CNN "Supplier URL"
 	1    5700 5300
 	1    0    0    -1  
 $EndComp
@@ -588,6 +594,9 @@ F 0 "R4" H 8330 620 50  0000 L CNN
 F 1 "1K" H 8330 560 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8300 600 50  0001 C CNN
 F 3 "" H 8300 600 50  0000 C CNN
+F 4 "MF25 1K" H 8300 600 60  0001 C CNN "MPN"
+F 5 "1K  Through Hole Resistor, 1 kohm, 250 V, Axial Leaded, 250 mW, ± 1%" H 8300 600 60  0001 C CNN "Description"
+F 6 "http://uk.farnell.com/multicomp/mf25-1k/resistor-1k-0-25w-1/dp/9341102" H 8300 600 60  0001 C CNN "Supplier URL"
 	1    8300 600 
 	0    1    1    0   
 $EndComp
@@ -610,6 +619,9 @@ F 0 "R6" H 8330 1020 50  0000 L CNN
 F 1 "1K6" H 8330 960 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8300 1000 50  0001 C CNN
 F 3 "" H 8300 1000 50  0000 C CNN
+F 4 "MF25 1K6" H 8300 1000 60  0001 C CNN "MPN"
+F 5 "MF25 1K6  Through Hole Resistor, 1.6 kohm, 250 V, Axial Leaded, 250 mW, ± 1%" H 8300 1000 60  0001 C CNN "Description"
+F 6 "http://uk.farnell.com/multicomp/mf25-1k6/resistor-0-25w-1-1k6/dp/9341382" H 8300 1000 60  0001 C CNN "Supplier URL"
 	1    8300 1000
 	0    1    1    0   
 $EndComp
@@ -643,6 +655,9 @@ F 0 "R1" H 7330 1370 50  0000 L CNN
 F 1 "470R" H 7330 1310 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7300 1350 50  0001 C CNN
 F 3 "" H 7300 1350 50  0000 C CNN
+F 4 "MF25 470R" H 7300 1350 60  0001 C CNN "MPN"
+F 5 "470R  Through Hole Resistor, 470 ohm, 250 V, Axial Leaded, 250 mW, ± 1%" H 7300 1350 60  0001 C CNN "Base number"
+F 6 "http://uk.farnell.com/multicomp/mf25-470r/resistor-470r-0-25w-1/dp/9341943" H 7300 1350 60  0001 C CNN "Supplier URL"
 	1    7300 1350
 	1    0    0    -1  
 $EndComp
@@ -1222,6 +1237,9 @@ F 0 "U1" H 2650 1650 50  0000 C CNN
 F 1 "74HCT138" H 2700 601 50  0000 C CNN
 F 2 "Housings_DIP:DIP-16_W7.62mm_Socket" H 2550 1150 50  0001 C CNN
 F 3 "" H 2550 1150 50  0000 C CNN
+F 4 "CD74HCT138E" H 2550 1150 60  0001 C CNN "MPN"
+F 5 "74HCT138" H 2550 1150 60  0001 C CNN "Base number"
+F 6 "http://uk.farnell.com/texas-instruments/cd74hct138e/74hct-cmos-74hct138-dip16-5-5v/dp/1105976" H 2550 1150 60  0001 C CNN "Supplier URL"
 	1    2550 1150
 	1    0    0    -1  
 $EndComp
@@ -1265,6 +1283,7 @@ F 0 "JP1" H 1100 1250 50  0000 C CNN
 F 1 "USE A4 FOR ENABLE" H 1150 800 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1100 -100 50  0001 C CNN
 F 3 "" H 1100 -100 50  0001 C CNN
+F 4 "CONN 1x03" H 1100 1100 60  0001 C CNN "MPN"
 	1    1100 1100
 	1    0    0    -1  
 $EndComp
@@ -1318,6 +1337,8 @@ F 0 "U3" H 5050 1200 50  0000 C CNN
 F 1 "74HCT00" H 5050 1050 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5050 1150 50  0001 C CNN
 F 3 "" H 5050 1150 50  0001 C CNN
+F 4 "SN74HCT00N" H 5050 1150 60  0001 C CNN "MPN"
+F 5 "http://uk.farnell.com/texas-instruments/sn74hct00n/quad-2-input-nand-74hct00-dip14/dp/9591745" H 5050 1150 60  0001 C CNN "Supplier URL"
 	3    5050 1150
 	1    0    0    -1  
 $EndComp
