@@ -7,8 +7,9 @@ Release EQU "1"
 
 ;Conditional assembly
 ;1) Version of ROUT (ZX or MSX standards)
-ZX=1
+ZX=0
 MSX=0
+RC=1
 ;2) Current position counter at (START+11)
 CurPosCounter=0
 ;3) Allow channels allocation bits at (START+10)
@@ -1303,6 +1304,26 @@ RxCA2	OR E
 ABC
 	ENDIF
 
+	IF RC
+	XOR A
+	LD C,#D8
+	LD HL,AYREGS
+LOUT	OUT (C),A
+	LD C,#D0
+	OUTI
+	LD C,#D8
+	INC A
+	CP 13
+	JR NZ,LOUT
+	OUT (C),A
+	LD A,(HL)
+	AND A
+	RET M
+	LD C,#D0
+	OUT (C),A
+	RET
+	ENDIF
+
 	IF ZX
 	XOR A
 	LD DE,#FFBF
@@ -1558,11 +1579,11 @@ outer DEC BC                  ;Decrements BC
 
 MDLADDR EQU $
 	incbin tunes/through_yeovil.pt3
-	;incbin nq_-_synchronization_(2015).pt3
-	;incbin nq_-_louboutin_(2016).pt3
-	;incbin MmcM_-_Recollection_(2015).pt3
-	;incbin luchibobra_-_three_bad_mice.pt3
-	;incbin MmcM_-_Agressive_Attack.pt3
+	;incbin tunes/nq_-_synchronization_(2015).pt3
+	;incbin tunes/nq_-_louboutin_(2016).pt3
+	;incbin tunes/MmcM_-_Recollection_(2015).pt3
+	;incbin tunes/luchibobra_-_three_bad_mice.pt3
+	;incbin tunes/MmcM_-_Agressive_Attack.pt3
 ;Release 0 steps:
 ;02/27/2005
 ;Merging PT2 and PT3 players; debug

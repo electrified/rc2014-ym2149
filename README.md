@@ -1,5 +1,11 @@
 # YM2149F/AY-3-8190 Sound card for the RC2014 computer
 
+![Picture of the board]
+(./R1-board-pic.jpg?raw=true)
+
+# WARNING!
+The current Rev 1 version of the board in this repo has an error - the output of the 1st 78HCT138 needs to be inverted before being passed to the 2nd one. This can be done by using one of the spare NAND gates in the 74HCT00 but requires some cutting of tracks, and adding wires.
+
 The Yamaha YM2149F and General Instrument AY-3-8910 are popular sound chips that were used in a wide variety of computers and arcade machines in the 1980's and 1990s. The most notable of those being the ZX Spectrum 128, Atari ST and MSX computers.
 
 The YM and AY are essentially pin compatible and both may be used in this board, although the YM has the ability to be jumpered to halve it's clock which the AY does not.
@@ -34,7 +40,7 @@ pins|description
 2-3 | No (Use A15 - Spectrum 128 address mode) - Default
 
 ### JP3
-YM Address mode selector (YM has 3 bus modes, read write and address, adress is used to specify the register for read write operations)
+YM Address mode selector (YM has 3 bus modes, read write and address, address is used to specify the register for read write operations)
 
 pins|description
 ----|------------
