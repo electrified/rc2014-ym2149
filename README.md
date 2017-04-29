@@ -3,7 +3,7 @@
 ![Picture of the board](./R1-board-pic.jpg?raw=true)
 
 # WARNING!
-The current Rev 1 version of the board in this repo has an error - the output of the 1st 78HCT138 needs to be inverted before being passed to the 2nd one. This can be done by using one of the spare NAND gates in the 74HCT00 but requires some cutting of tracks, and adding wires. I'm currently working on producing a second revision of the board.
+This repo contains R2 of the board which fixes an error present in R1. I believe it should work correctly, but I've not had an R2 manufactured yet.
 
 ## History
 The Yamaha YM2149F and General Instrument AY-3-8910 are popular sound chips that were used in a wide variety of computers and arcade machines in the 1980's and 1990s. The most notable of those being the ZX Spectrum 128, Atari ST and MSX computers.

@@ -36,8 +36,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "RC2014 YM2149 / AY-3-8910 sound card"
-Date "2017-02-05"
-Rev "1"
+Date "2017-04-29"
+Rev "2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1209,8 +1209,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 800  3950 1500
 Wire Wire Line
-	3800 1500 4300 1500
-Wire Wire Line
 	3800 900  3950 900 
 Connection ~ 3950 900 
 Wire Wire Line
@@ -1220,7 +1218,7 @@ Wire Wire Line
 	3800 1100 3950 1100
 Connection ~ 3950 1100
 Wire Wire Line
-	3800 1200 3950 1200
+	3800 1200 4200 1200
 Connection ~ 3950 1200
 Wire Wire Line
 	3800 1300 3950 1300
@@ -1228,7 +1226,6 @@ Connection ~ 3950 1300
 Wire Wire Line
 	3800 1400 3950 1400
 Connection ~ 3950 1400
-Connection ~ 3950 1500
 $Comp
 L 74LS138 U1
 U 1 1 58DAFD76
@@ -1314,7 +1311,7 @@ F 3 "" H 850 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 1700 1500
-Text Label 4050 1500 0    60   ~ 0
+Text Label 5750 1150 0    60   ~ 0
 CS
 $Comp
 L Jumper_Dual JP2
@@ -1356,13 +1353,10 @@ $EndComp
 Wire Wire Line
 	4450 1050 4350 1050
 Wire Wire Line
-	4350 1050 4350 2100
-Wire Wire Line
-	4450 1250 4350 1250
+	4200 1250 4450 1250
 Connection ~ 4350 1250
 Wire Wire Line
 	4450 1750 4350 1750
-Connection ~ 4350 1750
 Wire Wire Line
 	4450 1950 4350 1950
 Connection ~ 4350 1950
@@ -1473,7 +1467,6 @@ NoConn ~ 4050 2950
 NoConn ~ 4050 3050
 NoConn ~ 4050 3450
 NoConn ~ 4050 3550
-NoConn ~ 5650 1150
 NoConn ~ 5650 1850
 Wire Wire Line
 	8050 5650 7450 5650
@@ -1491,4 +1484,14 @@ Wire Wire Line
 	6850 5100 6850 5350
 Wire Wire Line
 	6850 5350 7200 5350
+Wire Wire Line
+	4350 1750 4350 2100
+Wire Wire Line
+	5650 1150 5850 1150
+Wire Wire Line
+	4200 1200 4200 1250
+Wire Wire Line
+	4350 1050 4350 1250
+Wire Wire Line
+	3950 1500 3800 1500
 $EndSCHEMATC
