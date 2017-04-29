@@ -1,13 +1,14 @@
 # YM2149F/AY-3-8190 Sound card for the RC2014 computer
 
-![Picture of the board]
-(./R1-board-pic.jpg?raw=true)
+![Picture of the board](./R1-board-pic.jpg?raw=true)
 
 # WARNING!
-The current Rev 1 version of the board in this repo has an error - the output of the 1st 78HCT138 needs to be inverted before being passed to the 2nd one. This can be done by using one of the spare NAND gates in the 74HCT00 but requires some cutting of tracks, and adding wires.
+The current Rev 1 version of the board in this repo has an error - the output of the 1st 78HCT138 needs to be inverted before being passed to the 2nd one. This can be done by using one of the spare NAND gates in the 74HCT00 but requires some cutting of tracks, and adding wires. I'm currently working on producing a second revision of the board.
 
+## History
 The Yamaha YM2149F and General Instrument AY-3-8910 are popular sound chips that were used in a wide variety of computers and arcade machines in the 1980's and 1990s. The most notable of those being the ZX Spectrum 128, Atari ST and MSX computers.
 
+## The board
 The YM and AY are essentially pin compatible and both may be used in this board, although the YM has the ability to be jumpered to halve it's clock which the AY does not.
 
 This board can be jumpered for either Spectrum style address decoding (is quite loose so may conflict with other hardware and is not usable from BASIC as needs the high address byte setting) or for a more specific address.
@@ -89,6 +90,7 @@ The majority of the components are fairly generic and can be swapped out with ot
 The AY/YM is unfortunately not in production any more, but reclaimed chips are available fairly plentifully on eBay from suppliers in China.
 
 ## How to use from BASIC
+See player/test.bas
 
 ## How to upload music with HEXLOAD
 
@@ -98,3 +100,4 @@ The AY/YM is unfortunately not in production any more, but reclaimed chips are a
 3. PRINT usr(0)
 
 ## How to use from CP/M
+TBD
