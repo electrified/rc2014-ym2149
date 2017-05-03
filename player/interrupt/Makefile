@@ -15,10 +15,5 @@ pt:
 	-sjasm PTxPlay.asm
 	appmake +rom -b PTxPlay.out --org 45056 --ihex
 
-int:
-	-sjasm interrupt/PTxPlay.asm
-	appmake +rom -b interrupt/PTxPlay.out --org 45056 --ihex
-
-
 .PHONY clean:
 	rm -f *.bin *.err *.hex *.lis *.obj *.o *.out *.rom *.lst *.ihx
