@@ -100,4 +100,4 @@ See player/test.bas
 3. PRINT usr(0)
 
 ## How to use from CP/M
-TBD
+Start the Mircosoft basic interpreter, mbasic, and run player/test.bas

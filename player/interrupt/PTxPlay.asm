@@ -1,13 +1,6 @@
 ;Universal PT2 and PT3 player for ZX Spectrum and MSX
 ;(c)2004-2007 S.V.Bulba <vorobey@mail.khstu.ru>
 ;http://bulba.untergrund.net (http://bulba.at.kz)
-	; ORG #B000
-  defpage 0, #b000,#1000        ; page 0, org 0, any size
-  defpage 1, #c000,* ; page 1, org 4000h, size: 16384 bytes
-	; defpage 0, 0, *        ; page 0, org 0, any size
-	; defpage 1, 4000h,4000h ; page 1, org 4000h, size: 16384 bytes
-	; defpage 2..7           ; page 2 until (including) 7, org 4000h, s: 16384
-
 ;Release number
 Release EQU "1"
 
@@ -52,9 +45,8 @@ Id=1
 
 ;Call MUTE or INIT one more time to mute sound after stopping
 ;playing
-  page 0
-	; ORG #B000
-
+ORG #0100
+JR startup
 CNTRL EQU $A5
 COUNT EQU $C0
 PORT0 EQU $40
@@ -71,24 +63,23 @@ ctc_setup
 	; switch interrupt mode to Mode 2
 	DI
 	;Disable the 68B50
-	LD A, $03
-	OUT ($80), A
-	LD A, 0
-	OUT ($80), A
+	; LD A, $03
+	; OUT ($80), A
+	; LD A, 0
+	; OUT ($80), A
 	IM 2
-	LD A, $B0
+	LD A, $01
 	LD I, A
 	LD A, CNTRL
 	OUT (PORT0), A
 	LD A, COUNT
 	OUT (PORT0), A
-	LD A, $00
+	LD A, $03
 	OUT (PORT0), A
 	; EI
 	RET
-randomstring            DB "here is the end",10,13
-  page 1
-  ; ORG #C000
+
+startup
 	; ld hl, startupstr
   ; call print
 ;Test codes (commented)
@@ -1625,7 +1616,7 @@ MDLADDR EQU $
 	;incbin tunes/MmcM_-_Recollection_(2015).pt3
 	;incbin tunes/luchibobra_-_three_bad_mice.pt3
 	;incbin tunes/MmcM_-_Agressive_Attack.pt3
-	incbin tunes/backup_forever.pt3
+	incbin ../tunes/backup_forever.pt3
 ;Release 0 steps:
 ;02/27/2005
 ;Merging PT2 and PT3 players; debug

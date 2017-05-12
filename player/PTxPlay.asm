@@ -47,7 +47,7 @@ Id=1
 ;Call MUTE or INIT one more time to mute sound after stopping
 ;playing
 
-	ORG #C000
+	ORG #100
 	; ld hl, startupstr
   ; call print
 ;Test codes (commented)

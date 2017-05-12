@@ -1,0 +1,8 @@
+R1
+Initial Version
+R2
+Invert signal coming out of first 74HCT138
+R3
+Increase resistor size
+Reorder signals going into '138 so that base address jumpering is in a sensible order
+Expose pins for raw 3 channel output?
