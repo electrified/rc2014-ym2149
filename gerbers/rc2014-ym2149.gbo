@@ -1,7 +1,10 @@
-G04 #@! TF.FileFunction,Legend,Bot*
+%TF.GenerationSoftware,KiCad,Pcbnew,4.0.6*%
+%TF.CreationDate,2017-05-13T23:18:27+01:00*%
+%TF.ProjectId,rc2014-ym2149,7263323031342D796D323134392E6B69,3*%
+%TF.FileFunction,Legend,Bot*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.6) date Sat Apr 29 17:47:01 2017*
+G04 Created by KiCad (PCBNEW 4.0.6) date Sat May 13 23:18:27 2017*
 %MOMM*%
 %LPD*%
 G01*

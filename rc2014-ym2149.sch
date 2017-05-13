@@ -36,8 +36,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "RC2014 YM2149 / AY-3-8910 sound card"
-Date "2017-04-29"
-Rev "2"
+Date "2017-05-13"
+Rev "3"
 Comp ""
 Comment1 ""
 Comment2 ""
