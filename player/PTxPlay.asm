@@ -1578,10 +1578,10 @@ outer DEC BC                  ;Decrements BC
   RET                     ;Return from call to this subroutine
 
 MDLADDR EQU $
-	incbin tunes/through_yeovil.pt3
+	;incbin tunes/through_yeovil.pt3
 	;incbin tunes/nq_-_synchronization_(2015).pt3
 	;incbin tunes/nq_-_louboutin_(2016).pt3
-	;incbin tunes/MmcM_-_Recollection_(2015).pt3
+	incbin tunes/MmcM_-_Recollection_(2015).pt3
 	;incbin tunes/luchibobra_-_three_bad_mice.pt3
 	;incbin tunes/MmcM_-_Agressive_Attack.pt3
 ;Release 0 steps:

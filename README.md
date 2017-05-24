@@ -2,9 +2,6 @@
 
 ![Picture of the board](./R1-board-pic.jpg?raw=true)
 
-# WARNING!
-This repo contains R2 of the board which fixes an error present in R1. I believe it should work correctly, but I've not had an R2 manufactured yet.
-
 ## History
 The Yamaha YM2149F and General Instrument AY-3-8910 are popular sound chips that were used in a wide variety of computers and arcade machines in the 1980's and 1990s. The most notable of those being the ZX Spectrum 128, Atari ST and MSX computers.
 
@@ -101,3 +98,7 @@ See player/test.bas
 
 ## How to use from CP/M
 Start the Mircosoft basic interpreter, mbasic, and run player/test.bas
+
+## Things to experiment with
+* Altering resistor values for the stereo mixing network. The values used where taken from the Melodik 2 design here: http://hw.speccy.cz/melodik2.html
+If you don't want stereo output, or consider that the resistors attenuate the output too much you could use different values.

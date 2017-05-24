@@ -1,6 +1,7 @@
 ;Universal PT2 and PT3 player for ZX Spectrum and MSX
 ;(c)2004-2007 S.V.Bulba <vorobey@mail.khstu.ru>
 ;http://bulba.untergrund.net (http://bulba.at.kz)
+
 ;Release number
 Release EQU "1"
 
@@ -45,11 +46,55 @@ Id=1
 
 ;Call MUTE or INIT one more time to mute sound after stopping
 ;playing
-ORG #0100
-JR startup
-CNTRL EQU $A5
-COUNT EQU $C0
-PORT0 EQU $40
+	ORG #0100
+	JR startup
+
+bioloc	dw	0
+bdos	equ	$0005		; BDOS invocation vector
+
+prtchr:
+	push	bc		; save registers
+	push	de
+	push	hl
+	ld	e,a		; character to print in E
+	ld	c,$02		; BDOS function to output a character
+	call	bdos		; do it
+	pop	hl		; restore registers
+	pop	de
+	pop	bc
+	ret
+;
+; Print a zero terminated string at (HL) without destroying any registers
+;
+prtstr:
+	push	de
+;
+prtstr1:
+	ld	a,(de)		; get next char
+	or	a
+	jr	z,prtstr2
+	call	prtchr
+	inc	de
+	jr	prtstr1
+;
+prtstr2:
+	pop	de		; restore registers
+	ret
+;
+; Start a new line
+;
+crlf2:
+	call	crlf		; two of them
+crlf:
+	push	af		; preserve AF
+	ld	a,13		; <CR>
+	call	prtchr		; print it
+	ld	a,10		; <LF>
+	call	prtchr		; print it
+	pop	af		; restore AF
+	ret
+
+PORT0 EQU $40 ; ctc port 0 base address
 
 interrupt_routine
 	DI
@@ -67,19 +112,31 @@ ctc_setup
 	; OUT ($80), A
 	; LD A, 0
 	; OUT ($80), A
-	IM 2
-	LD A, $01
+	;Disable the SIO interrupt generation
+SIOA_D		EQU	$80             ; Base address of SIO/2 chip
+SIOA_C		EQU	SIOA_D+2
+SIOB_D		EQU	SIOA_D+1
+SIOB_C		EQU	SIOA_D+3
+	; LD A, $18
+	; OUT (SIOA_C), A
+	; OUT (SIOB_C), A
+
+	;setup the CTC
+	; IM 2
+	LD A, $FF ; interrupt vector location high byte
 	LD I, A
-	LD A, CNTRL
-	OUT (PORT0), A
-	LD A, COUNT
-	OUT (PORT0), A
-	LD A, $03
-	OUT (PORT0), A
+	LD A, $A5
+	OUT (PORT0), A ; configuration
+	LD A, $C0 ;192
+	OUT (PORT0), A ; time constant
+	LD A, $0
+	OUT (PORT0), A ; vector
 	; EI
 	RET
 
 startup
+	ld	de, startupstr	; point to version message part 1
+	call	prtstr		; print it
 	; ld hl, startupstr
   ; call print
 ;Test codes (commented)
@@ -98,8 +155,8 @@ startup
 ; 	call pause
 ; 	JR _LP
 
-	ld hl, endstr
-	call print
+	; ld hl, endstr
+	; call print
 	JR START+8
 
 TonA	EQU 0
@@ -1611,12 +1668,12 @@ outer DEC BC                  ;Decrements BC
 
 MDLADDR EQU $
 	;incbin tunes/through_yeovil.pt3
-	;incbin tunes/nq_-_synchronization_(2015).pt3
+	incbin ../tunes/nq_-_synchronization_(2015).pt3
 	;incbin tunes/nq_-_louboutin_(2016).pt3
 	;incbin tunes/MmcM_-_Recollection_(2015).pt3
 	;incbin tunes/luchibobra_-_three_bad_mice.pt3
 	;incbin tunes/MmcM_-_Agressive_Attack.pt3
-	incbin ../tunes/backup_forever.pt3
+	;incbin ../tunes/backup_forever.pt3
 ;Release 0 steps:
 ;02/27/2005
 ;Merging PT2 and PT3 players; debug
@@ -1659,3 +1716,22 @@ MDLADDR EQU $
 ;Notes:
 ;Pro Tracker 3.4r can not be detected by header, so PT3.4r tone
 ;tables realy used only for modules of 3.3 and older versions.
+
+	ORG #FF00
+HBX_IVT
+		DW	interrupt_routine
+		DW	interrupt_routine
+		DW	interrupt_routine
+		DW	interrupt_routine
+		DW	interrupt_routine
+		DW	interrupt_routine
+		DW	interrupt_routine
+		DW	interrupt_routine
+		DW	interrupt_routine
+		DW	interrupt_routine
+		DW	interrupt_routine
+		DW	interrupt_routine
+		DW	interrupt_routine
+		DW	interrupt_routine
+		DW	interrupt_routine
+		DW	interrupt_routine

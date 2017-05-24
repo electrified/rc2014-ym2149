@@ -1,8 +1,6 @@
 R1
-Initial Version
+Initial Version - 1 prototype manufactured at Ragworm
 R2
-Invert signal coming out of first 74HCT138
+Invert signal coming out of first 74HCT138 - no boards made
 R3
-Increase resistor size
-Reorder signals going into '138 so that base address jumpering is in a sensible order
-Expose pins for raw 3 channel output?
+Increase resistor pin spacing slightly - 20 boards manufactured at Elecrow
