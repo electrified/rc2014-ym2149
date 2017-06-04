@@ -1,0 +1,10 @@
+*.rom
+*.lst
+*.out
+*.directory
+*.ihx
+*.bin
+*.o
+*.bak
+*.err
+*.kicad_pcb-bak

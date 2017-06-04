@@ -95,10 +95,14 @@ crlf:
 	ret
 
 PORT0 EQU $40 ; ctc port 0 base address
+PORT1 EQU PORT0 + 1 ; ctc port 1 base address
+YM_IV equ $10
 
 interrupt_routine
 	DI
 	CALL START+5
+	;ld	de, loopstr
+	; call	prtstr
 	; CALL pause
 	EI
 	RETI
@@ -107,56 +111,65 @@ ctc_setup
 	; set up ctc channel one to be a timer with interrupt
 	; switch interrupt mode to Mode 2
 	DI
-	;Disable the 68B50
-	; LD A, $03
-	; OUT ($80), A
-	; LD A, 0
-	; OUT ($80), A
-	;Disable the SIO interrupt generation
-SIOA_D		EQU	$80             ; Base address of SIO/2 chip
-SIOA_C		EQU	SIOA_D+2
-SIOB_D		EQU	SIOA_D+1
-SIOB_C		EQU	SIOA_D+3
-	; LD A, $18
-	; OUT (SIOA_C), A
-	; OUT (SIOB_C), A
+;setup the CTC
+; IM 2
+; LD A, $FF ; interrupt vector location low byte
+; LD I, A
+; 0 interrupt
+; 0 timer mode
+; 1 prescaler 256
+; 0 falling edge
+; 0 automatic trigger
+; 1 time constant follows
+; 0 no reset
+; 1 control
+; = 0x25 configuration for channel 1
 
-	;setup the CTC
-	; IM 2
-	LD A, $FF ; interrupt vector location high byte
-	LD I, A
-	LD A, $A5
-	OUT (PORT0), A ; configuration
+	LD A, $25
+	OUT (PORT1), A ; configuration
+	; 7372800Hz / 256 scaling / 192 counter = 150. We then need to divide by 3 to get 50Hz
 	LD A, $C0 ;192
+	OUT (PORT1), A ; time constant
+
+
+; 1 interrupt
+; 1 counter mode
+; 0 prescaler N/A for counter
+; 0 falling edge
+; 0 N/A for counter
+; 1 time constant follows
+; 0 no reset
+; 1 control
+; = 0xC5 configuration for channel 0
+	LD A, $C5
+	OUT (PORT0), A ; configuration
+	; 150 / 3 = 50Hz
+	LD A, $03
 	OUT (PORT0), A ; time constant
-	LD A, $0
+	LD A, YM_IV
 	OUT (PORT0), A ; vector
 	; EI
+
+	; Add to RomWBW interrupt vector table
+	LD HL, interrupt_routine
+	LD ($FF00 + $10), HL
+	; See hbios.asm for details of the interrupt handling...
 	RET
 
 startup
 	ld	de, startupstr	; point to version message part 1
 	call	prtstr		; print it
-	; ld hl, startupstr
-  ; call print
-;Test codes (commented)
-	;LD A,2 ;PT2,ABC,Looped
+
 	CALL ctc_setup
 	LD A, 0
 	LD (START+10),A
 	CALL START
 	EI
-	halt
-	; ld hl, startupstr
-	; call print
-	; EI
-;_LP	HALT
-; _LP	CALL START+5
-; 	call pause
-; 	JR _LP
+	;halt
+pointless
+	NOP
+	jp pointless
 
-	; ld hl, endstr
-	; call print
 	JR START+8
 
 TonA	EQU 0
@@ -1640,7 +1653,7 @@ print
             inc hl
             jp print
 
-startupstr            DB "Megabanghra 3000.",10,13,0
+startupstr            DB "YM Player",10,13,0
 loopstr DB "*",10,13,0
 endstr DB "the end.",10,13,0
 
@@ -1667,13 +1680,14 @@ outer DEC BC                  ;Decrements BC
   RET                     ;Return from call to this subroutine
 
 MDLADDR EQU $
-	;incbin tunes/through_yeovil.pt3
-	incbin ../tunes/nq_-_synchronization_(2015).pt3
+	;incbin ../tunes/through_yeovil.pt3
+	;incbin ../tunes/nq_-_synchronization_(2015).pt3
 	;incbin tunes/nq_-_louboutin_(2016).pt3
 	;incbin tunes/MmcM_-_Recollection_(2015).pt3
 	;incbin tunes/luchibobra_-_three_bad_mice.pt3
 	;incbin tunes/MmcM_-_Agressive_Attack.pt3
 	;incbin ../tunes/backup_forever.pt3
+	incbin ../tunes/Davos_-_To_star.pt3
 ;Release 0 steps:
 ;02/27/2005
 ;Merging PT2 and PT3 players; debug
@@ -1716,22 +1730,3 @@ MDLADDR EQU $
 ;Notes:
 ;Pro Tracker 3.4r can not be detected by header, so PT3.4r tone
 ;tables realy used only for modules of 3.3 and older versions.
-
-	ORG #FF00
-HBX_IVT
-		DW	interrupt_routine
-		DW	interrupt_routine
-		DW	interrupt_routine
-		DW	interrupt_routine
-		DW	interrupt_routine
-		DW	interrupt_routine
-		DW	interrupt_routine
-		DW	interrupt_routine
-		DW	interrupt_routine
-		DW	interrupt_routine
-		DW	interrupt_routine
-		DW	interrupt_routine
-		DW	interrupt_routine
-		DW	interrupt_routine
-		DW	interrupt_routine
-		DW	interrupt_routine
