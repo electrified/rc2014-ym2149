@@ -102,11 +102,38 @@ J1 - 3.5mm audio out
 
 J2 - 2 8 bit I/O ports
 
+## Construction
+
+Rev 3 of the PCB unfortunately omitted the schematic references from the silkscreen - please refer to the below picture which has the references on.
+
+![Board Layout](./R3-board-layout.png?raw=true)
+
 ## Bill Of Materials
 
-I've made the BOM available on Octopart https://octopart.com/bom-tool/CikqAiJP
+Qty|Schematic Reference|Description
+---|-------------------|-----------
+2|U1 U2| 16 pin DIP socket 2.54 mm pin pitch, 7.62 mm wide
+1|U5|	40 pin DIP socket, 2.54mm pin pitch, 15.24mm wide
+1|U5|	Yamaha YM2149F or General Instrument AY-3-8910
+1|U4|	74HCT74
+2|U3 U4| 14 pin DIP socket 2.54 mm pin pitch, 7.62 mm wide
+1|U3|	74HCT00
+2|U1 U2| 74HCT138
+1|R6 R7| 1k6 ohm 1/4 watt metal film resistor
+1|R4 R5| 1k ohm 1/4 watt metal film resistor
+3|R1 R2 R3|	470 ohm 1/4 watt metal film resistor
+1|P1|	40 pin right angled 2.54mm header
+1|J1|	Cliff FCR1295 3.5mm PCB mount jack socket
+2|C6 C7| 470uF electrolytic capacitor
+5|C1 C2 C3 C4 C5|	0.1uF ceramic capacitor 2.54 mm pin pitch
+2|JP1 JP2 JP5| 3 x 1 straight pin header 2.54 mm pin pitch
+1|JP3| 3 x 2 straight pin header 2.54 mm pin pitch
+1|JP4| 8 x 2 straight pin header 2.54 mm pin pitch
+1|J2| 9 x 2 straight pin header 2.54 mm pin pitch
+5||Jumpers
+I've also made the BOM available on Octopart https://octopart.com/bom-tool/CikqAiJP
 
-The majority of the components are fairly generic and can be swapped out with other parts, e.g. all the 74HCT' components, resistors, pin headers, capacitors etc. The audio out jack must be the Cliff FCR1295 however.
+The majority of the components are fairly generic and can be swapped out with other parts, e.g. all the 74HCT' components, resistors, pin headers, capacitors etc. The audio out jack must be the Cliff FCR1295 however, which only seems to be available from Element 14 (Farnell, CPC etc) and Rapid. See http://uk.farnell.com/cliff-electronic-components/fcr1295/connector-stereo-jack-pcb/dp/2392727
 
 Both the AY-3-8910 and YM2194F is unfortunately not in production any more, but reclaimed chips are available fairly plentifully on eBay from suppliers in China. I would suggest using a standard 40 pin DIL socket for the AY as they are more accommodating to bent/soldered pins than a turned pin ones.
 
