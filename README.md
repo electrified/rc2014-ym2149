@@ -130,12 +130,15 @@ Qty|Schematic Reference|Description
 1|JP3| 3 x 2 straight pin header 2.54 mm pin pitch
 1|JP4| 8 x 2 straight pin header 2.54 mm pin pitch
 1|J2| 9 x 2 straight pin header 2.54 mm pin pitch
-5||Jumpers
+5|Various|Jumpers
+
+
+
 I've also made the BOM available on Octopart https://octopart.com/bom-tool/CikqAiJP
 
 The majority of the components are fairly generic and can be swapped out with other parts, e.g. all the 74HCT' components, resistors, pin headers, capacitors etc. The audio out jack must be the Cliff FCR1295 however, which only seems to be available from Element 14 (Farnell, CPC etc) and Rapid. See http://uk.farnell.com/cliff-electronic-components/fcr1295/connector-stereo-jack-pcb/dp/2392727
 
-Both the AY-3-8910 and YM2194F is unfortunately not in production any more, but reclaimed chips are available fairly plentifully on eBay from suppliers in China. I would suggest using a standard 40 pin DIL socket for the AY as they are more accommodating to bent/soldered pins than a turned pin ones.
+Both the AY-3-8910 and YM2194F are unfortunately not in production any more, but reclaimed chips are available fairly plentifully on eBay from suppliers in China. I would suggest using a standard 40 pin DIL socket for the AY as they are more accommodating to bent/soldered pins than a turned pin ones.
 
 ## How to use from BASIC
 
