@@ -121,7 +121,7 @@ Qty|Schematic Reference|Description
 2|U1 U2| 74HCT138
 1|R6 R7| 1k6 ohm 1/4 watt metal film resistor
 1|R4 R5| 1k ohm 1/4 watt metal film resistor
-3|R1 R2 R3|	470 ohm 1/4 watt metal film resistor
+3|R1 R2 R3|	3k ohm 1/4 watt metal film resistor
 1|P1|	40 pin right angled 2.54mm header
 1|J1|	Cliff FCR1295 3.5mm PCB mount jack socket
 2|C6 C7| 470uF electrolytic capacitor
@@ -133,6 +133,7 @@ Qty|Schematic Reference|Description
 5|Various|Jumpers
 
 
+If you want mono output, use wire links for R4 R5 R6 and R7
 
 I've also made the BOM available on Octopart https://octopart.com/bom-tool/CikqAiJP
 
@@ -156,4 +157,3 @@ Start the Microsoft basic interpreter, mbasic, and run player/test.bas
 
 ## Things to experiment with
 * Altering resistor values for the stereo mixing network. The values used where taken from the Melodik 2 design here: http://hw.speccy.cz/melodik2.html
-If you don't want stereo output, or consider that the resistors attenuate the output too much you could use different values.
