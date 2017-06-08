@@ -145,15 +145,18 @@ Both the AY-3-8910 and YM2194F are unfortunately not in production any more, but
 
 See player/test.bas
 
-## How to upload music with HEXLOAD
+## How to play Protracker 3 tunes using PTxPlay
 
-0. Build the Intel hex file using make pt
-1. Load .ihx file
-2. DOKE &h8124, &hC000
-3. PRINT usr(0)
+0. Toward the end of PTxPlay.asm are some ```incbin``` statements which include the music file as data. Uncomment lines as required for the desired tune.
+1. Build a .ihx file by running ```make pt```. This requires the SJASM assembler.
+2. Load .ihx file
+3. ```DOKE &h8124, &hC000```
+4. ```PRINT usr(0)```
 
 ## How to use from CP/M
 Start the Microsoft basic interpreter, mbasic, and run player/test.bas
+
+Alternatively, PTxPlay can be assembled with an origin of 0x100. The resulting binary can then be uploaded and run as a .com file.
 
 ## Things to experiment with
 * Altering resistor values for the stereo mixing network. The values used where taken from the Melodik 2 design here: http://hw.speccy.cz/melodik2.html
