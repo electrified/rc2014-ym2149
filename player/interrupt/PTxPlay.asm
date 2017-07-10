@@ -1687,7 +1687,10 @@ MDLADDR EQU $
 	;incbin tunes/luchibobra_-_three_bad_mice.pt3
 	;incbin tunes/MmcM_-_Agressive_Attack.pt3
 	;incbin ../tunes/backup_forever.pt3
-	incbin ../tunes/Davos_-_To_star.pt3
+	;incbin ../tunes/Davos_-_To_star.pt3
+	;incbin ../tunes/Scalesmann_-_looking_back.pt3
+	;incbin ../tunes/wbc_-_BrD.pt3
+	incbin ../tunes/Bonysoft_-_Sanxion.pt3
 ;Release 0 steps:
 ;02/27/2005
 ;Merging PT2 and PT3 players; debug
