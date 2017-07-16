@@ -38,8 +38,8 @@ Use the A4 line for chip enable
 
 pins|description
 ----|------------
-1-2 | No - Default
-2-3 | Yes
+1-2 | No
+2-3 | Yes - Default
 
 ### JP2
 Use JP1 and JP4 settings for address decoding
@@ -50,39 +50,41 @@ pins|description
 2-3 | No (Use A15 - Spectrum 128 address mode)
 
 ### JP3
-Address mode selector i.e. which line in addition to the base address needs to be high to select address bus mode.
+Register mode selector i.e. which line in addition to the base address needs to be high to select address bus mode.
 The YM has 3 bus modes: read, write and address, address is used to specify the register for the next read or write operation.
 
 pins|description
 ----|------------
 1-2 | A14 (Spectrum)
-3-4 | A3 - Default
-5-6 | A2
+3-4 | A3 - Default (Register IO port is base address + 8)
+5-6 | A2 - (Register IO port is base address + 4)
 
 ### JP4
 Base address
-
-pins|with JP1 on 1&2
-----|------------
-1-2 | 0x10
-3-4 | 0x90
-5-6 | 0x50
-7-8 | 0xD0 - Default
-9-10 | 0x30
-11-12 | 0xB0
-13-14 | 0x70
-15-16 | 0xF0
 
 pins|with JP1 on 2&3
 ----|------------
 1-2 | 0x0
 3-4 | 0x80
 5-6 | 0x40
-7-8 | 0xC0
+7-8 | 0xC0 - Default
 9-10 | 0x20
 11-12 | 0xA0
 13-14 | 0x60
 15-16 | 0xE0
+
+With JP1 on 1&2, the AY will additionally respond on the following ports as well:
+
+pins|with JP1 on 1&2
+----|------------
+1-2 | 0x10
+3-4 | 0x90
+5-6 | 0x50
+7-8 | 0xD0
+9-10 | 0x30
+11-12 | 0xB0
+13-14 | 0x70
+15-16 | 0xF0
 
 ### JP5
 External clock divide
