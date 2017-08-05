@@ -34,7 +34,7 @@ Jumpering the pins marked default below will give the board a data port of 0xD0 
 Pin 1 is identified by having square pad.
 
 ### JP1
-Use the A4 line for chip enable
+Use the A4 line high for chip enable
 
 pins|description
 ----|------------
@@ -98,6 +98,15 @@ pins|description
 
 YM2149 only, internally halve clock if jumpered
 
+### JP7
+
+Use the A4 line low for chip enable. Either this OR JP1 can be set to yes, but not both at the same time.
+
+pins|description
+----|------------
+1-2 | No - Default
+2-3 | Yes
+
 ## Outputs
 
 J1 - 3.5mm audio out
@@ -121,8 +130,8 @@ Qty|Schematic Reference|Description
 2|U3 U4| 14 pin DIP socket 2.54 mm pin pitch, 7.62 mm wide
 1|U3|	74HCT00
 2|U1 U2| 74HCT138
-1|R6 R7| 1k6 ohm 1/4 watt metal film resistor
-1|R4 R5| 1k ohm 1/4 watt metal film resistor
+2|R6 R7| 1k6 ohm 1/4 watt metal film resistor
+2 |R4 R5| 1k ohm 1/4 watt metal film resistor
 3|R1 R2 R3|	3k ohm 1/4 watt metal film resistor
 1|P1|	40 pin right angled 2.54mm header
 1|J1|	Cliff FCR1295 3.5mm PCB mount jack socket
