@@ -42,7 +42,7 @@ pins|description
 2-3 | Yes - Default
 
 ### JP2
-Use JP1 and JP4 settings for address decoding
+Use JP1, JP7 and JP4 settings for address decoding
 
 pins|description
 ----|------------
@@ -170,4 +170,4 @@ Start the Microsoft basic interpreter, mbasic, and run player/test.bas
 Alternatively, PTxPlay can be assembled with an origin of 0x100. The resulting binary can then be uploaded and run as a .com file.
 
 ## Things to experiment with
-* Altering resistor values for the stereo mixing network. The values used where taken from the Melodik 2 design here: http://hw.speccy.cz/melodik2.html
+* Altering resistor values for the stereo mixing network. The values used were taken from the Melodik 2 design here: http://hw.speccy.cz/melodik2.html
