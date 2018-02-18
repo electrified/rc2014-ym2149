@@ -1653,7 +1653,7 @@ print
             inc hl
             jp print
 
-startupstr            DB "YM Player",10,13,0
+startupstr            DB "PTx Player",10,13,0
 loopstr DB "*",10,13,0
 endstr DB "the end.",10,13,0
 

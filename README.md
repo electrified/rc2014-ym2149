@@ -1,6 +1,6 @@
 # YM2149F/AY-3-8190 Sound card for the RC2014 computer
 
-![Picture of the board](./R1-board-pic.jpg?raw=true)
+![Picture of the board](./R5-board-pic.jpg?raw=true)
 
 Video demonstration: https://www.youtube.com/watch?v=-iLwi9FagFE
 
@@ -41,6 +41,16 @@ pins|description
 1-2 | No
 2-3 | Yes - Default
 
+### JP7
+
+This is not present on boards prior to Rev 5
+Use the A4 line low for chip enable. Either this OR JP1 can be set to yes, but not both at the same time.
+
+pins|description
+----|------------
+1-2 | No - Default
+2-3 | Yes
+
 ### JP2
 Use JP1, JP7 and JP4 settings for address decoding
 
@@ -62,25 +72,23 @@ pins|description
 ### JP4
 Base address
 
-pins|with JP1 on 2&3
+pins|with JP1 on 1&2 and JP7 on 2&3
 ----|------------
 1-2 | 0x0
 3-4 | 0x80
 5-6 | 0x40
-7-8 | 0xC0 - Default
+7-8 | 0xC0
 9-10 | 0x20
 11-12 | 0xA0
 13-14 | 0x60
 15-16 | 0xE0
 
-With JP1 on 1&2, the AY will additionally respond on the following ports as well:
-
-pins|with JP1 on 1&2
+pins|with JP1 on 2&3 and JP7 on 1&2
 ----|------------
 1-2 | 0x10
 3-4 | 0x90
 5-6 | 0x50
-7-8 | 0xD0
+7-8 | 0xD0 - Default
 9-10 | 0x30
 11-12 | 0xB0
 13-14 | 0x70
@@ -98,14 +106,6 @@ pins|description
 
 YM2149 only, internally halve clock if jumpered
 
-### JP7
-
-Use the A4 line low for chip enable. Either this OR JP1 can be set to yes, but not both at the same time.
-
-pins|description
-----|------------
-1-2 | No - Default
-2-3 | Yes
 
 ## Outputs
 
@@ -154,7 +154,7 @@ Both the AY-3-8910 and YM2194F are unfortunately not in production any more, but
 
 ## How to use from BASIC
 
-See player/test.bas
+See the BASIC programs in ```player/test```. ```descend.bas``` plays some descending tones, ```io_in.bas``` demonstrates reading from the IO port, and ```io_out.bas``` demonstrates writing to an IO port.
 
 ## How to play Protracker 3 tunes using PTxPlay
 
@@ -165,9 +165,13 @@ See player/test.bas
 4. ```PRINT usr(0)```
 
 ## How to use from CP/M
-Start the Microsoft basic interpreter, mbasic, and run player/test.bas
+A command line PTx player for CP/M is available here: https://github.com/MMaciocia/RC2014-YM2149
 
-Alternatively, PTxPlay can be assembled with an origin of 0x100. The resulting binary can then be uploaded and run as a .com file.
+Additionally, Wayne has incorporated a player called "Tune" into RomWBW that will play PTx and MYM files See here for the source: https://github.com/wwarthen/RomWBW/tree/master/Source/Apps/Tune
+
+Start the Microsoft basic interpreter, mbasic, and refer to the above BASIC examples.
+
+Alternatively, the PTxPlay source in this repository can be assembled with an origin of 0x100(adjust the ORG line in PTxPlay.asm from 0xC000 to 0x100). The resulting binary can then be uploaded and run as a .com file.
 
 ## Things to experiment with
 * Altering resistor values for the stereo mixing network. The values used were taken from the Melodik 2 design here: http://hw.speccy.cz/melodik2.html

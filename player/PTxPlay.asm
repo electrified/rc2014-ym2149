@@ -47,7 +47,8 @@ Id=1
 ;Call MUTE or INIT one more time to mute sound after stopping
 ;playing
 
-	ORG #100
+	ORG #C000
+	;ORG #100
 	; ld hl, startupstr
   ; call print
 ;Test codes (commented)
@@ -1552,7 +1553,7 @@ print
             inc hl
             jp print
 
-startupstr            DB "Megabanghra 3000.",10,13,0
+startupstr            DB "PTx Player.",10,13,0
 loopstr DB "*",10,13,0
 endstr DB "the end.",10,13,0
 
