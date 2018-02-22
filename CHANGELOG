@@ -4,3 +4,5 @@ R2
 Invert signal coming out of first 74HCT138 - no boards made
 R3
 Increase resistor pin spacing slightly - 20 boards manufactured at Elecrow
+R5
+Change silscreen text, increase pad size from improved solderability

@@ -1,8 +1,7 @@
-1 REM read and print the value from IOB
+1 REM Set IOA0 high
 10 LET R=216
 20 LET D=208
-30 OUT R,7: REM select mixer register
-40 OUT D,0: REM ensure IOB is set to be an input
-50 OUT R,15: REM select IOB register
-60 PRINT INP(R): REM read IOB value
-70 GOTO 60
+30 OUT R, 7: REM select the mixer register
+40 OUT D, 64: REM set the IOA port to be an output
+50 OUT R, 14: REM select the IOA register
+60 OUT D, 1: REM set bit 0 to high
