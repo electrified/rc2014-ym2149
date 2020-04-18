@@ -5,27 +5,72 @@
 Video demonstration: https://www.youtube.com/watch?v=-iLwi9FagFE
 
 ## The board
-This is a YM2149F/AY-3-8910 sound card for the RC2014 Z80 8-bit computer. It adds the ability to make music with your RC2014!
+This is a YM2149F/AY-3-8910 sound card for the RC2014 Z80 8-bit computer. It adds the ability to play music on your RC2014!
 
 ## What can you use this for?
 
 * Playing music ripped from spectrum games
-* Playing Spectrum Protracker demoscene tunes from e.g. http://zxart.ee/eng/music/ and http://zxtunes.com with Sergei Bulba's playback routines available at http://bulba.untergrund.net/progr_e.htm
+* Playing Spectrum Protracker 2/3 and tunes in MYM format
 * Adding music to your own games
 * Making music from BASIC or ASM!
 
 ## Features
 
-* Stereo Line out, with golden ratio mixer. If you only want mono, jumpers can be used in place of the mixing resistors.
+* Stereo Line out, with golden ratio mixer.
 * Header for the 2 8-bit I/O ports. These could be used for reading from joysticks, additional serial ports, LED indicators etc.
 * Both YM2149F and AY-3-8910 ICs may be used
-* Jumperable to the same IO port as the ZX Spectrum AY, making it easier to play ripped Spectrum music.
-* Tested with standard RC2014 setup, as well as under CP/M with Scott Baker's 512k RAM/ROM SIO/2 and CTC boards. No address conflicts were observed.
+* Supported in RomWBW
+* Possible to jumper to the same IO port as the ZX Spectrum AY
+* Known to work on the standard RC2014 setup, as well as on Steve Cousin's SC126 and SC130
 * Divides the RC2014 clock by 2 or 4 using flip flops to bring it under the 2Mhz max clock speed of the AY.
-* Additionally supports enabling the YM2149F's internal clock divider. This means that bus speeds up to 16Mhz could be supported without overclocking the chip. (AY does not have this feature)
+* Supports enabling the YM2149F's internal clock divider. This means that bus speeds up to 16Mhz could be supported without overclocking the chip. (AY does not have this feature)
 
 ## History
 The Yamaha YM2149F and General Instrument AY-3-8910 are popular sound chips that were used in a wide variety of computers and arcade machines in the 1980s and 1990s. The most notable of those being the ZX Spectrum 128, Atari ST and MSX computers.
+
+## Construction Steps
+
+0. If you have bought one of Spencer's kits, obtain a YM2149 chip from your local friendly eBay seller :)
+1. Verify the components supplied in the kit match up with [bill of materials](https://github.com/electrified/rc2014-ym2149/blob/master/README.md#bill-of-materials)
+2. Solder the components to the board, matching the components in the [BOM](https://github.com/electrified/rc2014-ym2149/blob/master/README.md#bill-of-materials) to the component references printed on the PCB, starting with the lowest height ones first e.g. bypass capacitors and resistors, then moving on to IC sockets, pin headers and do the electrolytic capacitors and output jack last.
+3. Insert the ICs in their sockets. The component reference marking on the PCB (e.g. U1) is nearest to pin 1 for all ICs
+4. If you have a Z80 based system, configure the jumpers on the board so it looks like the picture in the README. This will ensure it is at the right IO address. If you have an SC-126 or SC-130 that uses the Z180 micro, you will have to change the default addressing to the 0x60 range, moving JP1 onto 1-2, JP7 onto 2-3 and JP4 to the position that links pins 13-14. This way you avoid conflicting with the 0xC0-FF range that is reserved for the Z180 internal peripherals. 
+5. Insert board into backplane/SBC
+6. Boot into RomWBW ensure you have the "tune.com" application (it's not included in the ROM drive but should be on the disk images)
+7. Find some music to play. There are some example files in https://github.com/wwarthen/RomWBW/tree/dev/Source/Apps/Tune/Tunes that you could transfer to the system.
+8. Use tune.com to play the music file. If you download the RomWBW*-Package.zip corresponding to whatever version of RomWBW you are using the from the releases page here https://github.com/wwarthen/RomWBW/releases, the tune.com executable will be in the `Binary/Apps` directory.
+
+## Bill Of Materials
+
+![Picture of the board](./r5-board-render.png?raw=true)
+
+Qty|Schematic Reference|Description
+---|-------------------|-----------
+2|U1 U2| 16 pin DIP socket 2.54 mm pin pitch, 7.62 mm wide
+1|U5|	40 pin DIP socket, 2.54mm pin pitch, 15.24mm wide
+1|U5|	Yamaha YM2149F or General Instrument AY-3-8910
+1|U4|	74HCT74
+2|U3 U4| 14 pin DIP socket 2.54 mm pin pitch, 7.62 mm wide
+1|U3|	74HCT00
+2|U1 U2| 74HCT138
+2|R6 R7| 1k6 ohm 1/4 watt metal film resistor
+2 |R4 R5| 1k ohm 1/4 watt metal film resistor
+3|R1 R2 R3|	3k ohm 1/4 watt metal film resistor
+1|P1|	40 pin right angled 2.54mm header
+1|J1|	Cliff FCR1295 3.5mm PCB mount jack socket
+2|C6 C7| 470uF electrolytic capacitor
+5|C1 C2 C3 C4 C5|	0.1uF ceramic capacitor 2.54 mm pin pitch
+2|JP1 JP2 JP5| 3 x 1 straight pin header 2.54 mm pin pitch
+1|JP3| 3 x 2 straight pin header 2.54 mm pin pitch
+1|JP4| 8 x 2 straight pin header 2.54 mm pin pitch
+1|J2| 9 x 2 straight pin header 2.54 mm pin pitch
+5|Various|Jumpers
+
+The BOM is available on Octopart https://octopart.com/bom-tool/CikqAiJP
+
+The majority of the components are widely available. Availability of the audio out jack (Cliff FCR1295) is more limited, however it is stocked by Element 14 (Farnell, CPC etc) and Rapid. See https://www.rapidonline.com/cliff-electronic-fcr1295-jack-skt-3-5-mm-pcb-tht-blk-50-3284
+
+Both the AY-3-8910 and YM2194F are unfortunately not in production any more, but reclaimed chips are available fairly plentifully on eBay from suppliers in China. I would suggest using a standard 40 pin DIL socket for the AY as they are more accommodating to bent/soldered pins than a turned pin ones.
 
 ## Jumpers
 
@@ -113,65 +158,32 @@ J1 - 3.5mm audio out
 
 J2 - 2 8 bit I/O ports
 
-## Construction
-
-Rev 3 of the PCB unfortunately omitted the schematic references from the silkscreen - please refer to the below picture which has the references on.
-
-![Board Layout](./R3-board-layout.png?raw=true)
-
-## Bill Of Materials
-
-Qty|Schematic Reference|Description
----|-------------------|-----------
-2|U1 U2| 16 pin DIP socket 2.54 mm pin pitch, 7.62 mm wide
-1|U5|	40 pin DIP socket, 2.54mm pin pitch, 15.24mm wide
-1|U5|	Yamaha YM2149F or General Instrument AY-3-8910
-1|U4|	74HCT74
-2|U3 U4| 14 pin DIP socket 2.54 mm pin pitch, 7.62 mm wide
-1|U3|	74HCT00
-2|U1 U2| 74HCT138
-2|R6 R7| 1k6 ohm 1/4 watt metal film resistor
-2 |R4 R5| 1k ohm 1/4 watt metal film resistor
-3|R1 R2 R3|	3k ohm 1/4 watt metal film resistor
-1|P1|	40 pin right angled 2.54mm header
-1|J1|	Cliff FCR1295 3.5mm PCB mount jack socket
-2|C6 C7| 470uF electrolytic capacitor
-5|C1 C2 C3 C4 C5|	0.1uF ceramic capacitor 2.54 mm pin pitch
-2|JP1 JP2 JP5| 3 x 1 straight pin header 2.54 mm pin pitch
-1|JP3| 3 x 2 straight pin header 2.54 mm pin pitch
-1|JP4| 8 x 2 straight pin header 2.54 mm pin pitch
-1|J2| 9 x 2 straight pin header 2.54 mm pin pitch
-5|Various|Jumpers
-
-
-If you want mono output, use wire links for R4 R5 R6 and R7
-
-I've also made the BOM available on Octopart https://octopart.com/bom-tool/CikqAiJP
-
-The majority of the components are fairly generic and can be swapped out with other parts, e.g. all the 74HCT' components, resistors, pin headers, capacitors etc. The audio out jack must be the Cliff FCR1295 however, which only seems to be available from Element 14 (Farnell, CPC etc) and Rapid. See http://uk.farnell.com/cliff-electronic-components/fcr1295/connector-stereo-jack-pcb/dp/2392727
-
-Both the AY-3-8910 and YM2194F are unfortunately not in production any more, but reclaimed chips are available fairly plentifully on eBay from suppliers in China. I would suggest using a standard 40 pin DIL socket for the AY as they are more accommodating to bent/soldered pins than a turned pin ones.
 
 ## How to use from BASIC
 
 See the BASIC programs in ```player/test```. ```descend.bas``` plays some descending tones, ```io_in.bas``` demonstrates reading from the IO port, and ```io_out.bas``` demonstrates writing to an IO port.
 
-## How to play Protracker 3 tunes using PTxPlay
+## How to use from RomWBW
 
-0. Toward the end of PTxPlay.asm are some ```incbin``` statements which include the music file as data. Uncomment lines as required for the desired tune.
-1. Build a .ihx file by running ```make pt```. This requires the SJASM assembler.
-2. Load .ihx file
-3. ```DOKE &h8124, &hC000```
-4. ```PRINT usr(0)```
+Wayne has incorporated a player called "Tune" into RomWBW that will play PT2, PT3 and MYM files. See here for the source: https://github.com/wwarthen/RomWBW/tree/master/Source/Apps/Tune. It should be present within RomWBW disk images.
 
-## How to use from CP/M
-A command line PTx player for CP/M is available here: https://github.com/MMaciocia/RC2014-YM2149
+Alternatively start the Microsoft BASIC interpreter mbasic, and refer to the above BASIC examples.
 
-Additionally, Wayne has incorporated a player called "Tune" into RomWBW that will play PTx and MYM files See here for the source: https://github.com/wwarthen/RomWBW/tree/master/Source/Apps/Tune
+## Sources for music to play
 
-Start the Microsoft basic interpreter, mbasic, and refer to the above BASIC examples.
+ZXArt is my favourite site: https://zxart.ee/eng/music/mainpage/
 
-Alternatively, the PTxPlay source in this repository can be assembled with an origin of 0x100(adjust the ORG line in PTxPlay.asm from 0xC000 to 0x100). The resulting binary can then be uploaded and run as a .com file.
+http://zxtunes.com/ is another massive collection.
+
+http://ftp.kameli.net/pub/mym/ has a collection of MYM files
+
+This tool compresses YMs to MYMs, which makes a lot of music available: http://osdk.org/index.php?page=documentation&subpage=ym2mym although your mileage may vary, I found some YMs weren't convertible.
+
+This is a large archive of YM tunes to try with the above tool: ftp://ftp.modland.com/pub/modules/YM/
+
+The CPC Power site has a lot of Amstrad YMs: https://www.cpc-power.com/index.php?page=database
+
+There are some PT2s, PT3s and YMs on Sergei Bulba's site: http://bulba.untergrund.net/music_e.htm (although a lot of tunes in other formats)
 
 ## Things to experiment with
 * Altering resistor values for the stereo mixing network. The values used were taken from the Melodik 2 design here: http://hw.speccy.cz/melodik2.html
