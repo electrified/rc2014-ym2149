@@ -220,25 +220,25 @@ F 3 "" H 6100 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack3 J1
+L Connector:AudioJack3_Dual_Switch J1
 U 1 1 5898EEE9
-P 9950 900
-F 0 "J1" H 9950 1300 50  0000 C CNN
-F 1 "AUDIO OUT" H 9900 600 50  0000 C CNN
-F 2 "rc2014:cliff_fcr1295_socket" H 10050 750 50  0001 C CNN
-F 3 "" H 10050 750 50  0000 C CNN
-	1    9950 900 
+P 10150 1100
+F 0 "J1" H 10150 1450 50  0000 C CNN
+F 1 "AUDIO OUT" H 10150 650 50  0000 C CNN
+F 2 "rc2014:cliff_fcr1295_socket" H 10250 950 50  0001 C CNN
+F 3 "" H 10250 950 50  0000 C CNN
+	1    10150 1100
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5898F3AF
-P 9150 1300
-F 0 "#PWR05" H 9150 1050 50  0001 C CNN
-F 1 "GND" H 9150 1150 50  0000 C CNN
-F 2 "" H 9150 1300 50  0000 C CNN
-F 3 "" H 9150 1300 50  0000 C CNN
-	1    9150 1300
+P 9500 1500
+F 0 "#PWR05" H 9500 1250 50  0001 C CNN
+F 1 "GND" H 9500 1350 50  0000 C CNN
+F 2 "" H 9500 1500 50  0000 C CNN
+F 3 "" H 9500 1500 50  0000 C CNN
+	1    9500 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -250,20 +250,6 @@ F 1 "VCC" H 7800 3500 50  0000 C CNN
 F 2 "" H 7800 3350 50  0000 C CNN
 F 3 "" H 7800 3350 50  0000 C CNN
 	1    7800 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS74 U4
-U 1 1 58ACAA95
-P 5700 5300
-F 0 "U4" H 5850 5600 50  0000 C CNN
-F 1 "74HCT74" H 6000 5005 50  0000 C CNN
-F 2 "rc2014:DIP-14_W7.62mm_Socket" H 5700 5300 50  0001 C CNN
-F 3 "" H 5700 5300 50  0000 C CNN
-F 4 "SN74HCT74N" H 5700 5300 60  0001 C CNN "MPN"
-F 5 "74HCT74" H 5700 5300 60  0001 C CNN "Base number"
-F 6 "http://uk.farnell.com/texas-instruments/sn74hct74n/ic-flip-flop-2-circuits/dp/1470823" H 5700 5300 60  0001 C CNN "Supplier URL"
-	1    5700 5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -367,7 +353,7 @@ P 5700 6850
 F 0 "U4" H 5850 7150 50  0000 C CNN
 F 1 "74HCT74" H 6000 6555 50  0000 C CNN
 F 2 "rc2014:DIP-14_W7.62mm_Socket" H 5700 6850 50  0001 C CNN
-F 3 "" H 5700 6850 50  0000 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 5700 6850 50  0001 C CNN
 	2    5700 6850
 	1    0    0    -1  
 $EndComp
@@ -589,7 +575,7 @@ U 1 1 58BDD798
 P 8300 1200
 F 0 "R7" H 8330 1220 50  0000 L CNN
 F 1 "1K6" H 8330 1160 50  0000 L CNN
-F 2 "" H 8300 1200 50  0001 C CNN
+F 2 "rc2014:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8300 1200 50  0001 C CNN
 F 3 "~" H 8300 1200 50  0001 C CNN
 	1    8300 1200
 	0    1    1    0   
@@ -970,11 +956,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 4050 7350 4100
 Wire Wire Line
-	9150 1000 9600 1000
-Wire Wire Line
-	9150 800  9600 800 
-Wire Wire Line
-	9150 1200 9150 1300
+	9500 1200 9500 1500
 Wire Wire Line
 	5950 2450 6250 2450
 Wire Wire Line
@@ -1060,16 +1042,6 @@ Wire Wire Line
 	1600 4500 1100 4500
 Wire Wire Line
 	1100 4900 1400 4900
-Wire Wire Line
-	9750 1100 9600 1100
-Wire Wire Line
-	9600 1100 9600 1000
-Connection ~ 9600 1000
-Wire Wire Line
-	9750 900  9600 900 
-Wire Wire Line
-	9600 900  9600 800 
-Connection ~ 9600 800 
 Wire Wire Line
 	7450 5650 7450 5500
 Wire Wire Line
@@ -1192,13 +1164,13 @@ $EndComp
 Text Label 5400 1750 0    60   ~ 0
 CS
 $Comp
-L Jumper:Jumper_3_Bridged12 JP2
+L jumper_dual:Jumper_Dual JP2
 U 1 1 58DB0BB0
 P 2250 3650
 F 0 "JP2" H 2250 3800 50  0000 C CNN
 F 1 "ENABLE SELECTOR" H 2250 3300 50  0000 C CNN
-F 2 "rc2014:Pin_Header_Straight_1x03_Pitch2.54mm" H 2250 2450 50  0001 C CNN
-F 3 "" H 2250 2450 50  0001 C CNN
+F 2 "rc2014:Pin_Header_Straight_1x03_Pitch2.54mm" H 2250 3650 50  0001 C CNN
+F 3 "~" H 2250 3650 50  0001 C CNN
 	1    2250 3650
 	1    0    0    -1  
 $EndComp
@@ -1210,7 +1182,7 @@ U 3 1 58DB1272
 P 5050 1750
 F 0 "U3" H 5050 1800 50  0000 C CNN
 F 1 "74HCT00" H 5050 1500 50  0000 C CNN
-F 2 "" H 5050 1750 50  0001 C CNN
+F 2 "rc2014:DIP-14_W7.62mm_Socket" H 5050 1750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 5050 1750 50  0001 C CNN
 	3    5050 1750
 	1    0    0    -1  
@@ -1359,7 +1331,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 2150 3700 2150
 $Comp
-L Jumper:Jumper_3_Bridged12 JP7
+L jumper_dual:Jumper_Dual JP7
 U 1 1 596A80CC
 P 1100 1900
 F 0 "JP7" H 950 2050 50  0000 C CNN
@@ -1414,10 +1386,6 @@ Wire Wire Line
 Wire Wire Line
 	7300 1600 7600 1600
 Wire Wire Line
-	9600 1000 9750 1000
-Wire Wire Line
-	9600 800  9750 800 
-Wire Wire Line
 	2700 3200 2700 3300
 Wire Wire Line
 	2700 3300 2700 3350
@@ -1450,15 +1418,6 @@ Wire Wire Line
 	8950 3550 8850 3550
 Wire Wire Line
 	3850 1850 4350 1850
-Wire Wire Line
-	9750 1300 9600 1300
-Wire Wire Line
-	9600 1200 9750 1200
-Wire Wire Line
-	9150 1200 9600 1200
-Connection ~ 9600 1200
-Wire Wire Line
-	9600 1300 9600 1200
 $Comp
 L power:GND #PWR0101
 U 1 1 5F364D83
@@ -1508,10 +1467,6 @@ Wire Wire Line
 Wire Wire Line
 	850  1550 750  1550
 Wire Wire Line
-	2250 3800 2250 3850
-Wire Wire Line
-	2250 3850 2950 3850
-Wire Wire Line
 	1100 5100 4250 5100
 Wire Wire Line
 	4250 5100 4250 5300
@@ -1543,7 +1498,7 @@ F 6 "http://uk.farnell.com/texas-instruments/cd74hct138e/74hct-cmos-74hct138-dip
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:Jumper_3_Bridged12 JP1
+L jumper_dual:Jumper_Dual JP1
 U 1 1 58DB01E6
 P 1100 1550
 F 0 "JP1" H 950 1700 50  0000 C CNN
@@ -1574,6 +1529,83 @@ F 3 "" H 7200 2000 50  0000 C CNN
 	1    7200 2000
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	2250 3850 2950 3850
+Wire Wire Line
+	2250 3750 2250 3850
+Wire Wire Line
+	1100 2000 1100 2050
+Wire Wire Line
+	9150 800  9600 800 
+Wire Wire Line
+	9500 1200 9600 1200
+Wire Wire Line
+	9150 1000 9600 1000
+Wire Wire Line
+	9600 800  9600 900 
+Wire Wire Line
+	9600 900  9950 900 
+Connection ~ 9600 800 
+Wire Wire Line
+	9600 800  9950 800 
+Wire Wire Line
+	9600 1000 9600 1100
+Wire Wire Line
+	9600 1100 9950 1100
+Connection ~ 9600 1000
+Wire Wire Line
+	9600 1000 9950 1000
+Wire Wire Line
+	9600 1200 9600 1300
+Wire Wire Line
+	9600 1300 9950 1300
+Connection ~ 9600 1200
+Wire Wire Line
+	9600 1200 9950 1200
+$Comp
+L 74xx:74LS74 U4
+U 1 1 58ACAA95
+P 5700 5300
+F 0 "U4" H 5850 5600 50  0000 C CNN
+F 1 "74HCT74" H 6000 5005 50  0000 C CNN
+F 2 "rc2014:DIP-14_W7.62mm_Socket" H 5700 5300 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 5700 5300 50  0001 C CNN
+	1    5700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC74 U4
+U 3 1 5EA440B3
+P 4250 6500
+F 0 "U4" H 4480 6546 50  0000 L CNN
+F 1 "74HCT74" H 4480 6455 50  0000 L CNN
+F 2 "rc2014:DIP-14_W7.62mm_Socket" H 4250 6500 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 4250 6500 50  0001 C CNN
+	3    4250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR028
+U 1 1 5EA44D62
+P 4250 6100
+F 0 "#PWR028" H 4250 5950 50  0001 C CNN
+F 1 "VCC" H 4250 6250 50  0000 C CNN
+F 2 "" H 4250 6100 50  0000 C CNN
+F 3 "" H 4250 6100 50  0000 C CNN
+	1    4250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 5EA45373
+P 4250 6900
+F 0 "#PWR029" H 4250 6650 50  0001 C CNN
+F 1 "GND" H 4250 6750 50  0000 C CNN
+F 2 "" H 4250 6900 50  0001 C CNN
+F 3 "" H 4250 6900 50  0001 C CNN
+	1    4250 6900
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	6000 4200 9950 4200
 Wire Bus Line
@@ -1582,4 +1614,37 @@ Wire Bus Line
 	9950 2450 9950 4200
 Wire Bus Line
 	6000 2750 6000 4200
+$Comp
+L 74xx:74HCT00 U3
+U 5 1 5EA6DD08
+P 4800 1050
+F 0 "U3" V 4433 1050 50  0000 C CNN
+F 1 "74HCT00" V 4524 1050 50  0000 C CNN
+F 2 "" H 4800 1050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 4800 1050 50  0001 C CNN
+	5    4800 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA780C6
+P 4300 1050
+F 0 "#PWR?" H 4300 800 50  0001 C CNN
+F 1 "GND" H 4300 900 50  0000 C CNN
+F 2 "" H 4300 1050 50  0001 C CNN
+F 3 "" H 4300 1050 50  0001 C CNN
+	1    4300 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5EA78A23
+P 5300 1050
+F 0 "#PWR?" H 5300 900 50  0001 C CNN
+F 1 "VCC" H 5300 1200 50  0000 C CNN
+F 2 "" H 5300 1050 50  0000 C CNN
+F 3 "" H 5300 1050 50  0000 C CNN
+	1    5300 1050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

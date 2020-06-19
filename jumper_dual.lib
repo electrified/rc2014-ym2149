@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
 # Jumper_Dual
@@ -14,7 +14,7 @@ C -120 0 35 0 1 0 N
 C 0 0 36 0 1 0 N
 C 120 0 35 0 1 0 N
 X 1 1 -250 0 95 R 50 50 0 1 P
-X 2 2 0 -100 60 U 50 50 0 1 P
+X 2 2 0 -100 60 U 50 50 0 1 O
 X 3 3 250 0 95 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
