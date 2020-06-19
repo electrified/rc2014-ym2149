@@ -185,5 +185,12 @@ The CPC Power site has a lot of Amstrad YMs: https://www.cpc-power.com/index.php
 
 There are some PT2s, PT3s and YMs on Sergei Bulba's site: http://bulba.untergrund.net/music_e.htm (although a lot of tunes in other formats)
 
-## Things to experiment with
-* Altering resistor values for the stereo mixing network. The values used were taken from the Melodik 2 design here: http://hw.speccy.cz/melodik2.html
+## Acknowledgements
+* Some ideas and the golden ratio output mixing were taken from the Melodik 2 design here: http://hw.speccy.cz/melodik2.html
+
+## License
+
+Copyright Ed Brindley 2020.
+
+This source describes Open Hardware and is licensed under the CERN-OHL-P v2
+You may redistribute and modify this documentation and make products using it under the terms of the CERN-OHL-P v2 (https:/cern.ch/cern-ohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2 for applicable conditions

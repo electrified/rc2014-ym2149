@@ -6,3 +6,5 @@ R3
 Increase resistor pin spacing slightly - 20 boards manufactured at Elecrow
 R5
 Change silscreen text, increase pad size from improved solderability
+
+2020-06-19 Existing r5 released under CERN OHL-P v2 with no other changes
