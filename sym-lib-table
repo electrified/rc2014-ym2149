@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name jumper_dual)(type Legacy)(uri ${KIPRJMOD}/jumper_dual.lib)(options "")(descr ""))
+)
