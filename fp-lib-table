@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name rc2014)(type KiCad)(uri "$(KIPRJMOD)/rc2014.pretty")(options "")(descr "Footprints created by Ed!"))
+  (lib (name digikey-footprints)(type KiCad)(uri /home/ed/dev/3rdparty/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
 )

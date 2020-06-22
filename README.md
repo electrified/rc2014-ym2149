@@ -169,6 +169,14 @@ Wayne has incorporated a player called "Tune" into RomWBW that will play PT2, PT
 
 Alternatively start the Microsoft BASIC interpreter mbasic, and refer to the above BASIC examples.
 
+## MSX Configuration
+
+#A0 (write) 	Register write port
+#A1 (write) 	Value write port
+#A2 (read) 	Value read port
+
+
+
 ## Sources for music to play
 
 ZXArt is my favourite site: https://zxart.ee/eng/music/mainpage/

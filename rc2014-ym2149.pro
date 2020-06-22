@@ -1,4 +1,4 @@
-update=Tue 21 Apr 2020 22:37:54 BST
+update=Mon 22 Jun 2020 21:13:23 BST
 version=1
 last_client=kicad
 [cvpcb]
@@ -35,7 +35,7 @@ MinViaDrill=0.3302
 MinMicroViaDiameter=0
 MinMicroViaDrill=0
 MinHoleToHole=0.25
-TrackWidth1=0.635
+TrackWidth1=0.381
 TrackWidth2=0.381
 TrackWidth3=0.635
 ViaDiameter1=0.6858
@@ -66,7 +66,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.2
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -224,9 +224,9 @@ Enabled=1
 [pcbnew/Layer.Margin]
 Enabled=1
 [pcbnew/Layer.B.CrtYd]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.CrtYd]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.B.Fab]
 Enabled=0
 [pcbnew/Layer.F.Fab]
@@ -237,7 +237,7 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.254
-TrackWidth=0.635
+TrackWidth=0.381
 ViaDiameter=0.6858
 ViaDrill=0.3302
 uViaDiameter=0.762
@@ -259,7 +259,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=analogue
 Clearance=0.254
-TrackWidth=0.635
+TrackWidth=0.508
 ViaDiameter=0.6858
 ViaDrill=0.3302
 uViaDiameter=0.762
@@ -270,7 +270,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=gnd
 Clearance=0.254
-TrackWidth=1.27
+TrackWidth=0.762
 ViaDiameter=0.6858
 ViaDrill=0.3302
 uViaDiameter=0.762
@@ -281,7 +281,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=vcc
 Clearance=0.254
-TrackWidth=1.27
+TrackWidth=0.762
 ViaDiameter=0.6858
 ViaDrill=0.3302
 uViaDiameter=0.762
