@@ -19,7 +19,7 @@ U 1 1 58978FEA
 P 900 5000
 F 0 "P1" H 900 7000 50  0000 C CNN
 F 1 "RC2014 BUS" V 1000 5000 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x39_P2.54mm_Vertical" H 900 5000 50  0001 C CNN
+F 2 "rc2014:PinHeader_1x39_P2.54mm_Vertical" H 900 5000 50  0001 C CNN
 F 3 "" H 900 5000 50  0000 C CNN
 	1    900  5000
 	-1   0    0    -1  
@@ -202,17 +202,6 @@ F 1 "VCC" H 5050 6700 50  0000 C CNN
 F 2 "" H 5050 6550 50  0000 C CNN
 F 3 "" H 5050 6550 50  0000 C CNN
 	1    5050 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x09_Odd_Even J2
-U 1 1 58BC7A79
-P 10400 5700
-F 0 "J2" H 10400 6200 50  0000 C CNN
-F 1 "IO Out" V 10450 5700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 10400 4500 50  0001 C CNN
-F 3 "" H 10400 4500 50  0000 C CNN
-	1    10400 5700
 	1    0    0    -1  
 $EndComp
 Text Label 10900 6100 2    60   ~ 0
@@ -492,10 +481,10 @@ BDIR
 Text Label 5300 4100 0    60   ~ 0
 BC1
 $Comp
-L jumper_dual:Jumper_Dual JP5
+L jumper_dual:Jumper_Dual JP9
 U 1 1 58D043AC
 P 6800 5350
-F 0 "JP5" H 6750 5450 50  0000 L CNN
+F 0 "JP9" H 6750 5450 50  0000 L CNN
 F 1 "CLOCK DIVIDE 1/2 or 1/4" H 6800 5550 50  0000 C BNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6800 5350 50  0001 C CNN
 F 3 "" H 6800 5350 50  0001 C CNN
@@ -852,10 +841,10 @@ Wire Wire Line
 Wire Wire Line
 	4550 1700 4400 1700
 $Comp
-L jumper_dual:Jumper_Dual JP7
+L jumper_dual:Jumper_Dual JP5
 U 1 1 596A80CC
 P 1650 1100
-F 0 "JP7" H 1450 950 50  0000 C CNN
+F 0 "JP5" H 1450 950 50  0000 C CNN
 F 1 "Upper/lower half" H 1650 1300 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1650 -100 50  0001 C CNN
 F 3 "" H 1650 -100 50  0001 C CNN
@@ -950,10 +939,10 @@ $EndComp
 Wire Wire Line
 	1400 1100 1250 1100
 $Comp
-L Connector_Generic:Conn_02x09_Odd_Even JP4
+L Connector_Generic:Conn_02x09_Odd_Even JP6
 U 1 1 58DAD194
 P 4100 1400
-F 0 "JP4" H 4100 1850 50  0000 C CNN
+F 0 "JP6" H 4140 1890 50  0000 C CNN
 F 1 "BASE ADDRESS" V 4150 1400 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 4100 200 50  0001 C CNN
 F 3 "" H 4100 200 50  0001 C CNN
@@ -1167,10 +1156,10 @@ D1
 Text Label 8200 2650 0    60   ~ 0
 D0
 $Comp
-L Jumper:Jumper_2_Bridged JP6
+L Jumper:Jumper_2_Bridged JP7
 U 1 1 58BC56E2
 P 7800 4150
-F 0 "JP6" H 7800 4300 50  0000 C CNN
+F 0 "JP7" H 7800 4300 50  0000 C CNN
 F 1 "YM 1/2 CLK" H 7800 3850 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 4150 50  0001 C CNN
 F 3 "" H 7800 4150 50  0000 C CNN
@@ -1391,10 +1380,6 @@ F 3 "74xx/74hc_hct74.pdf" H 3650 6400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6800 5500 6800 5450
-Text Label 2600 1600 0    60   ~ 0
-A3
-Wire Wire Line
-	2500 1600 2750 1600
 Wire Wire Line
 	2800 2400 3000 2400
 Connection ~ 3000 2400
@@ -1436,8 +1421,6 @@ F 4 "CONN 1x03" H 2200 3200 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 1500 1650 1500
-Wire Wire Line
 	1650 1200 1650 1500
 Wire Wire Line
 	650  1000 650  1100
@@ -1459,12 +1442,12 @@ A15
 $Comp
 L Oscillator:CXO_DIP8 X1
 U 1 1 5F107933
-P 3950 4750
-F 0 "X1" H 4294 4796 50  0000 L CNN
-F 1 "CXO_DIP8" H 4294 4705 50  0000 L CNN
-F 2 "Oscillator:Oscillator_DIP-8" H 4400 4400 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 3850 4750 50  0001 C CNN
-	1    3950 4750
+P 2550 4550
+F 0 "X1" H 2894 4596 50  0000 L CNN
+F 1 "CXO_DIP8" H 2894 4505 50  0000 L CNN
+F 2 "Oscillator:Oscillator_DIP-8" H 3000 4200 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 2450 4550 50  0001 C CNN
+	1    2550 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1481,23 +1464,23 @@ $EndComp
 $Comp
 L power:GND #PWR0109
 U 1 1 5F11F677
-P 3950 5050
-F 0 "#PWR0109" H 3950 4800 50  0001 C CNN
-F 1 "GND" H 3955 4877 50  0000 C CNN
-F 2 "" H 3950 5050 50  0001 C CNN
-F 3 "" H 3950 5050 50  0001 C CNN
-	1    3950 5050
+P 2550 4850
+F 0 "#PWR0109" H 2550 4600 50  0001 C CNN
+F 1 "GND" H 2555 4677 50  0000 C CNN
+F 2 "" H 2550 4850 50  0001 C CNN
+F 3 "" H 2550 4850 50  0001 C CNN
+	1    2550 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0110
 U 1 1 5F1200F0
-P 3950 4450
-F 0 "#PWR0110" H 3950 4300 50  0001 C CNN
-F 1 "VCC" H 3965 4623 50  0000 C CNN
-F 2 "" H 3950 4450 50  0001 C CNN
-F 3 "" H 3950 4450 50  0001 C CNN
-	1    3950 4450
+P 2550 4250
+F 0 "#PWR0110" H 2550 4100 50  0001 C CNN
+F 1 "VCC" H 2565 4423 50  0000 C CNN
+F 2 "" H 2550 4250 50  0001 C CNN
+F 3 "" H 2550 4250 50  0001 C CNN
+	1    2550 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1507,17 +1490,9 @@ Wire Wire Line
 Wire Wire Line
 	1100 5100 1950 5100
 Wire Wire Line
-	1950 5250 3000 5250
-Wire Wire Line
-	4250 4750 4250 5250
-Wire Wire Line
-	3500 5250 4250 5250
-Wire Wire Line
 	4700 5600 4700 5300
 Wire Wire Line
 	4700 5300 4750 5300
-Wire Wire Line
-	1950 5250 1950 5100
 Wire Wire Line
 	2450 3200 2600 3200
 Wire Wire Line
@@ -1631,11 +1606,73 @@ Wire Wire Line
 	9150 1000 10050 1000
 Wire Wire Line
 	9150 800  10050 800 
-NoConn ~ 3650 4750
+NoConn ~ 2250 4550
+Wire Wire Line
+	2850 5250 3000 5250
+Wire Wire Line
+	2850 4550 2850 5250
+Wire Wire Line
+	1950 5500 3800 5500
+Wire Wire Line
+	3800 5500 3800 5250
+Wire Wire Line
+	3800 5250 3500 5250
+Wire Wire Line
+	1950 5100 1950 5500
+$Comp
+L jumper_dual:Jumper_Dual JP4
+U 1 1 5EFE8841
+P 1650 1750
+F 0 "JP4" H 1450 1600 50  0000 C CNN
+F 1 "MSX/ZX Spectrum" H 1650 1950 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1650 550 50  0001 C CNN
+F 3 "" H 1650 550 50  0001 C CNN
+F 4 "CONN 1x03" H 1650 1750 60  0001 C CNN "MPN"
+	1    1650 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1750 1250 1750
+Wire Wire Line
+	1650 1850 1650 2050
+Wire Wire Line
+	1650 2050 2200 2050
+Wire Wire Line
+	2200 2050 2200 1600
+Wire Wire Line
+	1900 1750 2100 1750
 Wire Bus Line
 	11000 5500 11000 6300
 Wire Bus Line
 	9900 5300 9900 6300
 Wire Bus Line
 	9650 3150 9650 5300
+Wire Wire Line
+	2200 1600 2750 1600
+Wire Wire Line
+	2750 1500 1650 1500
+Text Label 1250 1750 0    60   ~ 0
+A3
+$Comp
+L power:GND #PWR023
+U 1 1 5F037486
+P 2100 1750
+F 0 "#PWR023" H 2100 1500 50  0001 C CNN
+F 1 "GND" H 2105 1577 50  0000 C CNN
+F 2 "" H 2100 1750 50  0001 C CNN
+F 3 "" H 2100 1750 50  0001 C CNN
+	1    2100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x09_Odd_Even J2
+U 1 1 58BC7A79
+P 10400 5700
+F 0 "J2" H 10450 6210 50  0000 C CNN
+F 1 "IO Out" V 10450 5700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 10400 4500 50  0001 C CNN
+F 3 "" H 10400 4500 50  0000 C CNN
+	1    10400 5700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
