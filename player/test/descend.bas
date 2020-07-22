@@ -1,6 +1,6 @@
 1 REM Output decending tones on channel A
-10 R=216 : REM &hd8
-20 D=208: REM &hd0
+10 R=&hA0
+20 D=&hA1
 30 OUT R,7 : REM select the mixer register
 40 OUT D,62 : REM enable channel A only
 41 OUT R,8 : REM channel A volume
@@ -14,3 +14,5 @@
 100 FOR X=1 TO 64
 110 NEXT
 120 RETURN
+
+

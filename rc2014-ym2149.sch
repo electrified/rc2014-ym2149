@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "RC2014 YM2149 / AY-3-8910 sound card"
-Date "2020-06-23"
-Rev "6 Alpha"
+Date "2020-07-22"
+Rev "6.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1634,6 +1634,17 @@ F 1 "IO Out" V 10450 5700 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 10400 4500 50  0001 C CNN
 F 3 "" H 10400 4500 50  0000 C CNN
 	1    10400 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F1AF0F5
+P 10510 1780
+F 0 "H1" H 10610 1826 50  0000 L CNN
+F 1 "MountingHole" H 10610 1735 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10510 1780 50  0001 C CNN
+F 3 "~" H 10510 1780 50  0001 C CNN
+	1    10510 1780
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
