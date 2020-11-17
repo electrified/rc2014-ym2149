@@ -1,4 +1,6 @@
-# YM2149F/AY-3-8190 Sound card for the RC2014 computer
+# YM2149F/AY-3-8190 Sound card for the RC2014 computer - Revision 6.1
+
+The `head` of this repository contains the latest version - currently **Rev 6.1**. Please check the version of your board, and select the appropriate tag from the right to get the documentation for your board. e.g [go here for the **Rev 5** (most common) docs](https://github.com/electrified/rc2014-ym2149/tree/4b8af5396633bc87178b81087cec0f71b8307908)
 
 ![Picture of the board](./R6-board-pic.jpg?raw=true)
 
