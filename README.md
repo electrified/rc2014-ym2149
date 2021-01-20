@@ -16,6 +16,7 @@ This is a YM2149F/AY-3-8910 sound card for the RC2014 Z80 8-bit computer. It add
 * Adding music to your own games
 * Making music from BASIC or ASM!
 
+
 ## Features
 
 * Stereo Line out, with golden ratio mixer.
@@ -26,6 +27,7 @@ This is a YM2149F/AY-3-8910 sound card for the RC2014 Z80 8-bit computer. It add
 * Known to work on the standard RC2014 setup, as well as on Steve Cousin's SC126 and SC130
 * Divides the RC2014 clock by 2 or 4 using flip flops to bring it under the 2Mhz max clock speed of the AY.
 * Supports enabling the YM2149F's internal clock divider. This means that bus speeds up to 16Mhz could be supported without overclocking the chip. (AY does not have this feature)
+* [George Beckett](https://twitter.com/markgbeckett/) has done some great work getting the board working on the [Minstrel 4th Jupiter Ace compatible computer](https://www.thefuturewas8bit.com/minstrel4th.html). See [his repository here](https://github.com/markgbeckett/jupiter_ace/tree/master/rc2014_sound_card) for information. 
 
 ## History
 The Yamaha YM2149F and General Instrument AY-3-8910 are popular sound chips that were used in a wide variety of computers and arcade machines in the 1980s and 1990s. The most notable of those being the ZX Spectrum 128, Atari ST and MSX computers.
