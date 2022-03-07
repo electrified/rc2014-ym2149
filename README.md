@@ -77,20 +77,38 @@ The majority of the components are widely available, however both the AY-3-8910 
 
 The board contains a set of jumpers to select the address at which the sound chip will respond to commands.  The jumpers settings are described in detail below.
 
+"Normal" or MSX addressing mode is recommended.
+
+### Normal/MSX/ColecoVision addressing
 MSX mode uses standard 8-bit port addressing. This board allows the base address to be any value from 00-F0 (MSX uses A0 and ColecoVision SGM uses 50 for the PSG's base address). Different ports in the lower nybble are used for reading and writing the address and data registers.  Writing to port `X0h` selects the PSG register. Writing to port `X1h` writes the selected PSG register value and reading port `X2h` reads the selected PSG register value.
 
+i.e. for MSX:
+Configure base address: A0h
+Register write address: A0h
+Data write address: A1h
+Data read address: A2h
+
+and ColecoVision
+Configure base address: 50h
+Register write address: 50h
+Data write address: 51h
+Data read address: 52h
+
+### ZX Spectrum addressing
 ZX Spectrum mode uses an uncommon 16-bit I/O addressing scheme for the PSG. This is possible since the Z80 puts the value of the B register on the upper 8 bits of the address bus when performing an `IN r, (C)` or `OUT (C), r` instruction.  Setting `A15` to `1` and `A1` to `0` enables the PSG and `A14` distinguishes between PSG address and data registers. To select a PSG register, set `BC` to `FFFDh` and use `OUT (C), r` to select the address in r. To write a value to the selected PSG register set `BC` to `BFFDh` and use `OUT (C), r` to write the value in r. To read the selected PSG register value, set `BC` to `FFFDh` and use `IN r, (C)`. Note that r must be A, D, E, H, or L since B and C are required for addressing.  Also note that `OUT (n), A` and `IN A, (n)` instructions won't work since they put the value of A on the upper 8 bits of the address bus.
 
+
+### Compatibility with Rev 5
 REV6 no longer supports the `D0/D8` addresses used by default in REV5 and earlier.  REV6 introduced MSX-compatible addressing and supporting addresses used by REV5 and earlier would have required additional chips. This seems like a fair tradeoff since existing software that uses the original default addresses for this board is minimal compared to software that uses the MSX or Spectrum addressing schemes.
 
 Note: Pin 1 on each jumper is identified by having square pad.
 
-### JP1-JP4
-Select between MSX and ZX Spectrum decoding. All 3 jumpers should all be set to either MSX or ZX Spectrum mode. For Spectrum mode, JP6 must also be set in position 17-18 (far right).  Mixing modes on different jumpers will result in nonsensical address decoding.
+### JP1-JP3
+Select between MSX and ZX Spectrum decoding. All 3 jumpers should all be set to either MSX or ZX Spectrum mode. For Spectrum mode, JP6 must also be set in position 17-18.  Mixing modes on different jumpers will result in nonsensical address decoding.
 
 pins                 |description
 ---------------------|--------------
-1-2 (Left Position)  | MSX
+1-2 (Left Position)  | Normal/MSX/ColecoVision
 2-3 (Right Position) | ZX Spectrum
 
 
