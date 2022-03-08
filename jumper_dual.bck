@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP Jumper_NC_Dual
-D Dual Jumper, normally closed
-K jumper bridge link nc
-$ENDCMP
-#
-#End Doc Library
