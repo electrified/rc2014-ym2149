@@ -34,7 +34,7 @@ To assemble PTxPlay with tune and generate an intel hex file, run the following 
 
 First run this to assemble
 ```
-docker run -v ${PWD}:/src/ -it z80-build sjasmplus PTxPlay.asm`
+docker run -v ${PWD}:/src/ -it z80-build sjasmplus PTxPlay.asm
 ```
 
 You should see output similar to
