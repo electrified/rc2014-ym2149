@@ -2,7 +2,6 @@
 *.lst
 *.out
 *.directory
-*.ihx
 *.bin
 *.o
 *.bak
