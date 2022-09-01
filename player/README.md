@@ -5,8 +5,10 @@
 * This repo checked out
 
 ## Building the docker image
-To build the docker container, change into this directory then
-`docker build -t z80-build .`
+To build the docker container containing the tools, change into this directory in the git checkout then
+```
+docker build -t z80-build .
+```
 
 You should see some output similar to the following (there will be a lot more when built for the first time with no cache)
 
@@ -28,9 +30,12 @@ Successfully tagged z80-build:latest
 ```
 
 ## Running the assembler
-To assemble PTxPlay with tune and generate an intel hex file, run the following
+To assemble PTxPlay with tune and generate an intel hex file, run the following commands
 
-`docker run -v ${PWD}:/src/ -it z80-build sjasmplus PTxPlay.asm`
+First run this to assemble
+```
+docker run -v ${PWD}:/src/ -it z80-build sjasmplus PTxPlay.asm`
+```
 
 You should see output similar to
 ```
@@ -53,7 +58,9 @@ Errors: 0, warnings: 10, compiled: 1513 lines, work time: 0.004 seconds
 ```
 
 Then convert the binary file to intel hex with the following
-`docker run -v ${PWD}:/src/ -it z80-build z88dk-appmake +rom -b PTxPlay.out --org 49152 --ihex`
+```
+docker run -v ${PWD}:/src/ -it z80-build z88dk-appmake +rom -b PTxPlay.out --org 49152 --ihex
+```
 
 You should now have a PTxPlay.ihx in the current directory.
 
