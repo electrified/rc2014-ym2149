@@ -46,7 +46,7 @@ The Yamaha YM2149F and General Instrument AY-3-8910 are popular sound chips that
 
 ## Bill Of Materials
 
-![Picture of the board](./r6-board-render.png?raw=true)
+![Picture of the board](./r61-board-render.png?raw=true)
 
 Qty|Schematic Reference|Description
 ---|-------------------|-----------
