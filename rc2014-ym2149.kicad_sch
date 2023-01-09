@@ -4778,7 +4778,7 @@
     (uuid 00000000-0000-0000-0000-00005eefa2fb)
     (property "Reference" "U5" (id 0) (at 242.57 59.69 0))
     (property "Value" "YM2149" (id 1) (at 242.57 62.23 0))
-    (property "Footprint" "Package_DIP:DIP-40_W15.24mm" (id 2) (at 246.38 128.27 0)
+    (property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket_LongPads" (id 2) (at 246.38 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ym2149.com/ym2149.pdf" (id 3) (at 229.87 92.71 0)
@@ -5287,7 +5287,7 @@
       (reference "U4") (unit 3) (value "74HCT74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads")
     )
     (path "/00000000-0000-0000-0000-00005eefa2fb"
-      (reference "U5") (unit 1) (value "YM2149") (footprint "Package_DIP:DIP-40_W15.24mm")
+      (reference "U5") (unit 1) (value "YM2149") (footprint "Package_DIP:DIP-40_W15.24mm_Socket_LongPads")
     )
     (path "/00000000-0000-0000-0000-00005f107933"
       (reference "X1") (unit 1) (value "CXO_DIP8") (footprint "Package_DIP:DIP-8_W7.62mm_Socket_LongPads")
