@@ -6,8 +6,8 @@
 
   (title_block
     (title "RC2014 YM2149 / AY-3-8910 sound card")
-    (date "2022-03-07")
-    (rev "6.2-pre")
+    (date "2023-02-06")
+    (rev "6.1")
   )
 
   (lib_symbols
@@ -4093,7 +4093,7 @@
     (property "Reference" "C6" (id 0) (at 226.06 16.51 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470uF" (id 1) (at 236.22 16.51 90)
+    (property "Value" "4.7uF" (id 1) (at 236.22 16.51 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (id 2) (at 232.41 19.3548 0)
@@ -4112,7 +4112,7 @@
     (property "Reference" "C7" (id 0) (at 226.06 22.86 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470uF" (id 1) (at 236.22 22.86 90)
+    (property "Value" "4.7uF" (id 1) (at 236.22 22.86 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (id 2) (at 232.41 24.4348 0)
@@ -5227,10 +5227,10 @@
       (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000058bdc9b3"
-      (reference "C6") (unit 1) (value "470uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+      (reference "C6") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000058bdca34"
-      (reference "C7") (unit 1) (value "470uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+      (reference "C7") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-00005f4c525c"
       (reference "CON1") (unit 1) (value "SJ1-3523N") (footprint "rc2014:Headphone_Jack_3.5mm_5_pin")

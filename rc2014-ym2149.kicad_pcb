@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "RC2014 YM2149 / AY-3-8910 sound card")
-    (date "2022-03-07")
-    (rev "6.2-pre")
+    (date "2023-02-06")
+    (rev "6.1")
   )
 
   (layers
@@ -425,7 +425,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0377801d-8ea0-4be6-a369-7d4f73115dde)
     )
-    (fp_text value "470uF" (at 1.25 4.21 -90) (layer "F.Fab")
+    (fp_text value "4.7uF" (at 1.25 4.21 -90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bf82b730-dfb1-4309-a9ea-8a1724cd9d51)
     )
@@ -598,7 +598,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp abf30506-d72b-4fb8-b78e-1487025dcbbf)
     )
-    (fp_text value "470uF" (at 1.25 4.21 -90) (layer "F.Fab")
+    (fp_text value "4.7uF" (at 1.25 4.21 -90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4a2d4f86-3123-4e2d-9285-8366035a36a2)
     )
