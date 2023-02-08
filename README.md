@@ -2,7 +2,7 @@
 
 The `head` of this repository contains the latest version - currently **Rev 6.1**. Please check the version of your board, and select the appropriate tag from the right to get the documentation for your board. e.g [go here for the **Rev 5** (most common) docs](https://github.com/electrified/rc2014-ym2149/tree/4b8af5396633bc87178b81087cec0f71b8307908)
 
-![Picture of the board](./R6-board-pic.jpg?raw=true)
+![Picture of the board](./R61-board-pic.jpg?raw=true)
 
 Video demonstration: https://www.youtube.com/watch?v=-iLwi9FagFE
 
