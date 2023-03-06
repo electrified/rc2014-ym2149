@@ -906,7 +906,7 @@
         )
       )
     )
-    (symbol "Connector:AudioJack3_SwitchTR" (in_bom yes) (on_board yes)
+    (symbol "Connector_Audio:AudioJack3_SwitchTR" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 8.89 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -5716,7 +5716,7 @@
     )
   )
 
-  (symbol (lib_id "Connector:AudioJack3_SwitchTR") (at 260.35 25.4 180) (unit 1)
+  (symbol (lib_id "Connector_Audio:AudioJack3_SwitchTR") (at 260.35 25.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f4c525c)
     (property "Reference" "CON1" (at 268.6812 24.0538 0)
