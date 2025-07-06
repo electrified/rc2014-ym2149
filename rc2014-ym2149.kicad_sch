@@ -14689,7 +14689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket_LongPads"
 			(at 246.38 128.27 0)
 			(effects
 				(font
@@ -14942,7 +14942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_DIP-8"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
 			(at 90.17 135.89 0)
 			(effects
 				(font

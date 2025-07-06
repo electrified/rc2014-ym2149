@@ -268,7 +268,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000058c9a12d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -451,7 +451,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000058c9a196")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -634,7 +634,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000058c9a1dd")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -817,7 +817,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000058db1ae2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1000,7 +1000,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000058b2b931")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1183,7 +1183,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000058bdc9b3")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2698,7 +2698,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000058bdca34")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4213,7 +4213,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/00000000-0000-0000-0000-000058bc7a79")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4662,7 +4662,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/00000000-0000-0000-0000-00005ef0c3de")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4926,7 +4926,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/00000000-0000-0000-0000-00005f2b6ebd")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5190,7 +5190,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/00000000-0000-0000-0000-00005f3bf624")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5454,7 +5454,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/00000000-0000-0000-0000-0000596a80cc")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5718,7 +5718,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/00000000-0000-0000-0000-00005f107fcd")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5982,7 +5982,7 @@
 		)
 		(property ki_fp_filters "DIP?16*")
 		(path "/00000000-0000-0000-0000-000058dafd76")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6384,7 +6384,7 @@
 		)
 		(property ki_fp_filters "DIP?16*")
 		(path "/00000000-0000-0000-0000-0000589793b1")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6786,7 +6786,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14*")
 		(path "/00000000-0000-0000-0000-000058db12e1")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7154,7 +7154,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/00000000-0000-0000-0000-00005ea440b3")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7534,7 +7534,7 @@
 		)
 		(property ki_fp_filters "DIP*W15.24mm*")
 		(path "/00000000-0000-0000-0000-00005eefa2fb")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8200,7 +8200,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000058bdd6b5")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8374,7 +8374,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000058bdd8aa")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8548,7 +8548,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000058bdd8f7")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8722,7 +8722,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000058bdd798")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8896,7 +8896,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000058bdd6f4")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9070,7 +9070,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000058bdd938")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9244,7 +9244,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000058bdd5e0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9372,7 +9372,7 @@
 		(property "Reference" "CON1"
 			(at -4.5 -7 180)
 			(layer "F.SilkS")
-			(uuid "d8d7a277-0dc9-452b-9e46-11ebf985532c")
+			(uuid "0ee3e6aa-c0ff-4fcb-b9f0-e68da86eeb16")
 			(effects
 				(font
 					(size 1 1)
@@ -9383,7 +9383,7 @@
 		(property "Value" "SJ1-3523N"
 			(at -4.25 7.5 180)
 			(layer "F.Fab")
-			(uuid "caf51666-3966-4062-8e13-f8f0a8e23bc7")
+			(uuid "0f1bdfa3-61e5-48f9-98f3-67b79d7c74e1")
 			(effects
 				(font
 					(size 1 1)
@@ -9395,7 +9395,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9734797f-4148-4748-8b65-63a3f37b22bc")
+			(uuid "160c2ef0-2bc9-4a46-856f-c61bf86948aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9407,7 +9407,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "073109fc-2eb3-447a-8e5d-23c54e7bbf01")
+			(uuid "e5d06809-9ca8-4de3-bb69-ca76a7efb202")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9417,7 +9417,7 @@
 		)
 		(property ki_fp_filters "Jack*")
 		(path "/00000000-0000-0000-0000-00005f4c525c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9722,7 +9722,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/00000000-0000-0000-0000-000058d043ac")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9986,7 +9986,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/00000000-0000-0000-0000-000058dad194")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10435,7 +10435,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/00000000-0000-0000-0000-000058bc56e2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10690,7 +10690,7 @@
 		)
 		(property ki_fp_filters "Oscillator*DIP*8*")
 		(path "/00000000-0000-0000-0000-00005f107933")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10948,7 +10948,7 @@
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "90569910-635f-489b-82e3-d3596eb763d0")
+			(uuid "f25b529f-1a79-45c4-80dd-577f57ec2652")
 			(effects
 				(font
 					(size 1 1)
@@ -10959,7 +10959,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "d847bdcf-0f22-4d7a-82a0-c0f8a39903b3")
+			(uuid "86e5afa2-8e96-487c-93d2-621908462840")
 			(effects
 				(font
 					(size 1 1)
@@ -10971,7 +10971,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b0734175-2b12-4c18-a5ca-c595e0f7f475")
+			(uuid "0faf6e48-d085-4b87-ad62-42d25b25c1d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,7 +10983,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0ebd555-00c4-4e78-830b-2cbfc1c9b0aa")
+			(uuid "13948b53-fb39-474c-b434-f11260ac8944")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10993,7 +10993,7 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-00005f1af0f5")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -11071,6 +11071,7 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "17de3930-7fc8-41c2-8cd8-cb2aa8c203b3")
@@ -11083,6 +11084,7 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2ce1af09-eedc-4dd8-847e-9820234b96c8")
@@ -11093,7 +11095,7 @@
 				)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_poly
 			(pts
 				(xy 0.555814 -2.531069) (xy 0.639635 -2.086445) (xy 0.94892 -1.958947) (xy 1.258206 -1.831449) (xy 1.629246 -2.083754)
@@ -11178,7 +11180,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "4a53a44a-9f93-4d63-b031-6b26681b5b77")
+			(uuid "a0284c3f-cb63-48c7-9949-4081b1916662")
 		)
 		(embedded_fonts no)
 	)
@@ -11806,7 +11808,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000058978fea")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "rc2014-ym2149.kicad_sch")
 		(attr through_hole)
 		(fp_line
