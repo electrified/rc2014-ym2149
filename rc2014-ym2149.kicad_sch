@@ -7538,12 +7538,6 @@
 		(uuid "86dc7a78-7d51-4111-9eea-8a8f7977eb16")
 	)
 	(junction
-		(at 246.38 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89695cb8-5592-4b59-bed0-b82aa3f1f8d4")
-	)
-	(junction
 		(at 172.72 -13.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7616,12 +7610,6 @@
 		(uuid "c49d23ab-146d-4089-864f-2d22b5b414b9")
 	)
 	(junction
-		(at 271.78 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c685119f-be9d-4317-9e9d-f0bac5164688")
-	)
-	(junction
 		(at 81.28 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7632,6 +7620,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5348744-445b-404a-bbad-f11903de04a4")
+	)
+	(junction
+		(at 246.38 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d86f584e-1488-4a51-81a8-ef731a1cb99a")
 	)
 	(junction
 		(at 120.65 36.83)
@@ -7720,6 +7714,10 @@
 		(uuid "2f577f0e-2224-4d61-8059-6b0255e1de88")
 	)
 	(no_connect
+		(at 30.48 130.81)
+		(uuid "355df928-fb0d-4216-818b-eb6dbbd63ebb")
+	)
+	(no_connect
 		(at 195.58 97.79)
 		(uuid "3727e28c-ed06-4790-b1b5-4b69b0d9302b")
 	)
@@ -7770,6 +7768,10 @@
 	(no_connect
 		(at 195.58 74.93)
 		(uuid "990f1fc1-6f61-4c91-adf7-71b2a483bba0")
+	)
+	(no_connect
+		(at 153.67 127)
+		(uuid "9a3004cb-b971-4298-a050-87b0c9096098")
 	)
 	(no_connect
 		(at 22.86 87.63)
@@ -7830,6 +7832,10 @@
 	(no_connect
 		(at 22.86 90.17)
 		(uuid "e7e08b48-3d04-49da-8349-6de530a20c67")
+	)
+	(no_connect
+		(at 153.67 129.54)
+		(uuid "e869c8f8-f5ae-4eb3-859a-cd7d57206b37")
 	)
 	(no_connect
 		(at 195.58 110.49)
@@ -7902,16 +7908,6 @@
 			(type default)
 		)
 		(uuid "04cf2f2c-74bf-400d-b4f6-201720df00ed")
-	)
-	(wire
-		(pts
-			(xy 185.42 -33.02) (xy 191.77 -33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04eb69a9-0af1-4a24-a7ba-c7fd3679cd83")
 	)
 	(wire
 		(pts
@@ -8405,7 +8401,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 146.05) (xy 271.78 147.32)
+			(xy 273.05 146.05) (xy 273.05 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8542,6 +8538,16 @@
 			(type default)
 		)
 		(uuid "41c2d457-92cb-4b0b-8315-a346e993c884")
+	)
+	(wire
+		(pts
+			(xy 185.42 -33.02) (xy 191.77 -33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a6eaf3-257e-486e-b306-8bbd3baee298")
 	)
 	(wire
 		(pts
@@ -8685,6 +8691,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 27.94) (xy 270.51 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0b5a17-4316-44de-be4e-2eff6615ffb7")
+	)
+	(wire
+		(pts
 			(xy 22.86 128.27) (xy 30.48 128.27)
 		)
 		(stroke
@@ -8692,6 +8708,16 @@
 			(type default)
 		)
 		(uuid "4e315e69-0417-463a-8b7f-469a08d1496e")
+	)
+	(wire
+		(pts
+			(xy 273.05 156.21) (xy 273.05 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e37c0bc-a1ac-4b53-a401-caac99fa1b7e")
 	)
 	(wire
 		(pts
@@ -9555,16 +9581,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 146.05) (xy 273.05 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a96efba8-1848-444c-b582-6bd09dec0fca")
-	)
-	(wire
-		(pts
 			(xy 220.98 69.85) (xy 227.33 69.85)
 		)
 		(stroke
@@ -9725,6 +9741,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 22.86) (xy 270.51 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c09b23cc-2fe4-4340-8a05-465cae142d14")
+	)
+	(wire
+		(pts
 			(xy 22.86 161.29) (xy 30.48 161.29)
 		)
 		(stroke
@@ -9875,7 +9901,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 146.05) (xy 271.78 146.05)
+			(xy 262.89 146.05) (xy 273.05 146.05)
 		)
 		(stroke
 			(width 0)
@@ -10473,6 +10499,16 @@
 		)
 		(uuid "0a1a4d88-972a-46ce-b25e-6cb796bd41f7")
 	)
+	(label "Rsum"
+		(at 208.28 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c558e52-72d8-4910-abac-8b1faef2e50e")
+	)
 	(label "A3"
 		(at 30.48 110.49 180)
 		(effects
@@ -10593,6 +10629,16 @@
 		)
 		(uuid "30317bf0-88bb-49e7-bf8b-9f3883982225")
 	)
+	(label "Lsum"
+		(at 207.01 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30a849af-1b87-40f8-b31d-3a0812a6cfbe")
+	)
 	(label "A6"
 		(at 30.48 102.87 180)
 		(effects
@@ -10652,6 +10698,26 @@
 			(justify left bottom)
 		)
 		(uuid "4185c36c-c66e-4dbd-be5d-841e551f4885")
+	)
+	(label "Rbuf"
+		(at 264.16 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42193a98-a88e-479d-a70a-c0a0bb23a371")
+	)
+	(label "Rbuf"
+		(at 254 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45cdfdbb-65ef-45c3-be08-fd6b773456dc")
 	)
 	(label "~{IORQ}"
 		(at 30.48 143.51 180)
@@ -10734,12 +10800,12 @@
 		(uuid "66218487-e316-4467-9eba-79d4626ab24e")
 	)
 	(label "Lsum"
-		(at 186.69 -64.77 0)
+		(at 191.77 -64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "675ba27c-479b-46bb-a1e7-98b02f1161f5")
 	)
@@ -10813,23 +10879,13 @@
 		)
 		(uuid "7e0a03ae-d054-4f76-a131-5c09b8dc1636")
 	)
-	(label "Rsum"
-		(at 207.01 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f74d78a-bdf1-4c99-a611-529520132123")
-	)
 	(label "Lsum"
-		(at 186.69 -26.67 0)
+		(at 191.77 -26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7fb2a01b-8aae-4bb4-9d18-0c331eafd9bc")
 	)
@@ -10842,6 +10898,16 @@
 			(justify right bottom)
 		)
 		(uuid "82be7aae-5d06-4178-8c3e-98760c41b054")
+	)
+	(label "Lbuf"
+		(at 252.73 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "877da5e2-ba4d-4b01-8572-7197579f7425")
 	)
 	(label "IOA7"
 		(at 190.5 87.63 0)
@@ -10882,16 +10948,6 @@
 			(justify left bottom)
 		)
 		(uuid "8de2d84c-ff45-4d4f-bc49-c166f6ae6b91")
-	)
-	(label "Rbuf"
-		(at 247.65 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e37b5b6-5203-49bd-9e5e-0a0226d88e37")
 	)
 	(label "A6"
 		(at 68.58 29.21 0)
@@ -10994,24 +11050,14 @@
 		(uuid "b648512a-21f4-4a63-abe3-cc1f44db7fd0")
 	)
 	(label "Lsum"
-		(at 186.69 -45.72 0)
+		(at 191.77 -45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
-		)
-		(uuid "bb6d4713-6eb4-4d28-95ee-0d9b26e8d4c5")
-	)
-	(label "BUSCLK"
-		(at 30.48 130.81 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
 			(justify right bottom)
 		)
-		(uuid "bd9595a1-04f3-4fda-8f1b-e65ad874edd3")
+		(uuid "bb6d4713-6eb4-4d28-95ee-0d9b26e8d4c5")
 	)
 	(label "~{RESET}"
 		(at 30.48 128.27 180)
@@ -11054,12 +11100,12 @@
 		(uuid "c25449d6-d734-4953-b762-98f82a830248")
 	)
 	(label "Rsum"
-		(at 186.69 -33.02 0)
+		(at 191.77 -33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c25621e7-6af6-4233-b068-9833843c211e")
 	)
@@ -11074,12 +11120,12 @@
 		(uuid "c4cab9c5-d6e5-4660-b910-603a51b56783")
 	)
 	(label "Rsum"
-		(at 186.69 -52.07 0)
+		(at 191.77 -52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c7e66293-5652-454e-b2bb-fabc366ac1f2")
 	)
@@ -11093,6 +11139,16 @@
 		)
 		(uuid "c9b9e62d-dede-4d1a-9a05-275614f8bdb2")
 	)
+	(label "Lbuf"
+		(at 264.16 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cab25b1c-0c26-44db-86c1-636d44d199d8")
+	)
 	(label "~{IORQ}"
 		(at 69.85 102.87 0)
 		(effects
@@ -11102,16 +11158,6 @@
 			(justify left bottom)
 		)
 		(uuid "cb16d05e-318b-4e51-867b-70d791d75bea")
-	)
-	(label "Lbuf"
-		(at 248.92 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb66bc45-3b46-4a86-ba96-0bbf76651587")
 	)
 	(label "IOA4"
 		(at 190.5 80.01 0)
@@ -11303,23 +11349,13 @@
 		)
 		(uuid "f27535ac-cd92-4fb3-ab9e-54e2a82c7507")
 	)
-	(label "Lsum"
-		(at 208.28 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f42ba7e2-4115-4801-b7a2-899e098d0d0f")
-	)
 	(label "Rsum"
-		(at 186.69 -13.97 0)
+		(at 191.77 -13.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f44ca816-7d4e-42ba-b61c-109bb54e31f2")
 	)
@@ -18382,7 +18418,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 152.4 0)
+		(at 273.05 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18392,7 +18428,7 @@
 		(dnp no)
 		(uuid "94d44d5d-f2ad-49dd-9433-7850c413c426")
 		(property "Reference" "#PWR032"
-			(at 271.78 158.75 0)
+			(at 273.05 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18403,7 +18439,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 156.21 0)
+			(at 273.05 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18413,7 +18449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 152.4 0)
+			(at 273.05 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18424,7 +18460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 152.4 0)
+			(at 273.05 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18435,7 +18471,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 152.4 0)
+			(at 273.05 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18775,104 +18811,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xP")
-		(at 233.68 38.1 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98faec78-d301-4eb4-893d-bef149ef01b1")
-		(property "Reference" "U6"
-			(at 233.68 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6002-xP"
-			(at 233.68 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 233.68 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 233.68 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 233.68 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "8c76ee30-a95a-48c4-9c26-73d5589d4775")
-		)
-		(pin "6"
-			(uuid "7a0260a8-246f-4917-a6df-9a4c562d9ef7")
-		)
-		(pin "7"
-			(uuid "e3c11769-9fd3-42db-a102-266c94d11520")
-		)
-		(pin "4"
-			(uuid "66185ef3-b8a9-40ad-91a2-c1a9e1c7d8b4")
-		)
-		(pin "3"
-			(uuid "4bab94ac-980c-4aeb-b8ad-4be066154926")
-		)
-		(pin "2"
-			(uuid "ef9d7630-9358-4ab8-8935-fe9b26f43ea0")
-		)
-		(pin "1"
-			(uuid "a700898c-b65f-43b7-99a9-bf66e7e16a5d")
-		)
-		(pin "8"
-			(uuid "b3b5c77a-6f7f-4c54-b57a-9f435da9b3c9")
-		)
-		(instances
-			(project "rc2014-ym2149"
-				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
-					(reference "U6")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal")
 		(at 71.12 146.05 0)
 		(unit 1)
@@ -19144,6 +19082,104 @@
 			(project "rc2014-ym2149"
 				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6002-xP")
+		(at 233.68 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaafc403-cbf8-402a-8416-12dc50bf6545")
+		(property "Reference" "U6"
+			(at 233.68 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6002-xP"
+			(at 233.68 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+			(at 233.68 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 233.68 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
+			(at 233.68 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "0ec52d25-3371-4b98-8ee9-164f93308535")
+		)
+		(pin "6"
+			(uuid "e0de86f9-5c02-48cc-b5e4-fbe9e705269d")
+		)
+		(pin "7"
+			(uuid "927525db-ab80-4878-9767-b209dd6a08c4")
+		)
+		(pin "4"
+			(uuid "66185ef3-b8a9-40ad-91a2-c1a9e1c7d8b2")
+		)
+		(pin "3"
+			(uuid "0e5a1b63-2f66-4619-925c-a452fbd3ba73")
+		)
+		(pin "2"
+			(uuid "157dd235-7aff-43b6-8863-b0d810ef109a")
+		)
+		(pin "1"
+			(uuid "71b13bdb-3cbb-4862-93c1-a376bf26f12a")
+		)
+		(pin "8"
+			(uuid "b3b5c77a-6f7f-4c54-b57a-9f435da9b3c7")
+		)
+		(instances
+			(project "rc2014-ym2149"
+				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -19540,6 +19576,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:MCP6002-xP")
+		(at 234.95 67.31 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf6b62b4-0b75-4b2c-8cc2-f8b4c73b1dd1")
+		(property "Reference" "U6"
+			(at 234.95 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6002-xP"
+			(at 234.95 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+			(at 234.95 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 234.95 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
+			(at 234.95 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "29007b3b-3997-4aba-b3ec-ab29c14cc670")
+		)
+		(pin "6"
+			(uuid "3972b347-d9ec-438e-bdaa-b36bcff4a5a9")
+		)
+		(pin "7"
+			(uuid "a40701d3-0180-49ff-9c72-f0838ea82be1")
+		)
+		(pin "4"
+			(uuid "66185ef3-b8a9-40ad-91a2-c1a9e1c7d8b4")
+		)
+		(pin "3"
+			(uuid "4bab94ac-980c-4aeb-b8ad-4be066154926")
+		)
+		(pin "2"
+			(uuid "ef9d7630-9358-4ab8-8935-fe9b26f43ea0")
+		)
+		(pin "1"
+			(uuid "a700898c-b65f-43b7-99a9-bf66e7e16a5d")
+		)
+		(pin "8"
+			(uuid "b3b5c77a-6f7f-4c54-b57a-9f435da9b3c9")
+		)
+		(instances
+			(project "rc2014-ym2149"
+				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
 		(at 172.72 -20.32 0)
 		(unit 1)
@@ -19738,104 +19872,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xP")
-		(at 234.95 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dce81e76-0220-4895-a31d-b110cf447632")
-		(property "Reference" "U6"
-			(at 234.95 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6002-xP"
-			(at 234.95 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 234.95 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 234.95 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 234.95 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "0ec52d25-3371-4b98-8ee9-164f93308535")
-		)
-		(pin "6"
-			(uuid "e0de86f9-5c02-48cc-b5e4-fbe9e705269d")
-		)
-		(pin "7"
-			(uuid "927525db-ab80-4878-9767-b209dd6a08c4")
-		)
-		(pin "4"
-			(uuid "66185ef3-b8a9-40ad-91a2-c1a9e1c7d8b2")
-		)
-		(pin "3"
-			(uuid "22c22146-961c-4631-bdd8-ee96e6cb7884")
-		)
-		(pin "2"
-			(uuid "8b0141b1-7a48-46c4-8cdc-bbbf0cd9b7b0")
-		)
-		(pin "1"
-			(uuid "b98d0e8d-cc80-4da9-9193-ffdeda485477")
-		)
-		(pin "8"
-			(uuid "b3b5c77a-6f7f-4c54-b57a-9f435da9b3c7")
-		)
-		(instances
-			(project "rc2014-ym2149"
-				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 125.73 0)
 		(unit 1)
@@ -19914,7 +19950,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 271.78 149.86 0)
+		(at 273.05 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19924,7 +19960,7 @@
 		(dnp no)
 		(uuid "e8fc6dcb-bc15-412c-97b6-e1feec416ab1")
 		(property "Reference" "C11"
-			(at 272.415 147.32 0)
+			(at 273.685 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19935,7 +19971,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 272.415 152.4 0)
+			(at 273.685 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19946,7 +19982,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
-			(at 271.78 149.86 0)
+			(at 273.05 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19957,7 +19993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 149.86 0)
+			(at 273.05 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19968,7 +20004,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 271.78 149.86 0)
+			(at 273.05 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
