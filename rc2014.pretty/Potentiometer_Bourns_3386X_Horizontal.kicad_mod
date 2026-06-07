@@ -1,0 +1,217 @@
+(footprint "Potentiometer_Bourns_3386X_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, horizontal, Bourns 3386X, https://www.bourns.com/pdfs/3386.pdf")
+	(tags "Potentiometer horizontal Bourns 3386X")
+	(property "Reference" "RV1"
+		(at -2.46 2.64 90)
+		(layer "F.SilkS")
+		(uuid "5b76d825-16a9-4d6c-9c4f-7278ddd7caf0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10K"
+		(at 0 8.555 0)
+		(layer "F.Fab")
+		(uuid "d29248f7-a895-4b14-b66b-35d5aa8e9b49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9e329de-a8b8-4a18-ad9b-b10bee873e37")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Trim-potentiometer"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac5d3e1b-3e18-4b16-bcc7-f36a5c98649b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "potentiometer/THT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8d0600ba-99d3-4689-afe8-a1d9948a8740")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a8c505c-facf-4105-8458-4463e773adc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Type" "POT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea9c2ac6-d032-46ee-9074-b164750533f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a951d06-c4a4-47cc-bd6c-2c4695fe01aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Potentiometer*")
+	(sheetname "/")
+	(sheetfile "rc2014-ym2149.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.255 -2.335)
+		(end 3.795 -2.335)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d09aef8c-53f2-43fa-84be-401dbbfe2077")
+	)
+	(fp_line
+		(start -1.255 7.415)
+		(end -1.255 -2.335)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9cd6eaf-8f7b-4535-8435-ea2e2f27ca88")
+	)
+	(fp_line
+		(start 3.795 -2.335)
+		(end 3.795 7.415)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91e3bc96-31a8-4df4-996a-4e7ac2625e31")
+	)
+	(fp_line
+		(start 3.795 7.415)
+		(end -1.255 7.415)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53a65a87-e3b4-467c-9c76-8bd10c53635b")
+	)
+	(fp_rect
+		(start -1.4 -2.48)
+		(end 3.94 7.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "afd103b0-cf38-4147-afa6-c3e2e88f639d")
+	)
+	(fp_rect
+		(start -1.145 -2.225)
+		(end 3.685 7.305)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f28042cd-0753-4984-875c-db324b747a4f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 2.54 0)
+		(layer "F.Fab")
+		(uuid "0612df18-b764-41a6-9b51-5b9f7f1fee27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d0ca8baa-1bb1-43f3-8064-d3fb9f198761")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 2.54)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c55f35a6-f0b8-409e-a3d7-969b20d2d49b")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d1189980-6b8d-4163-b18b-4dc752c02bff")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/3386X_28T_29.stp"
+		(offset
+			(xyz 3.7 -2.5 5.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -0)
+		)
+	)
+)
