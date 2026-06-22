@@ -1,0 +1,300 @@
+# This is a working example.
+# For a more complete reference use `--example`
+kibot:
+  version: 1
+
+global:
+  filters:
+  - number: 1007
+  - number: 1015
+  - number: 58
+  - number: 107
+
+import:
+- file: JLCPCB
+  definitions:
+    _KIBOT_MANF_DIR: Manufacturers/JLCPCB
+    _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
+    _KIBOT_BOM_ENABLED: 'false'
+- file: PCB2Blender_2_1
+- file: PCBWay
+  definitions:
+    _KIBOT_MANF_DIR: Manufacturers/PCBWay
+
+preflight:
+  drc:
+    dont_stop: true
+    format: HTML,RPT,JSON,CSV
+  erc:
+    dont_stop: true
+    format: HTML,RPT,JSON,CSV
+  set_text_variables:
+    # The revision will be the short git hash
+    # We use ${git_hash} for the REV field in the worksheet (frame)
+    - name: 'GIT_HASH'
+      command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
+      before: 'Git:'
+    # Coherent date and time for the schematic and PCB
+    # This will be the time stamp of the files generation, not the commit times
+    # We use `${date}` for the time field in the worksheet (frame)
+    - name: 'DATE'
+      command: 'date --iso-8601=minutes'
+    - name: 'VERSION'
+      command: 'echo $VERSION'
+
+outputs:
+- name: basic_blender_export
+  comment: 3D view from top/30 deg/bottom (Blender)
+  type: blender_export
+  dir: 3D
+  options:
+    pcb3d: _PCB2Blender_2_1
+    outputs:
+    - type: render
+    - type: blender
+    point_of_view:
+    - view: top
+    - rotate_x: 30
+      rotate_z: -20
+      file_id: _30deg
+    - view: bottom
+- name: generic_bom_html
+  comment: Generic Bill of Materials in HTML format
+  type: bom
+  dir: BoM/Generic
+  options:
+    format: HTML
+    group_fields: &id001
+    - part
+    - part lib
+    - value
+    - footprint
+    - footprint lib
+    - voltage
+    - tolerance
+    - current
+    - power
+    - mpn
+    - Farnell_URI
+    count_smd_tht: true
+- name: generic_bom_csv
+  comment: Generic Bill of Materials in CSV format
+  type: bom
+  dir: BoM/Generic
+  options:
+    format: CSV
+    group_fields: *id001
+    count_smd_tht: true
+- name: basic_download_datasheets
+  comment: Download the datasheets
+  type: download_datasheets
+  dir: Datasheets
+- name: basic_ibom
+  comment: Interactive HTML BoM
+  type: ibom
+  dir: Assembly
+- name: basic_info
+  comment: Information about the run
+  type: info
+  dir: .
+- name: basic_kicanvas
+  comment: Web page to browse the schematic and/or PCB
+  type: kicanvas
+  dir: Browse
+  options:
+    source:
+    - schematic
+    - pcb
+- name: basic_kiri
+  comment: Interactive diff between commits
+  type: kiri
+  dir: diff
+  layers:
+  - layer: Front
+    suffix: Front
+    description: No description
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: Back
+    suffix: Back
+    description: No description
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Bottom soldermask (negative)
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Bottom silkscreen (artwork)
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: User.Drawings
+    suffix: User_Drawings
+    description: User drawings
+  - layer: User.Comments
+    suffix: User_Comments
+    description: User comments
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+  - layer: F.Courtyard
+    suffix: F_Courtyard
+    description: Front courtyard area
+  - layer: F.Fab
+    suffix: F_Fab
+    description: Front documentation
+  options:
+    max_commits: 4
+- name: basic_navigate_results_rb
+  comment: Web page to browse the results
+  type: navigate_results_rb
+  dir: Browse
+  options:
+    link_from_root: index.html
+    skip_not_run: true
+- name: basic_pcb_print_pdf
+  comment: PCB
+  type: pcb_print
+  dir: PCB/PDF
+  options:
+    format: PDF
+    pages:
+    - layers:
+      - layer: F.Cu
+      - layer: F.Mask
+        color: '#14332440'
+      - layer: F.Paste
+      - layer: F.Silkscreen
+      - layer: Edge.Cuts
+      - layer: User.Drawings
+      - layer: User.Comments
+      sheet: No description
+    - layers:
+      - layer: F.Mask
+        color: '#14332440'
+      - layer: Edge.Cuts
+      - layer: User.Drawings
+      - layer: User.Comments
+      sheet: Front soldermask (negative)
+    - layers:
+      - layer: B.Cu
+      - layer: B.Mask
+        color: '#14332440'
+      - layer: B.Silkscreen
+      - layer: Edge.Cuts
+      - layer: User.Drawings
+      - layer: User.Comments
+      mirror: true
+      sheet: No description
+    - layers:
+      - layer: F.Courtyard
+      - layer: Edge.Cuts
+      - layer: User.Drawings
+      - layer: User.Comments
+      sheet: Front courtyard area
+    - layers:
+      - layer: F.Fab
+      - layer: Edge.Cuts
+      - layer: User.Drawings
+      - layer: User.Comments
+      sheet: Front documentation
+    - repeat_for_layer: User.Drawings
+      repeat_layers: drill_pairs
+      layers:
+      - layer: User.Drawings
+        color: '#000000'
+      - layer: Edge.Cuts
+        color: '#000000'
+    keep_temporal_files: true
+- name: basic_pcbdraw_svg_set_blue_enig_top
+  comment: PCB 2D render in SVG format, using set-blue-enig style
+  type: pcbdraw
+  dir: PCB/2D_render/set_blue_enig
+  options:
+    style: set-blue-enig
+    format: svg
+- name: basic_pcbdraw_png_set_blue_enig_top
+  comment: PCB 2D render in PNG format, using set-blue-enig style
+  type: pcbdraw
+  dir: PCB/2D_render/set_blue_enig
+  options:
+    style: set-blue-enig
+    format: png
+- name: basic_pcbdraw_svg_set_blue_enig_bottom
+  comment: PCB 2D render in SVG format, using set-blue-enig style
+  type: pcbdraw
+  dir: PCB/2D_render/set_blue_enig
+  options:
+    style: set-blue-enig
+    format: svg
+    bottom: true
+- name: basic_pcbdraw_png_set_blue_enig_bottom
+  comment: PCB 2D render in PNG format, using set-blue-enig style
+  type: pcbdraw
+  dir: PCB/2D_render/set_blue_enig
+  options:
+    style: set-blue-enig
+    format: png
+    bottom: true
+- name: basic_pdf
+  comment: Individual layers in PDF format
+  type: pdf
+  dir: Individual_Layers/PDF
+  layers:
+  - layer: Front
+    suffix: Front
+    description: No description
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: Back
+    suffix: Back
+    description: No description
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Bottom soldermask (negative)
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Bottom silkscreen (artwork)
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: User.Drawings
+    suffix: User_Drawings
+    description: User drawings
+  - layer: User.Comments
+    suffix: User_Comments
+    description: User comments
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+  - layer: F.Courtyard
+    suffix: F_Courtyard
+    description: Front courtyard area
+  - layer: F.Fab
+    suffix: F_Fab
+    description: Front documentation
+- name: basic_pdf_sch_print
+  comment: Schematic in PDF format
+  type: pdf_sch_print
+  dir: Schematic
+...
+definitions:
+  _KIBOT_MANF_DIR_COMP: Manufacturers
+  _KIBOT_GERBER_LAYERS: "- layer: 'Front'\n        suffix: 'Front'\n        description:\
+    \ 'No description'\n      - layer: 'F.Mask'\n        suffix: 'F_Mask'\n      \
+    \  description: 'Front soldermask (negative)'\n      - layer: 'Back'\n       \
+    \ suffix: 'Back'\n        description: 'No description'\n      - layer: 'B.Mask'\n\
+    \        suffix: 'B_Mask'\n        description: 'Bottom soldermask (negative)'\n\
+    \      - layer: 'F.Silkscreen'\n        suffix: 'F_Silkscreen'\n        description:\
+    \ 'Front silkscreen (artwork)'\n      - layer: 'B.Silkscreen'\n        suffix:\
+    \ 'B_Silkscreen'\n        description: 'Bottom silkscreen (artwork)'\n      -\
+    \ layer: 'F.Paste'\n        suffix: 'F_Paste'\n        description: 'Front solder\
+    \ paste'\n      - layer: 'Edge.Cuts'\n        suffix: 'Edge_Cuts'\n        description:\
+    \ 'Board shape'"

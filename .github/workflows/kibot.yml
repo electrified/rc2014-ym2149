@@ -1,4 +1,4 @@
-name: "RCBus OPL3 build"
+name: "RC2014 YM2149 build"
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events for KiCad files and KiBot config
@@ -30,7 +30,7 @@ jobs:
     - name: Archive Generated for release
       run: |
         if ! command -v zip >/dev/null; then sudo apt-get update && sudo apt-get install -y zip; fi
-        zip -r "rcbus-opl3-${{ env.VERSION }}.zip" Generated
+        zip -r "rc2014-ym2149-${{ env.VERSION }}.zip" Generated
     - name: Release version
       uses: softprops/action-gh-release@v2
       if: ${{ github.ref_name == github.event.repository.default_branch }}
@@ -39,7 +39,7 @@ jobs:
         prerelease: false
         tag_name: "${{ env.VERSION }}"
         files: |
-          "rcbus-opl3-${{ env.VERSION }}.zip"
+          "rc2014-ym2149-${{ env.VERSION }}.zip"
     - name: Retrieve results
       uses: actions/upload-artifact@v5
       with:
@@ -70,5 +70,5 @@ jobs:
       with:
         branch: main
         folder: Generated
-        repository-name: electrified/rcbus-opl3-site
+        repository-name: electrified/rc2014-ym2149-site
         token: ${{ secrets.TOKEN }}
