@@ -24,7 +24,7 @@ jobs:
       run: |
         echo "VERSION=${{ steps.version.outputs.version }}" >> $GITHUB_ENV
     - name: Quick Start
-      uses: INTI-CMNB/KiBot@v2_k9
+      uses: INTI-CMNB/KiBot@v2_k10
       with:
         dir: Generated
     - name: Archive Generated for release
