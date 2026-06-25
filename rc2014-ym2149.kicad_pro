@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -52,9 +52,9 @@
         "zones": {
           "45_degree_only": false,
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
+          "border_hatch_pitch": 0.508,
           "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -63,11 +63,11 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.508,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.254,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.508,
+          "thermal_relief_spoke_width": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -268,7 +268,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "6.1"
+      "sch_revision": "7.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -541,82 +541,6 @@
         "via_diameter": 0.8,
         "via_drill": 0.45,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.254,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.762,
-        "microvia_drill": 0.508,
-        "name": "IO",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.45,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.254,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.762,
-        "microvia_drill": 0.508,
-        "name": "analogue",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.508,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.45,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.254,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.762,
-        "microvia_drill": 0.508,
-        "name": "gnd",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.762,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.45,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.254,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.762,
-        "microvia_drill": 0.508,
-        "name": "vcc",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.762,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.45,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -626,55 +550,55 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "IO",
+        "netclass": "Default",
         "pattern": "/IOA0"
       },
       {
-        "netclass": "IO",
+        "netclass": "Default",
         "pattern": "/IOA3"
       },
       {
-        "netclass": "IO",
+        "netclass": "Default",
         "pattern": "/IOA5"
       },
       {
-        "netclass": "IO",
+        "netclass": "Default",
         "pattern": "/IOA7"
       },
       {
-        "netclass": "IO",
+        "netclass": "Default",
         "pattern": "/IOB1"
       },
       {
-        "netclass": "IO",
+        "netclass": "Default",
         "pattern": "/IOB3"
       },
       {
-        "netclass": "IO",
+        "netclass": "Default",
         "pattern": "/IOB5"
       },
       {
-        "netclass": "IO",
+        "netclass": "Default",
         "pattern": "/IOB7"
       },
       {
-        "netclass": "analogue",
+        "netclass": "Default",
         "pattern": "/CH_A"
       },
       {
-        "netclass": "analogue",
+        "netclass": "Default",
         "pattern": "/CH_B"
       },
       {
-        "netclass": "analogue",
+        "netclass": "Default",
         "pattern": "/CH_C"
       },
       {
-        "netclass": "gnd",
+        "netclass": "Default",
         "pattern": "GND"
       },
       {
-        "netclass": "vcc",
+        "netclass": "Default",
         "pattern": "VCC"
       }
     ]
@@ -749,12 +673,54 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser_URI",
+          "name": "Mouser_URI",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -817,7 +783,7 @@
         "uuid": "35a9f71f-ba35-47f6-814e-4106ac36c51e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR15,#PWR109,J1",
     "variants": []
   },
   "sheets": [
