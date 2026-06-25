@@ -3,27 +3,6 @@
 kibot:
   version: 1
 
-global:
-  filters:
-  - number: 1007
-  - number: 1015
-  - number: 58
-  - number: 107
-  - filter: 'Ignore hole courtyard overlapping 1'
-    error: 'courtyards_overlap'
-    regex:  'Footprint JP6'
-  - filter: 'Ignore hole courtyard overlapping 2'
-    error: 'courtyards_overlap'
-    regex:  'Footprint H1'
-  - filter: 'thermal1'
-    error: 'starved_thermal'
-    regex:  'Zone [GND] on B.Cu, priority 0'
-  - filter: 'thermal2'
-    error: 'starved_thermal'
-    regex:  'PTH pad 2 [GND] of C5'
-  - filter: 'thermal3'
-    error: 'starved_thermal'
-    regex:  'PTH pad 7 [GND] of U4'
 import:
 - file: JLCPCB
   definitions:
@@ -39,6 +18,22 @@ preflight:
   drc:
     dont_stop: true
     format: HTML,RPT,JSON,CSV
+    filters:
+    - filter: 'Ignore hole courtyard overlapping 1'
+      error: 'courtyards_overlap'
+      regex:  'Footprint JP6'
+    - filter: 'Ignore hole courtyard overlapping 2'
+      error: 'courtyards_overlap'
+      regex:  'Footprint H1'
+    - filter: 'thermal1'
+      error: 'starved_thermal'
+      regex:  'Zone [GND] on B.Cu, priority 0'
+    - filter: 'thermal2'
+      error: 'starved_thermal'
+      regex:  'PTH pad 2 [GND] of C5'
+    - filter: 'thermal3'
+      error: 'starved_thermal'
+      regex:  'PTH pad 7 [GND] of U4'
   erc:
     dont_stop: true
     format: HTML,RPT,JSON,CSV
