@@ -112,15 +112,15 @@ outputs:
   type: kiri
   dir: diff
   layers:
-  - layer: Front
-    suffix: Front
-    description: No description
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper layer
   - layer: F.Mask
     suffix: F_Mask
     description: Front soldermask (negative)
-  - layer: Back
-    suffix: Back
-    description: No description
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Bottom copper layer
   - layer: B.Mask
     suffix: B_Mask
     description: Bottom soldermask (negative)
@@ -246,15 +246,15 @@ outputs:
   type: pdf
   dir: Individual_Layers/PDF
   layers:
-  - layer: Front
-    suffix: Front
-    description: No description
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper layer
   - layer: F.Mask
     suffix: F_Mask
     description: Front soldermask (negative)
-  - layer: Back
-    suffix: Back
-    description: No description
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Bottom copper layer
   - layer: B.Mask
     suffix: B_Mask
     description: Bottom soldermask (negative)
