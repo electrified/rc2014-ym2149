@@ -1,9 +1,26 @@
 name: "RC2014 YM2149 build"
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events for KiCad files and KiBot config
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - '**'
+    paths:
+      - '**/*.kicad_pcb'
+      - '**/*.kicad_sch'
+      - '**/*.kibot.yaml'
+      - '.github/workflows/kibot.yml'
+  pull_request:
+    branches:
+      - '**'
+    paths:
+      - '**/*.kicad_pcb'
+      - '**/*.kicad_sch'
+      - '**/*.kibot.yaml'
+      - '.github/workflows/kibot.yml'
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -11,26 +28,30 @@ jobs:
     steps:
     - uses: actions/checkout@v6
       with:
-        # So we can run a diff between last 2 changes
         fetch-depth: '0'
         submodules: recursive
+
     - name: Get next version
       uses: reecetech/version-increment@2024.10.1
       id: version
       with:
         scheme: semver
         increment: patch
+
     - name: Save info in environment variables
       run: |
         echo "VERSION=${{ steps.version.outputs.version }}" >> $GITHUB_ENV
+
     - name: Quick Start
-      uses: INTI-CMNB/KiBot@v2_k9
+      uses: INTI-CMNB/KiBot@v2_k10
       with:
         dir: Generated
+
     - name: Archive Generated for release
       run: |
         if ! command -v zip >/dev/null; then sudo apt-get update && sudo apt-get install -y zip; fi
         zip -r "rc2014-ym2149-${{ env.VERSION }}.zip" Generated
+
     - name: Release version
       uses: softprops/action-gh-release@v2
       if: ${{ github.ref_name == github.event.repository.default_branch }}
@@ -40,16 +61,17 @@ jobs:
         tag_name: "${{ env.VERSION }}"
         files: |
           "rc2014-ym2149-${{ env.VERSION }}.zip"
+
     - name: Retrieve results
       uses: actions/upload-artifact@v5
       with:
         name: Automatic_outputs
         path: Generated
 
-  # This step is to upload the results to another repo (web pages)
   deploy:
     runs-on: ubuntu-latest
     needs: build
+    if: github.event_name != 'pull_request'
 
     steps:
     - uses: actions/checkout@v6
@@ -61,14 +83,22 @@ jobs:
         path: Generated
 
     - name: Disable Jekyll
-      # Jekyll will filter the KiRi folders
       run: |
         touch Generated/.nojekyll
 
+    - name: Derive deployment folder
+      run: |
+        SAFE_REF="${GITHUB_REF_NAME//\//-}"
+        echo "DEPLOY_SUBDIR=$SAFE_REF" >> "$GITHUB_ENV"
+
     - name: Deploy navigate results
-      uses: JamesIves/github-pages-deploy-action@v4
+      uses: peaceiris/actions-gh-pages@v4
       with:
-        branch: main
-        folder: Generated
-        repository-name: electrified/rc2014-ym2149-site
-        token: ${{ secrets.TOKEN }}
+        personal_token: ${{ secrets.TOKEN }}
+        external_repository: electrified/rc2014-ym2149-site
+        publish_branch: main
+        publish_dir: ./Generated
+        destination_dir: ${{ env.DEPLOY_SUBDIR }}
+        keep_files: true
+        allow_empty_commit: false
+        enable_jekyll: false
