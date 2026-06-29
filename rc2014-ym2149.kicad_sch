@@ -8162,6 +8162,12 @@
 		(uuid "1631528d-8107-4931-badb-469c0f561852")
 	)
 	(junction
+		(at 111.76 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26de0201-6366-4732-854c-de3f85bcbc2b")
+	)
+	(junction
 		(at 311.15 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9771,6 +9777,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 172.72) (xy 114.3 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6773086b-44f0-46b8-85fe-b9873d47bf52")
+	)
+	(wire
+		(pts
 			(xy 149.86 107.95) (xy 160.02 107.95)
 		)
 		(stroke
@@ -10071,7 +10087,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 172.72) (xy 114.3 172.72)
+			(xy 110.49 172.72) (xy 111.76 172.72)
 		)
 		(stroke
 			(width 0)
@@ -11051,6 +11067,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 154.94) (xy 111.76 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50dcc57-3450-44b4-8579-e6dcb7354a04")
+	)
+	(wire
+		(pts
 			(xy 299.72 50.8) (xy 312.42 50.8)
 		)
 		(stroke
@@ -11768,16 +11794,6 @@
 			(justify left bottom)
 		)
 		(uuid "8de2d84c-ff45-4d4f-bc49-c166f6ae6b91")
-	)
-	(label "YMCLK"
-		(at 111.76 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e431fb5-e6ac-4d72-9822-955a00974091")
 	)
 	(label "A6"
 		(at 110.49 43.18 0)
@@ -21458,7 +21474,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "10uF"
 			(at 321.945 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
