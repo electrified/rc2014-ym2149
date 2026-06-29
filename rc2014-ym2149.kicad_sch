@@ -2234,7 +2234,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:MCP6002-xP"
+		(symbol "Amplifier_Operational:MCP6022"
 			(pin_names
 				(offset 0.127)
 			)
@@ -2254,7 +2254,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCP6002-xP"
+			(property "Value" "MCP6022"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2276,7 +2276,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2287,7 +2287,7 @@
 					)
 				)
 			)
-			(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
+			(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2308,7 +2308,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "dual opamp"
+			(property "ki_keywords" "dual opamp rail-to-rail"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2330,7 +2330,7 @@
 					)
 				)
 			)
-			(symbol "MCP6002-xP_1_1"
+			(symbol "MCP6022_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -2398,7 +2398,7 @@
 					)
 				)
 			)
-			(symbol "MCP6002-xP_2_1"
+			(symbol "MCP6022_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -2466,7 +2466,7 @@
 					)
 				)
 			)
-			(symbol "MCP6002-xP_3_1"
+			(symbol "MCP6022_3_1"
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
@@ -8094,16 +8094,6 @@
 			)
 		)
 		(uuid "8f74b2ce-ae04-4874-9c0f-96f1bef3734d")
-	)
-	(text "capacitor in parallel??"
-		(exclude_from_sim no)
-		(at 315.722 88.646 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ab8b5fa5-eff2-40f8-a298-4bfdf0c207f8")
 	)
 	(text "Audio output\n"
 		(exclude_from_sim no)
@@ -16458,7 +16448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xP")
+		(lib_id "Amplifier_Operational:MCP6022")
 		(at 349.25 109.22 0)
 		(unit 3)
 		(body_style 1)
@@ -16480,7 +16470,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP6002-xP"
+		(property "Value" "MCP6022"
 			(at 347.98 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16491,7 +16481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+		(property "Footprint" ""
 			(at 349.25 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -16502,7 +16492,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
 			(at 349.25 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -16513,29 +16503,7 @@
 				)
 			)
 		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 349.25 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MCP6002-I/P"
-			(at 349.25 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser_URI" "https://mou.sr/46pfjsY"
+		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
 			(at 349.25 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -20320,7 +20288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xP")
+		(lib_id "Amplifier_Operational:MCP6022")
 		(at 346.71 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -20341,7 +20309,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6002-xP"
+		(property "Value" "MCP6022"
 			(at 346.71 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20351,7 +20319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+		(property "Footprint" ""
 			(at 346.71 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -20362,7 +20330,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
 			(at 346.71 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -20373,29 +20341,7 @@
 				)
 			)
 		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 346.71 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MCP6002-I/P"
-			(at 346.71 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser_URI" "https://mou.sr/46pfjsY"
+		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
 			(at 346.71 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -20951,7 +20897,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xP")
+		(lib_id "Amplifier_Operational:MCP6022")
 		(at 347.98 64.77 0)
 		(unit 2)
 		(body_style 1)
@@ -20972,7 +20918,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6002-xP"
+		(property "Value" "MCP6022"
 			(at 347.98 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20982,7 +20928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+		(property "Footprint" ""
 			(at 347.98 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -20993,7 +20939,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
 			(at 347.98 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -21004,29 +20950,7 @@
 				)
 			)
 		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 347.98 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MCP6002-I/P"
-			(at 347.98 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser_URI" "https://mou.sr/46pfjsY"
+		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
 			(at 347.98 64.77 0)
 			(hide yes)
 			(show_name no)
