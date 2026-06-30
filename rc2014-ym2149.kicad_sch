@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "RC2014 YM2149 / AY-3-8910 sound card")
-		(date "2026-06-05")
-		(rev "7.0")
+		(date "${DATE}")
+		(rev "${VERSION}")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC04"
@@ -13181,6 +13181,28 @@
 				)
 			)
 		)
+		(property "MPN" "K104K15X7RF53L2 "
+			(at 234.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_URI" "https://mou.sr/43YUXGF"
+			(at 234.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8b3d98ea-c4f7-4ba1-85f5-dc0e44f72dde")
 		)
@@ -13692,6 +13714,28 @@
 				)
 			)
 		)
+		(property "MPN" "K104K15X7RF53L2 "
+			(at 88.9 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_URI" "https://mou.sr/43YUXGF"
+			(at 88.9 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "345483c9-aec0-4be0-ab14-092be6d8662f")
 		)
@@ -13763,6 +13807,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 118.11 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "K104K15X7RF53L2 "
+			(at 118.11 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_URI" "https://mou.sr/43YUXGF"
 			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -14542,6 +14608,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 120.65 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "K104K15X7RF53L2 "
+			(at 120.65 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_URI" "https://mou.sr/43YUXGF"
 			(at 120.65 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -16136,6 +16224,28 @@
 				)
 			)
 		)
+		(property "MPN" "K104K15X7RF53L2 "
+			(at 85.09 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_URI" "https://mou.sr/43YUXGF"
+			(at 85.09 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "15d622bb-14d6-4721-978b-a24216879113")
 		)
@@ -16208,6 +16318,28 @@
 		)
 		(property "Description" "Polarized capacitor, small symbol"
 			(at 375.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ECE-A0JKA470 "
+			(at 375.92 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_URI" "https://mou.sr/3R5E1vb"
+			(at 375.92 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16481,7 +16613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 349.25 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -16504,6 +16636,28 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
+			(at 349.25 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MCP6022-I/P"
+			(at 349.25 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_URI" "https://mou.sr/3YuzqTg"
 			(at 349.25 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -17331,7 +17485,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 327.6663 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17341,7 +17495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
 			(at 327.66 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -18390,6 +18544,28 @@
 				)
 			)
 		)
+		(property "MPN" "K104K15X7RF53L2 "
+			(at 113.03 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_URI" "https://mou.sr/43YUXGF"
+			(at 113.03 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "43ba9437-eaab-4c42-84fe-e7561196f9aa")
 		)
@@ -18818,6 +18994,28 @@
 		)
 		(property "Description" "Polarized capacitor, small symbol"
 			(at 375.92 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ECE-A0JKA470 "
+			(at 375.92 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_URI" "https://mou.sr/3R5E1vb"
+			(at 375.92 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20319,7 +20517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 346.71 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -20342,6 +20540,28 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
+			(at 346.71 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MCP6022-I/P"
+			(at 346.71 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_URI" "https://mou.sr/3YuzqTg"
 			(at 346.71 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -20623,7 +20843,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 327.6663 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20633,7 +20853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
 			(at 327.66 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -20928,7 +21148,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 347.98 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -20951,6 +21171,28 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
+			(at 347.98 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MCP6022-I/P"
+			(at 347.98 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_URI" "https://mou.sr/3YuzqTg"
 			(at 347.98 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -21749,6 +21991,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 336.55 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "K104K15X7RF53L2 "
+			(at 336.55 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_URI" "https://mou.sr/43YUXGF"
 			(at 336.55 106.68 0)
 			(hide yes)
 			(show_name no)
