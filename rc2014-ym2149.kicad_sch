@@ -12230,6 +12230,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" ""
+			(at 21.59 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e60f2b92-a8e3-4c21-9513-fb8b8523232d")
 		)
@@ -12432,6 +12443,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/4eAf1Fb"
+			(at 129.54 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/23hw922m"
 			(at 129.54 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13203,6 +13225,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/m41vt2zt"
+			(at 234.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8b3d98ea-c4f7-4ba1-85f5-dc0e44f72dde")
 		)
@@ -13294,6 +13327,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/4v1Zu6V"
+			(at 167.64 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/3n8mn9t4"
 			(at 167.64 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13441,6 +13485,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/3n8mn9t4"
+			(at 167.64 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "05475e42-750f-4d8c-9aee-f973f21424bd")
 		)
@@ -13547,6 +13602,17 @@
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
 			(at 215.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" ""
+			(at 215.9 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13736,6 +13802,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/m41vt2zt"
+			(at 88.9 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "345483c9-aec0-4be0-ab14-092be6d8662f")
 		)
@@ -13829,6 +13906,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/43YUXGF"
+			(at 118.11 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/m41vt2zt"
 			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -14072,6 +14160,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" ""
+			(at 151.13 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb4977c1-c5ea-4d5a-ba70-903e7a0f4d2e")
 		)
@@ -14211,6 +14310,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/4eAf1Fb"
+			(at 129.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/23hw922m"
 			(at 129.54 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -14364,6 +14474,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/3n8mn9t4"
+			(at 130.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d24c54c0-dafa-4fc5-94fe-a05b3b102de6")
 		)
@@ -14491,6 +14612,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/4v1Zu6V"
+			(at 76.2 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/3n8mn9t4"
 			(at 76.2 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14630,6 +14762,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/43YUXGF"
+			(at 120.65 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/m41vt2zt"
 			(at 120.65 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -14950,6 +15093,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" ""
+			(at 93.98 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dff22249-2e63-4039-ad30-1cde89077ab5")
 		)
@@ -15044,6 +15198,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/4v1Zu6V"
+			(at 72.39 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/3n8mn9t4"
 			(at 72.39 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -15323,6 +15488,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" ""
+			(at 242.57 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7df0c5cb-f90b-4712-820a-11d7c839d86f")
 		)
@@ -15516,6 +15692,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" ""
+			(at 97.79 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f823454-615f-491c-a621-be715ad93d0f")
 		)
@@ -15600,6 +15787,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" ""
+			(at 278.13 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "rc2014-ym2149"
 				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
@@ -15664,6 +15862,17 @@
 		)
 		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
 			(at 149.86 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" ""
+			(at 149.86 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16063,6 +16272,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" ""
+			(at 151.13 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25fe8bad-3e73-4cbd-bf68-eadb649a928e")
 		)
@@ -16246,6 +16466,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/m41vt2zt"
+			(at 85.09 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "15d622bb-14d6-4721-978b-a24216879113")
 		)
@@ -16349,6 +16580,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/9qrv3t9n"
+			(at 375.92 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b1cec57-3b11-4e21-a8ab-d49a494b4eb4")
 		)
@@ -16441,6 +16683,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/43o4BCn"
+			(at 69.85 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/9hwnpw15"
 			(at 69.85 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -16668,6 +16921,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/r30tftfb"
+			(at 349.25 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "0ec52d25-3371-4b98-8ee9-164f93308536")
 		)
@@ -16768,6 +17032,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/50mzfpf4"
+			(at 80.01 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C315C330K2G5TA"
+			(at 80.01 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c7f5a222-aa47-4431-9b6d-362fdbec01a1")
 		)
@@ -16837,6 +17123,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 168.91 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" ""
 			(at 168.91 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -17120,6 +17417,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/8r4tbmqt"
+			(at 281.94 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-8K2"
+			(at 281.94 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b8d1768-dfba-438f-bb86-ecc4a208c309")
 		)
@@ -17278,6 +17597,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/5qzpw41n"
+			(at 394.97 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SJ1-3523N"
+			(at 394.97 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "R"
 			(uuid "092e6a2a-3513-4fce-84be-e23dacb2edd6")
 		)
@@ -17358,6 +17699,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 383.54 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/305qt5br"
+			(at 383.54 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-68R"
+			(at 383.54 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17448,6 +17811,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/8r4tbmqt"
+			(at 281.94 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-8K2"
+			(at 281.94 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2ff2bef3-90d8-4380-b5fe-91ec08660e70")
 		)
@@ -17519,6 +17904,28 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 327.66 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/v77dw2vb"
+			(at 327.66 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "105BPS100M"
+			(at 327.66 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17609,6 +18016,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/8r4tbmqt"
+			(at 281.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-8K2"
+			(at 281.94 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d93bdedc-b1cf-4a85-9ee5-7a958cdcc751")
 		)
@@ -17680,6 +18109,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 306.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/5h79b53t"
+			(at 306.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-33K"
 			(at 306.07 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -18002,6 +18453,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/z8zjpvdp"
+			(at 71.12 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-1M"
+			(at 71.12 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7f2d1b5-2a38-490f-8c21-252a133b5329")
 		)
@@ -18096,6 +18569,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/4kVLyag"
+			(at 127 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/7vqtmhdn"
 			(at 127 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -18223,6 +18707,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/8r4tbmqt"
+			(at 281.94 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-8K2"
+			(at 281.94 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c251dcd6-7a5a-4a46-bbad-466917292893")
 		)
@@ -18294,6 +18800,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 281.94 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/8r4tbmqt"
+			(at 281.94 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-8K2"
 			(at 281.94 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -18462,6 +18990,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/5h79b53t"
+			(at 306.07 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-33K"
+			(at 306.07 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70c99a0b-66d9-4360-ad6d-567cfa014339")
 		)
@@ -18556,6 +19106,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/43YUXGF"
+			(at 113.03 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/m41vt2zt"
 			(at 113.03 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -18748,6 +19309,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/9hwnpw15"
+			(at 95.25 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "a69997a3-3a5e-4811-a8f3-432939d17d41")
 		)
@@ -18876,6 +19448,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/43o4BCn"
+			(at 91.44 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/9hwnpw15"
 			(at 91.44 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -19025,6 +19608,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/9qrv3t9n"
+			(at 375.92 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f39e900-f5c3-49e8-a10c-52b1b4f8b2d3")
 		)
@@ -19151,6 +19745,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/4vLOlqZ"
+			(at 295.91 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/007f5b23"
 			(at 295.91 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -19322,6 +19927,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/8r4tbmqt"
+			(at 281.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-8K2"
+			(at 281.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6892af4f-a040-4875-bbe6-a1e24c600e21")
 		)
@@ -19404,6 +20031,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/50mzfpf4"
+			(at 62.23 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C315C330K2G5TA"
+			(at 62.23 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d2e36fe4-3c19-4f2b-9d5b-38a48190f7fb")
 		)
@@ -19475,6 +20124,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 345.44 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/tzw0n79r"
+			(at 345.44 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FRF52-39K"
 			(at 345.44 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -19654,6 +20325,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/43o4BCn"
+			(at 69.85 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/9hwnpw15"
 			(at 69.85 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -20089,6 +20771,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/5h79b53t"
+			(at 306.07 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-33K"
+			(at 306.07 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e2425436-717f-49cc-a69e-2cfdd2e5d80d")
 		)
@@ -20161,6 +20865,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 311.15 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/5h79b53t"
+			(at 311.15 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-33K"
 			(at 311.15 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -20251,6 +20977,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/ptq81900"
+			(at 71.12 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ATS036B-E"
+			(at 71.12 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b6634c3-45d5-4771-870d-39ade413bba0")
 		)
@@ -20322,6 +21070,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 306.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/5h79b53t"
+			(at 306.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-33K"
 			(at 306.07 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -20424,6 +21194,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/43o4BCn"
+			(at 71.12 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/9hwnpw15"
 			(at 71.12 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -20562,6 +21343,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/3YuzqTg"
+			(at 346.71 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/r30tftfb"
 			(at 346.71 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -20726,6 +21518,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/007f5b23"
+			(at 295.91 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3334057e-0249-4e4f-95c0-dbe151b6fe6d")
 		)
@@ -20877,6 +21680,28 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 327.66 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/v77dw2vb"
+			(at 327.66 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "105BPS100M"
+			(at 327.66 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21065,6 +21890,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/9hwnpw15"
+			(at 69.85 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "d703cd14-6b00-4ef2-84d8-cc82cf096638")
 		)
@@ -21193,6 +22029,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/3YuzqTg"
+			(at 347.98 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/r30tftfb"
 			(at 347.98 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -21434,6 +22281,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/007f5b23"
+			(at 295.91 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a1f37568-18f8-4d05-ad84-cc409e87d203")
 		)
@@ -21518,6 +22376,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/tzw0n79r"
+			(at 344.17 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FRF52-39K"
+			(at 344.17 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0313da14-7717-4e2a-8d8c-fb65e8564d16")
 		)
@@ -21590,6 +22470,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 127 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" ""
 			(at 127 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -21684,6 +22575,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/723948m3"
+			(at 321.31 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESS106M025AB2AA"
+			(at 321.31 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9c1f3fa4-e0d6-44fc-838e-bf89fa8e991f")
 		)
@@ -21755,6 +22668,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 306.07 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/5h79b53t"
+			(at 306.07 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-33K"
 			(at 306.07 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -22023,6 +22958,17 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/m41vt2zt"
+			(at 336.55 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a3be0a7-3553-42ba-87e3-4d4880714eea")
 		)
@@ -22115,6 +23061,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/4kVLyag"
+			(at 127 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/7vqtmhdn"
 			(at 127 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -22320,6 +23277,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/bzv9d850"
+			(at 311.15 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-22K"
+			(at 311.15 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "405dff9f-ead8-476a-8fee-c63336097853")
 		)
@@ -22401,6 +23380,28 @@
 				)
 			)
 		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/5h79b53t"
+			(at 306.07 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-33K"
+			(at 306.07 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "439d98e7-f026-4a60-8c45-c433ebf18d04")
 		)
@@ -22471,6 +23472,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 383.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/305qt5br"
+			(at 383.54 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-68R"
+			(at 383.54 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22572,6 +23595,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/4kVLyag"
+			(at 127 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/7vqtmhdn"
 			(at 127 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -22710,6 +23744,17 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/43o4BCn"
+			(at 69.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/9hwnpw15"
 			(at 69.85 245.11 0)
 			(hide yes)
 			(show_name no)

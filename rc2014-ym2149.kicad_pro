@@ -715,6 +715,12 @@
           "label": "MPN",
           "name": "MPN",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Digikey_URI",
+          "name": "Digikey_URI",
+          "show": true
         }
       ],
       "filter_string": "",
