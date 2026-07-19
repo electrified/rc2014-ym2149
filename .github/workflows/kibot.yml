@@ -36,6 +36,7 @@ jobs:
       run: |
         chmod +x .github/scripts/calculate-version.sh
         VERSION="$($(pwd)/.github/scripts/calculate-version.sh)"
+        echo "Computed version: $VERSION"
         echo "VERSION=$VERSION" >> "$GITHUB_ENV"
 
     - name: Quick Start
