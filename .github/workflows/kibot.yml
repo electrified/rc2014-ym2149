@@ -32,15 +32,11 @@ jobs:
         submodules: recursive
 
     - name: Get next version
-      uses: reecetech/version-increment@2024.10.1
-      id: version
-      with:
-        scheme: semver
-        increment: patch
-
-    - name: Save info in environment variables
+      shell: bash
       run: |
-        echo "VERSION=${{ steps.version.outputs.version }}" >> $GITHUB_ENV
+        chmod +x .github/scripts/calculate-version.sh
+        VERSION="$($(pwd)/.github/scripts/calculate-version.sh)"
+        echo "VERSION=$VERSION" >> "$GITHUB_ENV"
 
     - name: Quick Start
       uses: INTI-CMNB/KiBot@v2_k10
@@ -54,7 +50,7 @@ jobs:
 
     - name: Release version
       uses: softprops/action-gh-release@v2
-      if: ${{ github.ref_name == github.event.repository.default_branch }}
+      if: ${{ github.ref_type == 'tag' && github.event_name != 'pull_request' }}
       with:
         draft: false
         prerelease: false
