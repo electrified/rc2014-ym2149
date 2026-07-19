@@ -3,8 +3,6 @@ set -euo pipefail
 
 branch_ref="${1:-}"
 tags_input="${2:-}"
-ref_type="${GITHUB_REF_TYPE:-}"
-ref_name="${GITHUB_REF_NAME:-}"
 short_sha="${GITHUB_SHA:-}"
 
 if [[ -z "$branch_ref" ]]; then
@@ -25,11 +23,6 @@ if [[ -z "$branch_ref" ]]; then
   exit 1
 fi
 
-if [[ "$ref_type" == "tag" && -n "$ref_name" ]]; then
-  echo "$ref_name"
-  exit 0
-fi
-
 if [[ -z "$tags_input" ]]; then
   if command -v git >/dev/null 2>&1; then
     tags_input="$(git tag --list 'v*' | sort -V || true)"
@@ -39,37 +32,34 @@ fi
 major=""
 if [[ "$branch_ref" =~ ^([0-9]+)(/|$) ]]; then
   major="${BASH_REMATCH[1]}"
-else
-  if [[ "$branch_ref" =~ ^(release|maint|hotfix)[/-]([0-9]+) ]]; then
-    major="${BASH_REMATCH[2]}"
-  fi
+elif [[ "$branch_ref" =~ ^(release|maint|hotfix)[/-]([0-9]+) ]]; then
+  major="${BASH_REMATCH[2]}"
 fi
 
 if [[ -z "$major" ]]; then
-  echo "0.0.0"
+  echo "0.0.0-pre-${short_sha:0:7}"
   exit 0
 fi
 
 pattern="^v${major}\.([0-9]+)\.([0-9]+)$"
-
-latest_patch=0
-latest_minor=0
+latest_version=""
 
 while IFS= read -r tag; do
   [[ -z "$tag" ]] && continue
   if [[ "$tag" =~ $pattern ]]; then
-    minor="${BASH_REMATCH[1]}"
-    patch="${BASH_REMATCH[2]}"
-
-    if (( minor > latest_minor )) || { (( minor == latest_minor )) && (( patch > latest_patch )); }; then
-      latest_minor="$minor"
-      latest_patch="$patch"
+    version="${BASH_REMATCH[1]}.${BASH_REMATCH[2]}"
+    if [[ -z "$latest_version" ]]; then
+      latest_version="$version"
+    else
+      if [[ "$version" > "$latest_version" ]]; then
+        latest_version="$version"
+      fi
     fi
   fi
 done <<< "$tags_input"
 
-if (( latest_minor == 0 && latest_patch == 0 )); then
-  echo "${major}.0.0-pre-${short_sha:0:7}"
+if [[ -n "$latest_version" ]]; then
+  echo "${major}.${latest_version}-pre-${short_sha:0:7}"
 else
-  echo "${major}.${latest_minor}.$((latest_patch + 1))-pre-${short_sha:0:7}"
+  echo "${major}.0.0-pre-${short_sha:0:7}"
 fi

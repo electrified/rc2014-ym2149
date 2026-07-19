@@ -2,6 +2,8 @@ name: "RC2014 YM2149 build"
 
 on:
   workflow_dispatch:
+  release:
+    types: [published]
   push:
     branches:
       - '**'
@@ -25,6 +27,8 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
     steps:
     - uses: actions/checkout@v6
       with:
@@ -32,12 +36,18 @@ jobs:
         submodules: recursive
 
     - name: Get next version
+      id: version
       shell: bash
       run: |
         chmod +x .github/scripts/calculate-version.sh
-        VERSION="$($(pwd)/.github/scripts/calculate-version.sh)"
+        if [[ "${{ github.event_name }}" == "release" && -n "${{ github.event.release.tag_name }}" ]]; then
+          VERSION="${{ github.event.release.tag_name }}"
+        else
+          VERSION="$($(pwd)/.github/scripts/calculate-version.sh)"
+        fi
         echo "Computed version: $VERSION"
         echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+        echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
     - name: Quick Start
       uses: INTI-CMNB/KiBot@v2_k10
@@ -51,11 +61,11 @@ jobs:
 
     - name: Release version
       uses: softprops/action-gh-release@v2
-      if: ${{ github.ref_type == 'tag' && github.event_name != 'pull_request' }}
+      if: ${{ github.event_name != 'pull_request' && (github.ref_type == 'tag' || github.event_name == 'release') }}
       with:
         draft: false
         prerelease: false
-        tag_name: "${{ env.VERSION }}"
+        tag_name: ${{ github.event.release.tag_name || env.VERSION }}
         files: |
           "rc2014-ym2149-${{ env.VERSION }}.zip"
 
@@ -85,8 +95,8 @@ jobs:
 
     - name: Derive deployment folder
       run: |
-        SAFE_REF="${GITHUB_REF_NAME//\//-}"
-        echo "DEPLOY_SUBDIR=$SAFE_REF" >> "$GITHUB_ENV"
+        DEPLOY_SUBDIR="${{ needs.build.outputs.version }}"
+        echo "DEPLOY_SUBDIR=$DEPLOY_SUBDIR" >> "$GITHUB_ENV"
 
     - name: Deploy navigate results
       uses: peaceiris/actions-gh-pages@v4

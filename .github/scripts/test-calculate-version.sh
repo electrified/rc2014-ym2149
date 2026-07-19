@@ -24,9 +24,9 @@ assert_version() {
   fi
 }
 
-assert_version "5" $'v5.0.0\nv5.0.1' "5.0.2-pre-1234567" "branch" "5"
-assert_version "release/6" $'v6.1.0\nv6.2.3' "6.2.4-pre-1234567" "branch" "release/6"
+assert_version "5" $'v5.0.0\nv5.0.1' "5.0.1-pre-1234567" "branch" "5"
+assert_version "release/6" $'v6.1.0\nv6.2.3' "6.2.3-pre-1234567" "branch" "release/6"
 assert_version "maint-7" "" "7.0.0-pre-1234567" "branch" "maint-7"
-assert_version "7" $'v7.1.0\nv7.0.5' "v7.1.0" "tag" "v7.1.0"
+assert_version "7" $'v7.1.0\nv7.0.5' "7.1.0-pre-1234567" "branch" "7"
 
 echo "calculate-version.sh tests passed"
