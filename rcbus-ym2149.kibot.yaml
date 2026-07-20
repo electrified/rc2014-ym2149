@@ -4,15 +4,15 @@ kibot:
   version: 1
 
 import:
-# - file: JLCPCB
-#   definitions:
-#     _KIBOT_MANF_DIR: Manufacturers/JLCPCB
-#     _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
-#     _KIBOT_BOM_ENABLED: 'false'
+- file: JLCPCB
+  definitions:
+    _KIBOT_MANF_DIR: Manufacturers/JLCPCB
+    _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
+    _KIBOT_BOM_ENABLED: 'false'
 - file: PCB2Blender_2_1
-# - file: PCBWay
-#   definitions:
-#     _KIBOT_MANF_DIR: Manufacturers/PCBWay
+- file: PCBWay
+  definitions:
+    _KIBOT_MANF_DIR: Manufacturers/PCBWay
 
 preflight:
   drc:
@@ -289,14 +289,3 @@ outputs:
 ...
 definitions:
   _KIBOT_MANF_DIR_COMP: Manufacturers
-  _KIBOT_GERBER_LAYERS: "- layer: 'Front'\n        suffix: 'Front'\n        description:\
-    \ 'No description'\n      - layer: 'F.Mask'\n        suffix: 'F_Mask'\n      \
-    \  description: 'Front soldermask (negative)'\n      - layer: 'Back'\n       \
-    \ suffix: 'Back'\n        description: 'No description'\n      - layer: 'B.Mask'\n\
-    \        suffix: 'B_Mask'\n        description: 'Bottom soldermask (negative)'\n\
-    \      - layer: 'F.Silkscreen'\n        suffix: 'F_Silkscreen'\n        description:\
-    \ 'Front silkscreen (artwork)'\n      - layer: 'B.Silkscreen'\n        suffix:\
-    \ 'B_Silkscreen'\n        description: 'Bottom silkscreen (artwork)'\n      -\
-    \ layer: 'F.Paste'\n        suffix: 'F_Paste'\n        description: 'Front solder\
-    \ paste'\n      - layer: 'Edge.Cuts'\n        suffix: 'Edge_Cuts'\n        description:\
-    \ 'Board shape'"
