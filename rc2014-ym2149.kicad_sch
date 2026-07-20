@@ -11711,7 +11711,7 @@
 		)
 		(uuid "0a1a4d88-972a-46ce-b25e-6cb796bd41f7")
 	)
-	(label "Rsum"
+	(label "Lsum"
 		(at 320.04 67.31 0)
 		(effects
 			(font
@@ -11719,7 +11719,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0c558e52-72d8-4910-abac-8b1faef2e50e")
+		(uuid "0ae699aa-d34a-4863-ad98-f942a6248600")
 	)
 	(label "A3"
 		(at 34.29 58.42 180)
@@ -11740,6 +11740,16 @@
 			(justify right bottom)
 		)
 		(uuid "0e8f7fc0-2ef2-4b90-9c15-8a3a601ee459")
+	)
+	(label "Rsum"
+		(at 314.96 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e94af02-02f8-4a7a-ba3f-a347ba7a3d52")
 	)
 	(label "IOB7"
 		(at 260.35 96.52 180)
@@ -11881,16 +11891,6 @@
 		)
 		(uuid "2edf4eec-71f3-4b28-b5d5-dab53213f2af")
 	)
-	(label "Lsum"
-		(at 320.04 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30a849af-1b87-40f8-b31d-3a0812a6cfbe")
-	)
 	(label "A6"
 		(at 34.29 50.8 180)
 		(effects
@@ -11951,25 +11951,15 @@
 		)
 		(uuid "4185c36c-c66e-4dbd-be5d-841e551f4885")
 	)
-	(label "Rbuf"
-		(at 367.03 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42193a98-a88e-479d-a70a-c0a0bb23a371")
-	)
-	(label "Rbuf"
-		(at 367.03 64.77 180)
+	(label "Lsum"
+		(at 314.96 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "45cdfdbb-65ef-45c3-be08-fd6b773456dc")
+		(uuid "45621d26-d762-450a-8863-e9e961b1304b")
 	)
 	(label "~{IORQ}"
 		(at 34.29 91.44 180)
@@ -12011,6 +12001,26 @@
 		)
 		(uuid "4f411f68-04bd-4175-a406-bcaa4cf6601e")
 	)
+	(label "Lsum"
+		(at 314.96 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "547de79b-124e-48c9-b69e-c12003f9f70c")
+	)
+	(label "Lsum"
+		(at 314.96 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5df70746-5b7d-4d43-b1a1-2bd0361ff844")
+	)
 	(label "A1"
 		(at 111.76 101.6 0)
 		(effects
@@ -12040,16 +12050,6 @@
 			(justify left bottom)
 		)
 		(uuid "66218487-e316-4467-9eba-79d4626ab24e")
-	)
-	(label "Lsum"
-		(at 314.96 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "675ba27c-479b-46bb-a1e7-98b02f1161f5")
 	)
 	(label "IOB0"
 		(at 304.8 154.94 180)
@@ -12111,6 +12111,16 @@
 		)
 		(uuid "7a4ce4b3-518a-4819-b8b2-5127b3347c64")
 	)
+	(label "Rsum"
+		(at 320.04 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b1070bc-a37e-43fd-9dfa-2f14f171daeb")
+	)
 	(label "IOB4"
 		(at 260.35 88.9 180)
 		(effects
@@ -12141,15 +12151,15 @@
 		)
 		(uuid "7f98fe1c-2ccc-4171-a48b-dd8c77f87ca2")
 	)
-	(label "Lsum"
-		(at 314.96 63.5 180)
+	(label "Rbuf"
+		(at 367.03 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "7fb2a01b-8aae-4bb4-9d18-0c331eafd9bc")
+		(uuid "80111b0f-d73a-4f66-9572-d6cf650d9111")
 	)
 	(label "IOA1"
 		(at 260.35 58.42 180)
@@ -12171,15 +12181,15 @@
 		)
 		(uuid "82be7aae-5d06-4178-8c3e-98760c41b054")
 	)
-	(label "Lbuf"
-		(at 367.03 44.45 180)
+	(label "Rsum"
+		(at 314.96 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "877da5e2-ba4d-4b01-8572-7197579f7425")
+		(uuid "874ca0be-1cc1-43ac-9edf-74f061f92684")
 	)
 	(label "A14"
 		(at 107.95 95.25 180)
@@ -12371,16 +12381,6 @@
 		)
 		(uuid "b648512a-21f4-4a63-abe3-cc1f44db7fd0")
 	)
-	(label "Lsum"
-		(at 314.96 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bb6d4713-6eb4-4d28-95ee-0d9b26e8d4c5")
-	)
 	(label "IOB7"
 		(at 279.4 147.32 0)
 		(effects
@@ -12442,24 +12442,14 @@
 		(uuid "c25449d6-d734-4953-b762-98f82a830248")
 	)
 	(label "Rsum"
-		(at 314.96 57.15 180)
+		(at 314.96 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c25621e7-6af6-4233-b068-9833843c211e")
-	)
-	(label "Rsum"
-		(at 314.96 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c7e66293-5652-454e-b2bb-fabc366ac1f2")
+		(uuid "c2a552e4-a0e1-4069-81f0-abd63c1bae54")
 	)
 	(label "IOB3"
 		(at 279.4 152.4 0)
@@ -12480,16 +12470,6 @@
 			(justify right bottom)
 		)
 		(uuid "c9b9e62d-dede-4d1a-9a05-275614f8bdb2")
-	)
-	(label "Lbuf"
-		(at 367.03 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cab25b1c-0c26-44db-86c1-636d44d199d8")
 	)
 	(label "~{IORQ}"
 		(at 111.76 116.84 0)
@@ -12580,6 +12560,16 @@
 			(justify left bottom)
 		)
 		(uuid "d7e4abd8-69f5-4706-b12e-898194e5bf56")
+	)
+	(label "Lbuf"
+		(at 367.03 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8067f28-8aff-42df-9d50-ce019c3ddad0")
 	)
 	(label "CH_B"
 		(at 265.43 50.8 0)
@@ -12731,15 +12721,15 @@
 		)
 		(uuid "f27535ac-cd92-4fb3-ab9e-54e2a82c7507")
 	)
-	(label "Rsum"
-		(at 314.96 76.2 180)
+	(label "Rbuf"
+		(at 367.03 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "f44ca816-7d4e-42ba-b61c-109bb54e31f2")
+		(uuid "f53803fa-4b8c-4ae2-8bc7-757baf1c4c79")
 	)
 	(label "BC1"
 		(at 224.79 76.2 0)
@@ -12750,6 +12740,16 @@
 			(justify left bottom)
 		)
 		(uuid "f73b5500-6337-4860-a114-6e307f65ec9f")
+	)
+	(label "Lbuf"
+		(at 367.03 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f9cf4bfe-69ca-4469-8818-0904fe7efce2")
 	)
 	(label "A7"
 		(at 34.29 48.26 180)
@@ -17177,120 +17177,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 375.92 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0939c664-43a2-4573-8966-48172168e496")
-		(property "Reference" "C7"
-			(at 374.396 61.214 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 379.476 61.468 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
-			(at 375.92 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 375.92 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ECE-A0JKA470 "
-			(at 375.92 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser_URI" "https://mou.sr/3R5E1vb"
-			(at 375.92 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "https://www.digikey.co.uk/short/9qrv3t9n"
-			(at 375.92 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b1cec57-3b11-4e21-a8ab-d49a494b4eb4")
-		)
-		(pin "2"
-			(uuid "2a5830ea-5451-4260-a96e-ab94c55c09cf")
-		)
-		(instances
-			(project "rc2014-ym2149"
-				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74HC04")
 		(at 69.85 231.14 0)
 		(unit 4)
@@ -17650,6 +17536,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 383.54 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "160bfd9d-a51d-42bd-b110-12b966eb3535")
+		(property "Reference" "R2"
+			(at 380.492 49.784 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68R"
+			(at 384.048 49.784 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 383.54 53.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 383.54 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-68R"
+			(at 383.54 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/305qt5br"
+			(at 383.54 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4d97c97-1339-454e-8207-452f5583af85")
+		)
+		(pin "2"
+			(uuid "eb287709-0ad3-4987-b7d5-26b84d1f396c")
+		)
+		(instances
+			(project "rc2014-ym2149"
+				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 80.01 193.04 0)
 		(unit 1)
@@ -17885,6 +17872,120 @@
 			(project "rc2014-ym2149"
 				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
 					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 375.92 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1dd9f814-9c96-40b5-a3c3-53acef8ca1d2")
+		(property "Reference" "C7"
+			(at 372.872 60.706 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 377.952 49.022 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+			(at 375.92 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 375.92 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ECE-A0JKA470 "
+			(at 375.92 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_URI" "https://mou.sr/3R5E1vb"
+			(at 375.92 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/9qrv3t9n"
+			(at 375.92 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d9a8ca6-9db7-40c2-8521-4a43d4a939de")
+		)
+		(pin "2"
+			(uuid "45689189-0b08-45a8-b421-f09b9d3aa22e")
+		)
+		(instances
+			(project "rc2014-ym2149"
+				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -18333,107 +18434,6 @@
 			(project "rc2014-ym2149"
 				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
 					(reference "CON1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 383.54 52.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "29cc80bc-88d0-4dff-9335-9565acb0b543")
-		(property "Reference" "R1"
-			(at 382.27 49.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "68R"
-			(at 386.08 49.784 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 383.54 53.848 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 383.54 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 383.54 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MFR-25FTE52-68R"
-			(at 383.54 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "https://www.digikey.co.uk/short/305qt5br"
-			(at 383.54 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eeddd4ab-de70-4add-ab44-4e14207cb734")
-		)
-		(pin "2"
-			(uuid "04948367-4a3a-42a4-bd67-3675ed2489f1")
-		)
-		(instances
-			(project "rc2014-ym2149"
-				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -20355,7 +20355,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 375.92 52.07 90)
+		(at 375.92 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20363,9 +20363,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7cc1dbb9-32c3-4388-8d1f-5c7615794a51")
+		(uuid "7d61bd08-79e7-4e43-96a7-8dd687ec0ef6")
 		(property "Reference" "C6"
-			(at 373.38 48.26 90)
+			(at 372.618 49.276 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20376,7 +20376,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 378.968 48.26 90)
+			(at 378.46 60.706 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20387,7 +20387,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
-			(at 375.92 52.07 0)
+			(at 375.92 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20398,7 +20398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 52.07 0)
+			(at 375.92 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20409,7 +20409,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 375.92 52.07 0)
+			(at 375.92 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20420,7 +20420,7 @@
 			)
 		)
 		(property "MPN" "ECE-A0JKA470 "
-			(at 375.92 52.07 90)
+			(at 375.92 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20431,7 +20431,7 @@
 			)
 		)
 		(property "Mouser_URI" "https://mou.sr/3R5E1vb"
-			(at 375.92 52.07 90)
+			(at 375.92 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20442,7 +20442,7 @@
 			)
 		)
 		(property "KiLib_Generator" "https://www.digikey.co.uk/short/9qrv3t9n"
-			(at 375.92 52.07 0)
+			(at 375.92 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20453,10 +20453,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f39e900-f5c3-49e8-a10c-52b1b4f8b2d3")
+			(uuid "6c715c37-19bd-4220-82f6-c113ad137c1b")
 		)
 		(pin "2"
-			(uuid "088e7918-71b1-46d5-85b0-1e8942ccda69")
+			(uuid "0d35e58b-7730-4a5d-99b4-15cb88ac1925")
 		)
 		(instances
 			(project "rc2014-ym2149"
@@ -22458,6 +22458,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 383.54 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0af33d7-d451-4b25-8b18-8a2fee1504b6")
+		(property "Reference" "R1"
+			(at 378.968 59.182 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68R"
+			(at 382.524 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 383.54 58.928 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 383.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FTE52-68R"
+			(at 383.54 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/305qt5br"
+			(at 383.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45e373c9-4ad7-4a4e-a819-8f0474839fcc")
+		)
+		(pin "2"
+			(uuid "52ce5aba-dd58-4461-bc4b-bbc4e9c77113")
+		)
+		(instances
+			(project "rc2014-ym2149"
+				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 312.42 31.75 0)
 		(unit 1)
@@ -24410,107 +24511,6 @@
 			(project "rc2014-ym2149"
 				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 383.54 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fabfbf58-7766-4b0b-a19c-8ab9b2fc0b5e")
-		(property "Reference" "R2"
-			(at 379.984 59.436 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "68R"
-			(at 383.54 59.436 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 383.54 58.928 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 383.54 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 383.54 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MFR-25FTE52-68R"
-			(at 383.54 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "https://www.digikey.co.uk/short/305qt5br"
-			(at 383.54 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f7b9d156-29fb-4e4a-b0a9-340e9bbbb704")
-		)
-		(pin "2"
-			(uuid "c9b3ddc6-650b-4df6-bede-c4074a7f3def")
-		)
-		(instances
-			(project "rc2014-ym2149"
-				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
-					(reference "R2")
 					(unit 1)
 				)
 			)
