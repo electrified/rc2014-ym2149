@@ -13038,7 +13038,7 @@
 				)
 			)
 		)
-		(property "Mouser_URI" "https://mou.sr/4eAf1Fb"
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/23hw922m"
 			(at 129.54 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13049,7 +13049,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/23hw922m"
+		(property "KiLib_Generator" "https://mou.sr/4eAf1Fb"
 			(at 129.54 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13821,7 +13821,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/m41vt2zt"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/m41vt2zt"
 			(at 234.95 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -13933,7 +13933,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/3n8mn9t4"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/3n8mn9t4"
 			(at 167.64 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14081,7 +14081,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/3n8mn9t4"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/3n8mn9t4"
 			(at 167.64 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -14208,6 +14208,17 @@
 			)
 		)
 		(property "Digikey_URI" ""
+			(at 215.9 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 215.9 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14398,7 +14409,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/m41vt2zt"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/m41vt2zt"
 			(at 88.9 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -14512,7 +14523,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/m41vt2zt"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/m41vt2zt"
 			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -14767,6 +14778,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 151.13 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb4977c1-c5ea-4d5a-ba70-903e7a0f4d2e")
 		)
@@ -14905,7 +14927,7 @@
 				)
 			)
 		)
-		(property "Mouser_URI" "https://mou.sr/4eAf1Fb"
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/23hw922m"
 			(at 129.54 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -14916,7 +14938,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/23hw922m"
+		(property "KiLib_Generator" "https://mou.sr/4eAf1Fb"
 			(at 129.54 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15070,7 +15092,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/3n8mn9t4"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/3n8mn9t4"
 			(at 130.81 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -15218,7 +15240,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/3n8mn9t4"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/3n8mn9t4"
 			(at 76.2 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15368,7 +15390,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/m41vt2zt"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/m41vt2zt"
 			(at 120.65 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -15700,6 +15722,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 93.98 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dff22249-2e63-4039-ad30-1cde89077ab5")
 		)
@@ -15804,8 +15837,8 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/3n8mn9t4"
-			(at 72.39 72.39 90)
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/3n8mn9t4"
+			(at 72.39 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16095,6 +16128,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 242.57 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7df0c5cb-f90b-4712-820a-11d7c839d86f")
 		)
@@ -16299,6 +16343,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 97.79 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f823454-615f-491c-a621-be715ad93d0f")
 		)
@@ -16394,6 +16449,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 278.13 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "rc2014-ym2149"
 				(path "/35a9f71f-ba35-47f6-814e-4106ac36c51e"
@@ -16468,6 +16534,17 @@
 			)
 		)
 		(property "Digikey_URI" ""
+			(at 149.86 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 149.86 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -16879,6 +16956,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 151.13 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25fe8bad-3e73-4cbd-bf68-eadb649a928e")
 		)
@@ -17062,7 +17150,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/m41vt2zt"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/m41vt2zt"
 			(at 85.09 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -17176,8 +17264,8 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/9qrv3t9n"
-			(at 375.92 57.15 90)
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/9qrv3t9n"
+			(at 375.92 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17289,7 +17377,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/9hwnpw15"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/9hwnpw15"
 			(at 69.85 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -17517,7 +17605,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/r30tftfb"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/r30tftfb"
 			(at 349.25 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -17628,7 +17716,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/50mzfpf4"
+		(property "MPN" "C315C330K2G5TA"
 			(at 80.01 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -17639,7 +17727,7 @@
 				)
 			)
 		)
-		(property "MPN" "C315C330K2G5TA"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/50mzfpf4"
 			(at 80.01 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -17730,6 +17818,17 @@
 			)
 		)
 		(property "Digikey_URI" ""
+			(at 168.91 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 168.91 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -17959,7 +18058,7 @@
 		(dnp no)
 		(uuid "22633afb-9cef-4b79-af6b-9addee934cb5")
 		(property "Reference" "R11"
-			(at 282.448 57.912 0)
+			(at 280.416 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17970,7 +18069,7 @@
 			)
 		)
 		(property "Value" "8k2"
-			(at 280.924 57.912 0)
+			(at 280.162 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18013,7 +18112,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/8r4tbmqt"
+		(property "MPN" "MFR-25FTE52-8K2"
 			(at 281.94 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -18024,7 +18123,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-8K2"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/8r4tbmqt"
 			(at 281.94 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -18249,10 +18348,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "29cc80bc-88d0-4dff-9335-9565acb0b543")
 		(property "Reference" "R1"
-			(at 383.54 45.72 90)
+			(at 382.27 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18262,7 +18360,7 @@
 			)
 		)
 		(property "Value" "68R"
-			(at 383.54 48.26 90)
+			(at 386.08 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18304,7 +18402,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/305qt5br"
+		(property "MPN" "MFR-25FTE52-68R"
 			(at 383.54 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -18315,8 +18413,8 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-68R"
-			(at 383.54 52.07 90)
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/305qt5br"
+			(at 383.54 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18353,7 +18451,7 @@
 		(dnp no)
 		(uuid "3017b79a-824e-4b0d-ab46-3fe73f18690f")
 		(property "Reference" "R13"
-			(at 282.448 76.962 0)
+			(at 280.162 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18364,7 +18462,7 @@
 			)
 		)
 		(property "Value" "8k2"
-			(at 280.924 76.962 0)
+			(at 280.162 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18407,7 +18505,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/8r4tbmqt"
+		(property "MPN" "MFR-25FTE52-8K2"
 			(at 281.94 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18418,7 +18516,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-8K2"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/8r4tbmqt"
 			(at 281.94 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18509,7 +18607,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/v77dw2vb"
+		(property "MPN" "105BPS100M"
 			(at 327.66 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -18520,8 +18618,8 @@
 				)
 			)
 		)
-		(property "MPN" "105BPS100M"
-			(at 327.66 38.1 90)
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/v77dw2vb"
+			(at 327.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18558,7 +18656,7 @@
 		(dnp no)
 		(uuid "3e5bc181-8382-400b-853b-c66f63050926")
 		(property "Reference" "R12"
-			(at 282.448 64.262 0)
+			(at 280.162 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18569,7 +18667,7 @@
 			)
 		)
 		(property "Value" "8k2"
-			(at 280.924 64.262 0)
+			(at 280.162 65.532 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18612,7 +18710,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/8r4tbmqt"
+		(property "MPN" "MFR-25FTE52-8K2"
 			(at 281.94 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -18623,7 +18721,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-8K2"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/8r4tbmqt"
 			(at 281.94 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -18661,7 +18759,7 @@
 		(dnp no)
 		(uuid "40454939-67ef-4aa6-a683-e0525e591919")
 		(property "Reference" "R17"
-			(at 306.578 57.912 0)
+			(at 304.038 55.118 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18672,7 +18770,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 305.054 57.912 0)
+			(at 304.292 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18715,7 +18813,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/5h79b53t"
+		(property "MPN" "MFR-25FTE52-33K"
 			(at 306.07 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -18726,7 +18824,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-33K"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/5h79b53t"
 			(at 306.07 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -19049,7 +19147,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/z8zjpvdp"
+		(property "MPN" "MFR-25FTE52-1M"
 			(at 71.12 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -19060,8 +19158,8 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-1M"
-			(at 71.12 160.02 90)
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/z8zjpvdp"
+			(at 71.12 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19175,7 +19273,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/7vqtmhdn"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/7vqtmhdn"
 			(at 127 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -19259,7 +19357,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x09_Odd_Even"
+		(property "Value" "IO Header"
 			(at 292.1 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19292,6 +19390,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x09, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 290.83 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 290.83 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -19377,7 +19486,7 @@
 		(dnp no)
 		(uuid "5851ddc8-3576-4bc9-8458-3373b70714a3")
 		(property "Reference" "R9"
-			(at 282.448 38.862 0)
+			(at 280.416 35.814 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19388,7 +19497,7 @@
 			)
 		)
 		(property "Value" "8k2"
-			(at 280.924 38.862 0)
+			(at 280.416 40.132 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19431,7 +19540,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/8r4tbmqt"
+		(property "MPN" "MFR-25FTE52-8K2"
 			(at 281.94 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -19442,7 +19551,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-8K2"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/8r4tbmqt"
 			(at 281.94 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -19480,7 +19589,7 @@
 		(dnp no)
 		(uuid "60c99b03-2fa9-45f3-9ceb-6051d59680aa")
 		(property "Reference" "R10"
-			(at 282.448 45.212 0)
+			(at 279.908 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19491,7 +19600,7 @@
 			)
 		)
 		(property "Value" "8k2"
-			(at 280.924 45.212 0)
+			(at 280.416 46.482 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19534,7 +19643,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/8r4tbmqt"
+		(property "MPN" "MFR-25FTE52-8K2"
 			(at 281.94 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -19545,7 +19654,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-8K2"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/8r4tbmqt"
 			(at 281.94 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -19660,7 +19769,7 @@
 		(dnp no)
 		(uuid "6531b725-ba24-4c3b-9461-95cac332f10f")
 		(property "Reference" "R19"
-			(at 306.578 76.962 0)
+			(at 304.292 74.168 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19671,7 +19780,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 305.054 76.962 0)
+			(at 304.292 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19714,7 +19823,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/5h79b53t"
+		(property "MPN" "MFR-25FTE52-33K"
 			(at 306.07 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -19725,7 +19834,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-33K"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/5h79b53t"
 			(at 306.07 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -19840,7 +19949,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/m41vt2zt"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/m41vt2zt"
 			(at 113.03 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -20033,7 +20142,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/9hwnpw15"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/9hwnpw15"
 			(at 95.25 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -20182,7 +20291,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/9hwnpw15"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/9hwnpw15"
 			(at 91.44 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -20332,8 +20441,8 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/9qrv3t9n"
-			(at 375.92 52.07 90)
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/9qrv3t9n"
+			(at 375.92 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20468,7 +20577,7 @@
 				)
 			)
 		)
-		(property "Mouser_URI" "https://mou.sr/4vLOlqZ"
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/007f5b23"
 			(at 295.91 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -20479,7 +20588,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/007f5b23"
+		(property "KiLib_Generator" "https://mou.sr/4vLOlqZ"
 			(at 295.91 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -20597,7 +20706,7 @@
 		(dnp no)
 		(uuid "7ff9e73b-cee2-42d3-8746-c2a5e4b8fce2")
 		(property "Reference" "R8"
-			(at 282.448 26.162 0)
+			(at 280.924 23.368 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20608,7 +20717,7 @@
 			)
 		)
 		(property "Value" "8k2"
-			(at 280.924 26.162 0)
+			(at 279.908 27.686 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20651,7 +20760,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/8r4tbmqt"
+		(property "MPN" "MFR-25FTE52-8K2"
 			(at 281.94 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -20662,7 +20771,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-8K2"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/8r4tbmqt"
 			(at 281.94 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -20832,7 +20941,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/50mzfpf4"
+		(property "MPN" "C315C330K2G5TA"
 			(at 62.23 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -20843,7 +20952,7 @@
 				)
 			)
 		)
-		(property "MPN" "C315C330K2G5TA"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/50mzfpf4"
 			(at 62.23 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -20881,7 +20990,7 @@
 		(dnp no)
 		(uuid "88ce4e86-ca84-4789-9ac0-533fa0d98f15")
 		(property "Reference" "R21"
-			(at 345.948 74.422 0)
+			(at 343.662 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20892,7 +21001,7 @@
 			)
 		)
 		(property "Value" "39K"
-			(at 344.424 74.422 0)
+			(at 343.662 75.692 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20935,7 +21044,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/tzw0n79r"
+		(property "MPN" "MFR-25FRF52-39K"
 			(at 345.44 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -20946,7 +21055,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FRF52-39K"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/tzw0n79r"
 			(at 345.44 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -21136,7 +21245,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/9hwnpw15"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/9hwnpw15"
 			(at 69.85 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -21518,7 +21627,7 @@
 		(dnp no)
 		(uuid "96cf6bb1-b2f3-4dd7-a7b2-99c51185b801")
 		(property "Reference" "R18"
-			(at 306.578 64.262 0)
+			(at 304.038 61.722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21529,7 +21638,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 305.054 64.262 0)
+			(at 304.292 65.786 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21572,7 +21681,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/5h79b53t"
+		(property "MPN" "MFR-25FTE52-33K"
 			(at 306.07 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -21583,7 +21692,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-33K"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/5h79b53t"
 			(at 306.07 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -21676,7 +21785,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/5h79b53t"
+		(property "MPN" "MFR-25FTE52-33K"
 			(at 311.15 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -21687,7 +21796,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-33K"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/5h79b53t"
 			(at 311.15 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -21778,7 +21887,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/ptq81900"
+		(property "MPN" "ATS036B-E"
 			(at 71.12 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -21789,7 +21898,7 @@
 				)
 			)
 		)
-		(property "MPN" "ATS036B-E"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/ptq81900"
 			(at 71.12 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -21827,7 +21936,7 @@
 		(dnp no)
 		(uuid "a554bf7f-9493-4bee-b2ca-a6ad9ab86415")
 		(property "Reference" "R16"
-			(at 306.578 45.212 0)
+			(at 304.546 42.418 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21838,7 +21947,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 305.054 45.212 0)
+			(at 304.546 46.482 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21881,7 +21990,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/5h79b53t"
+		(property "MPN" "MFR-25FTE52-33K"
 			(at 306.07 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -21892,7 +22001,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-33K"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/5h79b53t"
 			(at 306.07 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -22005,7 +22114,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/9hwnpw15"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/9hwnpw15"
 			(at 71.12 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -22154,7 +22263,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/r30tftfb"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/r30tftfb"
 			(at 346.71 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -22308,7 +22417,7 @@
 				)
 			)
 		)
-		(property "Mouser_URI" "https://mou.sr/4vLOlqZ"
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/007f5b23"
 			(at 295.91 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -22319,7 +22428,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/007f5b23"
+		(property "KiLib_Generator" "https://mou.sr/4vLOlqZ"
 			(at 295.91 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -22490,7 +22599,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/v77dw2vb"
+		(property "MPN" "105BPS100M"
 			(at 327.66 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -22501,8 +22610,8 @@
 				)
 			)
 		)
-		(property "MPN" "105BPS100M"
-			(at 327.66 67.31 90)
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/v77dw2vb"
+			(at 327.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22691,7 +22800,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/9hwnpw15"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/9hwnpw15"
 			(at 69.85 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -22840,7 +22949,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/r30tftfb"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/r30tftfb"
 			(at 347.98 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -23148,7 +23257,7 @@
 				)
 			)
 		)
-		(property "Mouser_URI" "https://mou.sr/4vLOlqZ"
+		(property "Digikey_URI" "https://www.digikey.co.uk/short/007f5b23"
 			(at 295.91 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -23159,7 +23268,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/007f5b23"
+		(property "KiLib_Generator" "https://mou.sr/4vLOlqZ"
 			(at 295.91 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -23200,7 +23309,7 @@
 		(dnp no)
 		(uuid "d972c8c5-7bf5-4ce5-a980-a53cf87fe6b7")
 		(property "Reference" "R20"
-			(at 344.678 45.212 0)
+			(at 342.392 48.768 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23211,7 +23320,7 @@
 			)
 		)
 		(property "Value" "39K"
-			(at 343.154 45.212 0)
+			(at 342.646 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23254,7 +23363,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/tzw0n79r"
+		(property "MPN" "MFR-25FRF52-39K"
 			(at 344.17 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -23265,7 +23374,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FRF52-39K"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/tzw0n79r"
 			(at 344.17 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -23369,6 +23478,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 127 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fda6f642-9486-4f2c-8dfc-1b6061b1e820")
 		)
@@ -23453,7 +23573,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/723948m3"
+		(property "MPN" "ESS106M025AB2AA"
 			(at 321.31 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -23464,7 +23584,7 @@
 				)
 			)
 		)
-		(property "MPN" "ESS106M025AB2AA"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/723948m3"
 			(at 321.31 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -23502,7 +23622,7 @@
 		(dnp no)
 		(uuid "e9f823c7-9a9d-4d94-ba44-1c11bb2a80e2")
 		(property "Reference" "R15"
-			(at 306.578 38.862 0)
+			(at 304.038 36.322 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23513,7 +23633,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 305.054 38.862 0)
+			(at 304.292 39.878 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23556,7 +23676,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/5h79b53t"
+		(property "MPN" "MFR-25FTE52-33K"
 			(at 306.07 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -23567,7 +23687,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-33K"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/5h79b53t"
 			(at 306.07 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -23836,7 +23956,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/m41vt2zt"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/m41vt2zt"
 			(at 336.55 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -23949,7 +24069,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/7vqtmhdn"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/7vqtmhdn"
 			(at 127 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -24155,7 +24275,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/bzv9d850"
+		(property "MPN" "MFR-25FTE52-22K"
 			(at 311.15 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -24166,7 +24286,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-22K"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/bzv9d850"
 			(at 311.15 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -24204,7 +24324,7 @@
 		(dnp no)
 		(uuid "f811a710-66a1-4677-a976-704080d9c672")
 		(property "Reference" "R14"
-			(at 306.578 26.162 0)
+			(at 304.038 23.114 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24215,7 +24335,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 305.054 26.162 0)
+			(at 304.546 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24258,7 +24378,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/5h79b53t"
+		(property "MPN" "MFR-25FTE52-33K"
 			(at 306.07 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -24269,7 +24389,7 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-33K"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/5h79b53t"
 			(at 306.07 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -24307,7 +24427,7 @@
 		(dnp no)
 		(uuid "fabfbf58-7766-4b0b-a19c-8ab9b2fc0b5e")
 		(property "Reference" "R2"
-			(at 383.54 50.8 90)
+			(at 379.984 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24359,7 +24479,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/305qt5br"
+		(property "MPN" "MFR-25FTE52-68R"
 			(at 383.54 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -24370,8 +24490,8 @@
 				)
 			)
 		)
-		(property "MPN" "MFR-25FTE52-68R"
-			(at 383.54 57.15 90)
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/305qt5br"
+			(at 383.54 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24483,7 +24603,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/7vqtmhdn"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/7vqtmhdn"
 			(at 127 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -24632,7 +24752,7 @@
 				)
 			)
 		)
-		(property "Digikey_URI" "https://www.digikey.co.uk/short/9hwnpw15"
+		(property "KiLib_Generator" "https://www.digikey.co.uk/short/9hwnpw15"
 			(at 69.85 245.11 0)
 			(hide yes)
 			(show_name no)
