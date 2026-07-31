@@ -9,3 +9,8 @@ Change silscreen text, increase pad size from improved solderability
 
 2020-06-19 Existing r5 released under CERN OHL-P v2 with no other changes
 2020-06-24 Rev 6. Add oscillator and MSX mode.
+
+
+7.0.1 Fix oscillator not working
+reverse direction on pots
+headphone socket nearer edge

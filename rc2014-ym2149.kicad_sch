@@ -8386,6 +8386,12 @@
 		(uuid "e5b321f8-b5b6-44cc-a1bf-bdafee28790b")
 	)
 	(junction
+		(at 80.01 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea18f7f1-c7e5-4b85-8a55-537af5d1e24f")
+	)
+	(junction
 		(at 346.71 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8620,6 +8626,16 @@
 			(type default)
 		)
 		(uuid "09abcbbc-3058-4659-b6a9-933dc1f58555")
+	)
+	(wire
+		(pts
+			(xy 80.01 175.26) (xy 83.82 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af9bda4-1236-4189-b40f-89cbab31e555")
 	)
 	(wire
 		(pts
@@ -9403,7 +9419,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 160.02) (xy 80.01 186.69)
+			(xy 80.01 160.02) (xy 80.01 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9600,6 +9616,16 @@
 			(type default)
 		)
 		(uuid "50d68196-a3e8-4de9-94bb-3b4f016ce9da")
+	)
+	(wire
+		(pts
+			(xy 80.01 175.26) (xy 80.01 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521f7302-e247-469f-8889-1c503b1179aa")
 	)
 	(wire
 		(pts
@@ -10753,7 +10779,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 175.26) (xy 83.82 175.26)
+			(xy 78.74 175.26) (xy 80.01 175.26)
 		)
 		(stroke
 			(width 0)
@@ -11741,16 +11767,6 @@
 		)
 		(uuid "0e8f7fc0-2ef2-4b90-9c15-8a3a601ee459")
 	)
-	(label "Rsum"
-		(at 314.96 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0e94af02-02f8-4a7a-ba3f-a347ba7a3d52")
-	)
 	(label "IOB7"
 		(at 260.35 96.52 180)
 		(effects
@@ -11780,6 +11796,16 @@
 			(justify right bottom)
 		)
 		(uuid "127d1a20-4be1-454c-ac33-9467b394b95f")
+	)
+	(label "Lsum"
+		(at 314.96 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14be340e-197d-4eaf-b46c-2f2cc79e5652")
 	)
 	(label "IOB0"
 		(at 260.35 78.74 180)
@@ -11951,16 +11977,6 @@
 		)
 		(uuid "4185c36c-c66e-4dbd-be5d-841e551f4885")
 	)
-	(label "Lsum"
-		(at 314.96 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "45621d26-d762-450a-8863-e9e961b1304b")
-	)
 	(label "~{IORQ}"
 		(at 34.29 91.44 180)
 		(effects
@@ -11991,6 +12007,16 @@
 		)
 		(uuid "4c16c52c-140c-44b7-8342-bc31f0b196ca")
 	)
+	(label "Lsum"
+		(at 314.96 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c934879-ef35-4758-aded-f219b111cf22")
+	)
 	(label "A7"
 		(at 110.49 40.64 0)
 		(effects
@@ -12000,26 +12026,6 @@
 			(justify left bottom)
 		)
 		(uuid "4f411f68-04bd-4175-a406-bcaa4cf6601e")
-	)
-	(label "Lsum"
-		(at 314.96 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "547de79b-124e-48c9-b69e-c12003f9f70c")
-	)
-	(label "Lsum"
-		(at 314.96 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5df70746-5b7d-4d43-b1a1-2bd0361ff844")
 	)
 	(label "A1"
 		(at 111.76 101.6 0)
@@ -12181,16 +12187,6 @@
 		)
 		(uuid "82be7aae-5d06-4178-8c3e-98760c41b054")
 	)
-	(label "Rsum"
-		(at 314.96 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "874ca0be-1cc1-43ac-9edf-74f061f92684")
-	)
 	(label "A14"
 		(at 107.95 95.25 180)
 		(effects
@@ -12300,6 +12296,16 @@
 			(justify left bottom)
 		)
 		(uuid "935057d5-6882-4c15-9a35-54677912ba12")
+	)
+	(label "Lsum"
+		(at 314.96 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9579dc00-1661-492a-b44c-a5c934686726")
 	)
 	(label "IOA4"
 		(at 260.35 66.04 180)
@@ -12431,6 +12437,26 @@
 		)
 		(uuid "c09938fd-06b9-4771-9f63-2311626243b3")
 	)
+	(label "Rsum"
+		(at 314.96 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0ce0b99-9a31-4d97-8740-0709a7956cb3")
+	)
+	(label "Rsum"
+		(at 314.96 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c212b304-c226-49fb-adf0-69b646029c69")
+	)
 	(label "~{CS}"
 		(at 168.91 50.8 180)
 		(effects
@@ -12440,16 +12466,6 @@
 			(justify right bottom)
 		)
 		(uuid "c25449d6-d734-4953-b762-98f82a830248")
-	)
-	(label "Rsum"
-		(at 314.96 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c2a552e4-a0e1-4069-81f0-abd63c1bae54")
 	)
 	(label "IOB3"
 		(at 279.4 152.4 0)
@@ -12620,6 +12636,16 @@
 			(justify right bottom)
 		)
 		(uuid "e2accf00-1ee3-47e3-87cc-595328c8c42e")
+	)
+	(label "Rsum"
+		(at 314.96 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e307dd18-98a8-4462-a62a-32cc8ef55d43")
 	)
 	(label "IOB1"
 		(at 260.35 81.28 180)
