@@ -12819,7 +12819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rc2014:PinHeader_1x39_P2.54mm_Vertical"
+		(property "Footprint" "electrified:PinHeader_1x39_P2.54mm_Vertical"
 			(at 21.59 76.2 0)
 			(hide yes)
 			(show_name no)

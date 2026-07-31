@@ -378,7 +378,7 @@
 			(uuid "3f770ea0-dc88-4564-b43e-1d12005be2b0")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -620,7 +620,7 @@
 			(uuid "749b3870-c6a1-48d3-a86d-a8eed24aea87")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -862,7 +862,7 @@
 			(uuid "2e70986b-4740-4f74-9a50-bc411ee13c7e")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1104,7 +1104,7 @@
 			(uuid "9099fa51-76a0-4da4-bd32-72c6c6a91ec2")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1371,7 +1371,7 @@
 			(uuid "b8ff2d95-5575-4213-8cc5-9611dfd16f34")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://PinHeader_1x03_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1638,7 +1638,7 @@
 			(uuid "d4f29202-8d2d-4e9b-bfb3-c4e2d1729e17")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://PinHeader_1x03_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1905,7 +1905,7 @@
 			(uuid "efb60ebf-2f22-4cee-ac50-e3396d176862")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://PinHeader_1x03_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2172,7 +2172,7 @@
 			(uuid "800fb1cd-250e-4602-8317-8b5491205ab5")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://PinHeader_1x03_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2639,7 +2639,7 @@
 			(uuid "6245cf7e-d467-46f0-aa41-7e02e281622b")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://DIP-16_W7.62mm_Socket.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2648,17 +2648,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "kicad-embed://DIP-16_W7.62mm.step"
-			(offset
-				(xyz 0 0 4)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -3117,7 +3106,7 @@
 			(uuid "a29163ae-6ea9-4d8a-8a39-ac866c7f67c0")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://DIP-16_W7.62mm_Socket.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3126,17 +3115,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "kicad-embed://DIP-16_W7.62mm.step"
-			(offset
-				(xyz 0 0 4)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -3575,7 +3553,7 @@
 			(uuid "6eec8fa0-e590-4d88-ae31-9d94154050a0")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://DIP-14_W7.62mm_Socket.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3584,17 +3562,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "kicad-embed://DIP-14_W7.62mm.step"
-			(offset
-				(xyz 0 0 4)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4304,7 +4271,7 @@
 			(uuid "d4059dd4-30b0-474d-af49-f36a8ceeb927")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://DIP-40_W15.24mm_Socket.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4313,17 +4280,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "kicad-embed://DIP-40_W15.24mm.step"
-			(offset
-				(xyz 0 0 4)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4334,7 +4290,7 @@
 		(descr "Through hole straight pin header, 2x09, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x09 2.54mm double row")
 		(property "Reference" "JP6"
-			(at 1.33 -2.32 0)
+			(at 0.23 -2.32 0)
 			(layer "F.SilkS")
 			(uuid "5731e7ad-b29e-4fb8-9137-7c27e3ada686")
 			(effects
@@ -4769,7 +4725,7 @@
 			(uuid "7c88dcf9-79a1-4a19-af76-447b2609daae")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://PinHeader_2x09_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x09_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5025,7 +4981,7 @@
 			(uuid "9dea99c7-82cd-4f49-a8a5-b56739b8fa73")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://PinHeader_1x02_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5169,14 +5125,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "rc2014:PinHeader_1x39_P2.54mm_Vertical"
+	(footprint "electrified:PinHeader_1x39_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f1949bd")
 		(at 62 163 90)
 		(descr "Through hole straight pin header, 1x39, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x39 2.54mm single row")
 		(property "Reference" "P1"
-			(at 1.7 0 0)
+			(at 2.4 -0.4 180)
 			(layer "F.SilkS")
 			(uuid "1ce68c71-f79f-42ba-a8dc-1ded5171f610")
 			(effects
@@ -5210,7 +5166,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x39, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 225 101 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "03ec603a-f9a5-4303-b662-c2c2ad0e7158")
@@ -5226,7 +5182,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f911307f-d62c-476a-bf1d-f54b35e30753")
+			(uuid "a08d31c5-f1eb-4237-ae7c-f761a299ccfa")
 			(effects
 				(font
 					(size 1 1)
@@ -5340,7 +5296,7 @@
 			(uuid "68d23f14-1bca-437b-9354-4c3a3a8376b9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 48.26 180)
+			(at 0 48.26 0)
 			(layer "F.Fab")
 			(uuid "4dc424a9-3d65-4231-a974-d3e5908019a2")
 			(effects
@@ -5780,15 +5736,15 @@
 			(uuid "fcd22c1f-5385-4a38-9304-a99f97863e23")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://PinHeader_1x39_P2.54mm_Vertical.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x39_P2.54mm_Horizontal.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -96.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -5918,26 +5874,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "38918bf1-e293-46ee-ab6e-545159357c2c")
-		)
-		(fp_line
-			(start -10.8 6.1)
-			(end -11.4 6.1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "723cea34-9393-4ab3-8cd0-9337a022a0a8")
-		)
-		(fp_line
-			(start -11.4 6.1)
-			(end -11.4 4.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d5ed4038-0e5d-4a00-ba05-ffa139139eb6")
 		)
 		(fp_line
 			(start 3.25 -6.25)
@@ -6126,7 +6062,7 @@
 			(uuid "ba3b10c9-f925-4b72-8eaa-aa44669c5e62")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://Jack_3.5mm_CUI_SJ1-3525N_Horizontal.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ1-3525N_Horizontal.wrl"
 			(offset
 				(xyz -5 0 0)
 			)
@@ -6398,7 +6334,7 @@
 			(uuid "c05097a5-97b1-4fa6-947f-5a9d85ce7c64")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://3386X_28T_29.stp"
+		(model "${KIPRJMOD}/models/3386X_28T_29.stp"
 			(offset
 				(xyz 3.7 -2.5 5.3)
 			)
@@ -7570,7 +7506,7 @@
 			(uuid "6dc166cc-af58-43d0-82d8-2ec758e9d951")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://CP_Radial_D4.0mm_P2.00mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D4.0mm_P2.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8025,7 +7961,7 @@
 			(uuid "d6f4c168-43b9-41a9-bf04-791b779930c2")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://DIP-14_W7.62mm_Socket.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8034,17 +7970,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "kicad-embed://DIP-14_W7.62mm.step"
-			(offset
-				(xyz 0 0 4)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -8419,7 +8344,7 @@
 			(uuid "3bf1f143-a4ec-45a5-8325-9a5a4bee9f7a")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://DIP-8_W7.62mm_Socket.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8428,17 +8353,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "kicad-embed://DIP-8_W7.62mm.step"
-			(offset
-				(xyz 0 0 4)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -8832,7 +8746,7 @@
 			(uuid "529fcef8-3403-4455-94c9-9dd2be5b3ac5")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9092,7 +9006,7 @@
 			(uuid "6843d3e1-e2c6-4c7e-bf55-4a070c9637ec")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9352,7 +9266,7 @@
 			(uuid "76505586-6e4a-4235-aa5f-7e6a3cbd40f1")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9612,7 +9526,7 @@
 			(uuid "2f3ec97a-5aab-450c-9bb2-7afa72562ea7")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10784,7 +10698,7 @@
 			(uuid "c8210eda-ecd0-4c0b-bb96-72e887e2e506")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://CP_Radial_D4.0mm_P2.00mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D4.0mm_P2.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11011,7 +10925,7 @@
 			(uuid "1152503b-c1fc-4496-9c82-51159ba77f79")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11271,7 +11185,7 @@
 			(uuid "3780c6cc-222c-467c-9938-c57641e4618d")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11531,7 +11445,7 @@
 			(uuid "0b1ce229-db83-49c6-881a-dc27cf908e2f")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11771,7 +11685,7 @@
 			(uuid "d4f1f4af-bdce-43e6-a367-3479cb47cdbb")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11962,7 +11876,7 @@
 			(uuid "5a10d6f3-c391-4858-8381-eb2cba81edbe")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://C_Radial_D5.0mm_H5.0mm_P2.00mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D5.0mm_H5.0mm_P2.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12222,7 +12136,7 @@
 			(uuid "12e25774-d0ec-453e-a90a-70b0cd1307ef")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12482,7 +12396,7 @@
 			(uuid "70875986-d742-44ce-98c8-7ebb94c4dde9")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12921,7 +12835,7 @@
 			(uuid "8bda5b0c-7ee8-400b-a76a-0c10b0afda1e")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://PinHeader_2x09_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x09_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13372,7 +13286,7 @@
 			(uuid "1ff2869d-f297-4ea3-8000-c77150283669")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://DIP-14_W7.62mm_Socket.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13381,17 +13295,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "kicad-embed://DIP-14_W7.62mm.step"
-			(offset
-				(xyz 0 0 4)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -13623,7 +13526,7 @@
 			(uuid "7b814e38-d1d0-4770-8efd-b763c5f13184")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13917,7 +13820,7 @@
 			(uuid "47d73852-09b3-4e99-abdc-2f1b13fbf881")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://PinSocket_1x03_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14108,7 +14011,7 @@
 			(uuid "b0b09b7c-ca02-4eca-ad2b-e3c7f08b8474")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://C_Radial_D5.0mm_H5.0mm_P2.00mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D5.0mm_H5.0mm_P2.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14368,7 +14271,7 @@
 			(uuid "2204b0ea-64dd-411d-9515-a0b0dfeeffbe")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14628,7 +14531,7 @@
 			(uuid "819b2f42-2773-4f4a-82ba-d60e55f33f48")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15034,7 +14937,7 @@
 			(uuid "1956ad04-2061-454b-b657-8ea0eb77bdf8")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://PinHeader_2x07_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x07_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15294,7 +15197,7 @@
 			(uuid "adbe4655-b276-46f3-9670-71eeae4abeb6")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15566,7 +15469,7 @@
 			(uuid "79fdd50e-3b56-4b59-8144-38eb4da439cf")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://3386X_28T_29.stp"
+		(model "${KIPRJMOD}/models/3386X_28T_29.stp"
 			(offset
 				(xyz 3.7 -2.5 5.3)
 			)
@@ -16738,7 +16641,7 @@
 			(uuid "bf55c3b1-6518-4acf-807f-bcde9aaf64ef")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://CP_Radial_D4.0mm_P2.00mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D4.0mm_P2.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16998,7 +16901,7 @@
 			(uuid "75197cb8-36dd-4ef2-bf22-21f887718ccd")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17258,7 +17161,7 @@
 			(uuid "34f2569e-22a3-45b8-bfa3-b4698c071276")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17518,7 +17421,7 @@
 			(uuid "2ea885fd-dba1-4a3d-aae9-420d058e5f54")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17778,7 +17681,7 @@
 			(uuid "cad8a585-c288-4841-9df3-6a6006423209")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18038,7 +17941,7 @@
 			(uuid "820e63b3-335a-41db-b9bf-4e5eee04ee56")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18298,7 +18201,7 @@
 			(uuid "14dfcc82-2e8d-4304-ad77-e0d8f0fd1533")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18570,7 +18473,7 @@
 			(uuid "e2aa51d7-8b08-492c-af4a-b64dec927c15")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://Crystal_HC49-U_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC49-U_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18830,7 +18733,7 @@
 			(uuid "40fa886e-8f50-4d75-816d-fab301e7b23c")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19057,7 +18960,7 @@
 			(uuid "fd47d48a-7871-4908-8d50-8226802903c5")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19297,7 +19200,7 @@
 			(uuid "40c67dd2-2671-4d9a-b04e-d1ed21d4574c")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19557,7 +19460,7 @@
 			(uuid "6719deca-81fd-4a1d-baba-54b1511b2f43")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19829,7 +19732,7 @@
 			(uuid "98fd9ac1-7201-469b-bb0b-5077bae7e2bc")
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://3386X_28T_29.stp"
+		(model "${KIPRJMOD}/models/3386X_28T_29.stp"
 			(offset
 				(xyz 3.7 -2.5 5.3)
 			)

@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name rc2014)(type KiCad)(uri "$(KIPRJMOD)/rc2014.pretty")(options "")(descr "Footprints created by Ed!"))
+	(version 7)
+	(lib (name "electrified") (type "KiCad") (uri "${KIPRJMOD}/libraries/kicad-library/electrified-footprints.pretty") (options "") (descr ""))
 )
